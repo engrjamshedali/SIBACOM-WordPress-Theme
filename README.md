@@ -4,17 +4,62 @@
 [![PHP Version](https://img.shields.io/badge/PHP-7.4%2B-purple.svg)](https://php.net)
 [![Elementor Compatible](https://img.shields.io/badge/Elementor-Pro%20%26%20Free-red.svg)](https://elementor.com)
 [![Release Version](https://img.shields.io/badge/Release-v2.0.2-green.svg)](https://github.com/engrjamshedali/SIBACOM-WordPress-Theme/releases)
+[![Author](https://img.shields.io/badge/Author-Jamshed%20Ali-blue?style=flat&logo=globe)](https://jamshedali.me)
 [![License: GPL v2+](https://img.shields.io/badge/License-GPL%20v2%2B-orange.svg)](http://www.gnu.org/licenses/gpl-2.0.html)
 
-**Official SIBACOM WordPress Theme** – A modern, responsive, and professionally developed WordPress theme and ecosystem engineered for the **SIBACOM** flagship Olympiad platform at **Sukkur IBA University**.
+**Official SIBACOM WordPress Theme** – A modern, responsive, and professionally engineered WordPress theme and ecosystem developed for the **SIBACOM** flagship Olympiad platform at **Sukkur IBA University**.
+
+> **Author**: [Jamshed Ali](https://jamshedali.me)  
+> **Official Website & Portfolio**: [jamshedali.me](https://jamshedali.me)  
+> **Organization**: [AuraNix Technologies](https://auranix.tech) in collaboration with **Sukkur IBA University**
 
 Jointly organized by the **CSE Society** (Department of Computer Systems Engineering) and the **EE Society** (Department of Electrical Engineering), SIBACOM delivers a premier technology Olympiad experience featuring 14+ technical competitions, an interactive schedule timeline, multi-tiered sponsorship matrices, and seamless registration workflows.
 
 ---
 
-## 📸 Theme Preview
+## 📸 Screenshots & Visual Showcase
 
-![SIBACOM Theme Preview](theme/screenshot.png)
+### 🌟 Official Theme Preview
+![SIBACOM Theme Preview](screenshots/theme-preview.png)
+
+---
+
+### 🖥️ Hero Section & Responsive Experience
+| Desktop Experience (1920px) | Tablet View (768px) | Mobile View (375px) |
+| :---: | :---: | :---: |
+| ![SIBACOM Hero Desktop](screenshots/hero-desktop.png) | ![SIBACOM Hero Tablet](screenshots/hero-tablet.png) | ![SIBACOM Hero Mobile](screenshots/hero-mobile.png) |
+
+> *Clean Neumorphic aesthetic with live Olympiad countdown timer, dual CTA triggers, and animated circuit traces responsive across all device viewports.*
+
+---
+
+### 🏆 Technical Competitions & Track Showcase
+| Competitions Desktop Grid | Interactive Track Cards & Modals |
+| :---: | :---: |
+| ![Competitions Desktop Grid](screenshots/competitions-desktop.png) | ![Competition Track Cards](screenshots/competition-cards.png) |
+
+> *14+ technical competitions (Programming, Speed Debugging, Line Following Robot, RoboWars, Circuit Design, Web Dev, UI/UX, etc.) with prize badges, team rules, and synchronized registration modals.*
+
+---
+
+### 💡 Interactive Platform Modules & Tools
+| Real-time Fee Calculator | Cash Prize Pools & Awards |
+| :---: | :---: |
+| ![Real-time Fee Calculator](screenshots/fee-calculator.png) | ![Cash Prize Pools](screenshots/prizes-rewards.png) |
+
+---
+
+### 📍 Campus Venues & Joint Society Leadership
+| Sukkur IBA Campus Venues & Map | Joint Executive Leadership (CSE & EE) |
+| :---: | :---: |
+| ![Sukkur IBA Campus Venues](screenshots/venues-location.png) | ![Joint Society Leadership](screenshots/organizers-leadership.png) |
+
+---
+
+### 📱 Responsive Mobile Views & Global Navigation
+| Mobile Competitions Grid | Desktop Multi-tier Footer |
+| :---: | :---: |
+| ![Mobile Competitions Grid](screenshots/competitions-mobile.png) | ![Desktop Multi-tier Footer](screenshots/footer-navigation.png) |
 
 ---
 
@@ -91,6 +136,20 @@ SIBACOM-WordPress-Theme/
 │       ├── elementor/                 # 15 Native Elementor widgets with controls & renderers
 │       ├── includes/                  # CPTs (Events, Sessions, Speakers, Sponsors), Meta Boxes, Importer
 │       └── sibacom-website-manager.php# Plugin bootstrap file
+│
+├── screenshots/                       # High-resolution screenshots of pages & UI components
+│   ├── theme-preview.png              # Full 1200x900 official theme banner
+│   ├── hero-desktop.png               # Desktop hero experience & countdown
+│   ├── hero-mobile.png                # Mobile responsive hero
+│   ├── hero-tablet.png                # Tablet responsive hero
+│   ├── competitions-desktop.png       # Desktop competitions overview
+│   ├── competition-cards.png          # Detailed competition cards & prizes
+│   ├── competitions-mobile.png        # Mobile competition cards grid
+│   ├── fee-calculator.png             # Live registration fee calculator
+│   ├── prizes-rewards.png             # Prize pool & medal distribution
+│   ├── venues-location.png            # Sukkur IBA venues & campus layout
+│   ├── organizers-leadership.png      # CSE & EE society organizers
+│   └── footer-navigation.png          # Desktop footer & quick links
 │
 ├── elementor-templates/               # 11 Ready-to-import Elementor JSON page layouts
 │   ├── home.json, about.json, events.json, schedule.json
@@ -183,13 +242,15 @@ All theme styles are driven by CSS variables in `theme/style.css`:
 
 ## 👨‍💻 Author & Development Credits
 
-- **Developer**: [Engr. Jamshed Ali](https://jamshedali.me)
+- **Author**: [Jamshed Ali](https://jamshedali.me)
+- **Personal Portfolio & Website**: [jamshedali.me](https://jamshedali.me)
+- **GitHub**: [@engrjamshedali](https://github.com/engrjamshedali)
 - **Organization**: [AuraNix Technologies](https://auranix.tech)
 - **Institutional Host**: [Sukkur IBA University](https://iba-suk.edu.pk)
-- **Co-Equal Society Organizers**:
+- **Joint Organizing Societies**:
   - **CSE Society** (Department of Computer Systems Engineering)
   - **EE Society** (Department of Electrical Engineering)
-- **Official GitHub**: [https://github.com/engrjamshedali](https://github.com/engrjamshedali)
+- **Repository**: [https://github.com/engrjamshedali/SIBACOM-WordPress-Theme](https://github.com/engrjamshedali/SIBACOM-WordPress-Theme)
 
 ---
 
