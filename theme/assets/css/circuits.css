@@ -1,0 +1,751 @@
+/* ==========================================================================
+   SIBACOM Electrical Circuits, PCB Traces & Animated Signal Flow System
+   Jointly Organized by CSE Society & EE Society | Sukkur IBA University
+   ========================================================================== */
+
+:root {
+  --sibacom-circuit-blue: #173F91;
+  --sibacom-circuit-navy: #102E68;
+  --sibacom-circuit-techgreen: #079B58;
+  --sibacom-circuit-green-light: #0BB768;
+  --sibacom-circuit-trace: rgba(23, 63, 145, 0.22);
+  --sibacom-circuit-trace-light: rgba(23, 63, 145, 0.08);
+  --sibacom-circuit-trace-dark: rgba(255, 255, 255, 0.12);
+  --sibacom-circuit-trace-dark-glow: rgba(41, 98, 222, 0.28);
+  --sibacom-circuit-pulse-color: #079B58;
+  --sibacom-circuit-pulse-glow: rgba(7, 155, 88, 0.75);
+  --sibacom-circuit-speed: 4s;
+  --sibacom-circuit-glow: 8px;
+  --sibacom-circuit-stroke: 1.5px;
+}
+
+/* ==========================================================================
+   1. Base Circuit Containers & Global Properties
+   ========================================================================== */
+
+.sibacom-circuit,
+.sibacom-circuit-overlay,
+.sibacom-circuit-bg-layer,
+.sibacom-circuit-corner,
+.sibacom-circuit-connector,
+.sibacom-timeline-signal {
+  pointer-events: none !important;
+  user-select: none !important;
+}
+
+/* Enhanced Circuit Pattern Background (Pattern E) */
+.sibacom-circuit-background {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.sibacom-circuit-background svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* Light Section Circuit Grid (Subtle PCB silkscreen + traces) */
+.sibacom-circuit-pattern-light path,
+.sibacom-circuit-pattern-light line {
+  stroke: var(--sibacom-circuit-trace);
+  stroke-width: var(--sibacom-circuit-stroke);
+  fill: none;
+}
+
+.sibacom-circuit-pattern-light .trace-bus {
+  stroke: rgba(23, 63, 145, 0.16);
+  stroke-width: 1.5px;
+}
+
+.sibacom-circuit-pattern-light .trace-thin {
+  stroke: rgba(23, 63, 145, 0.10);
+  stroke-width: 1px;
+}
+
+.sibacom-circuit-pattern-light .circuit-pad {
+  fill: #FFFFFF;
+  stroke: var(--sibacom-circuit-blue);
+  stroke-width: 1.5px;
+}
+
+.sibacom-circuit-pattern-light .circuit-via {
+  fill: var(--sibacom-circuit-blue);
+  opacity: 0.7;
+}
+
+.sibacom-circuit-pattern-light .circuit-via-green {
+  fill: var(--sibacom-circuit-techgreen);
+}
+
+/* Dark Section Circuit Grid (Hero Dark / Footer) */
+.sibacom-circuit-pattern-dark path,
+.sibacom-circuit-pattern-dark line {
+  stroke: var(--sibacom-circuit-trace-dark);
+  stroke-width: var(--sibacom-circuit-stroke);
+  fill: none;
+}
+
+.sibacom-circuit-pattern-dark .trace-bus {
+  stroke: var(--sibacom-circuit-trace-dark-glow);
+  stroke-width: 1.5px;
+}
+
+.sibacom-circuit-pattern-dark .trace-thin {
+  stroke: rgba(255, 255, 255, 0.08);
+  stroke-width: 1px;
+}
+
+.sibacom-circuit-pattern-dark .circuit-pad {
+  fill: #0B1938;
+  stroke: #2962DE;
+  stroke-width: 1.5px;
+}
+
+.sibacom-circuit-pattern-dark .circuit-via {
+  fill: #2962DE;
+  opacity: 0.8;
+}
+
+.sibacom-circuit-pattern-dark .circuit-via-green {
+  fill: var(--sibacom-circuit-techgreen);
+  filter: drop-shadow(0 0 4px rgba(7, 155, 88, 0.6));
+}
+
+/* ==========================================================================
+   2. Pattern A – Flowing Signal Tracks & Animated Pulses
+   ========================================================================== */
+
+/* Animated Signal Pulse along SVG path */
+.sibacom-signal-track {
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+/* Animated Pulse moving along track using stroke-dasharray & stroke-dashoffset */
+.sibacom-signal-pulse {
+  stroke: var(--sibacom-circuit-pulse-color);
+  stroke-linecap: round;
+  fill: none;
+  stroke-dasharray: 24 220;
+  stroke-dashoffset: 244;
+  animation: sibacomSignalRun var(--sibacom-circuit-speed) cubic-bezier(0.4, 0, 0.2, 1) infinite;
+  filter: drop-shadow(0 0 5px var(--sibacom-circuit-pulse-glow));
+  will-change: stroke-dashoffset;
+}
+
+/* Multi-speed Variations so tracks don't pulse mechanically in sync */
+.sibacom-signal-pulse.speed-fast {
+  animation-duration: 2.8s;
+}
+
+.sibacom-signal-pulse.speed-normal {
+  animation-duration: 4.2s;
+}
+
+.sibacom-signal-pulse.speed-slow {
+  animation-duration: 5.8s;
+}
+
+.sibacom-signal-pulse.speed-gentle {
+  animation-duration: 7.2s;
+}
+
+/* Delayed start phases */
+.sibacom-signal-pulse.delay-1 {
+  animation-delay: 0.7s;
+}
+
+.sibacom-signal-pulse.delay-2 {
+  animation-delay: 1.5s;
+}
+
+.sibacom-signal-pulse.delay-3 {
+  animation-delay: 2.3s;
+}
+
+.sibacom-signal-pulse.delay-4 {
+  animation-delay: 3.1s;
+}
+
+/* Reverse signal direction */
+.sibacom-signal-pulse.reverse {
+  animation-name: sibacomSignalRunReverse;
+}
+
+/* Alternative Pulse Bead (Moving dot via offset-path / translate) */
+.sibacom-pulse-dot-moving {
+  fill: var(--sibacom-circuit-pulse-color);
+  filter: drop-shadow(0 0 6px var(--sibacom-circuit-pulse-glow));
+}
+
+/* ==========================================================================
+   3. Pattern B – PCB Corner Pathways
+   ========================================================================== */
+
+.sibacom-card-circuit {
+  position: relative;
+  overflow: hidden;
+}
+
+/* PCB Corner Brackets on Cards */
+.sibacom-circuit-corner {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  z-index: 2;
+  opacity: 0.65;
+  transition: opacity 0.35s ease, filter 0.35s ease;
+}
+
+.sibacom-card-circuit:hover .sibacom-circuit-corner {
+  opacity: 1;
+  filter: drop-shadow(0 0 4px rgba(7, 155, 88, 0.45));
+}
+
+.sibacom-circuit-corner.corner-tl {
+  top: 6px;
+  left: 6px;
+}
+
+.sibacom-circuit-corner.corner-tr {
+  top: 6px;
+  right: 6px;
+}
+
+.sibacom-circuit-corner.corner-bl {
+  bottom: 6px;
+  left: 6px;
+}
+
+.sibacom-circuit-corner.corner-br {
+  bottom: 6px;
+  right: 6px;
+}
+
+.sibacom-circuit-corner svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.sibacom-circuit-corner .corner-line {
+  stroke: var(--sibacom-circuit-trace);
+  stroke-width: 1.5px;
+  fill: none;
+  transition: stroke 0.3s ease;
+}
+
+.sibacom-circuit-corner .corner-via {
+  fill: var(--sibacom-circuit-blue);
+  transition: fill 0.3s ease, transform 0.3s ease;
+}
+
+.sibacom-card-circuit:hover .sibacom-circuit-corner .corner-line {
+  stroke: var(--sibacom-circuit-techgreen);
+}
+
+.sibacom-card-circuit:hover .sibacom-circuit-corner .corner-via {
+  fill: var(--sibacom-circuit-techgreen);
+  transform: scale(1.15);
+}
+
+/* Card Perimeter Signal Racer on Hover */
+.sibacom-card-circuit::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent 0%, var(--sibacom-circuit-techgreen) 50%, transparent 100%);
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: opacity 0.25s ease;
+  z-index: 3;
+}
+
+.sibacom-card-circuit:hover::before {
+  opacity: 1;
+  animation: sibacomCardTopScan 1.6s ease-in-out infinite;
+}
+
+/* ==========================================================================
+   4. Pattern C – Connected Signal Nodes & Sequential Illumination
+   ========================================================================== */
+
+.sibacom-circuit-node {
+  transform-origin: center;
+  transition: all 0.3s ease;
+}
+
+.sibacom-circuit-node.node-pulse-1 {
+  animation: sibacomNodeBlink 4.2s ease-in-out infinite;
+  animation-delay: 0.3s;
+}
+
+.sibacom-circuit-node.node-pulse-2 {
+  animation: sibacomNodeBlink 4.2s ease-in-out infinite;
+  animation-delay: 1.4s;
+}
+
+.sibacom-circuit-node.node-pulse-3 {
+  animation: sibacomNodeBlink 4.2s ease-in-out infinite;
+  animation-delay: 2.5s;
+}
+
+.sibacom-circuit-node.node-pulse-4 {
+  animation: sibacomNodeBlink 4.2s ease-in-out infinite;
+  animation-delay: 3.6s;
+}
+
+/* Solder Pad with Annular Ring */
+.sibacom-solder-pad {
+  fill: #FFFFFF;
+  stroke: var(--sibacom-circuit-blue);
+  stroke-width: 1.5px;
+}
+
+.sibacom-solder-core {
+  fill: var(--sibacom-circuit-techgreen);
+  opacity: 0.8;
+}
+
+/* ==========================================================================
+   5. Pattern D – Electrical Pulse Timeline (Schedule Section)
+   ========================================================================== */
+
+/* Enhanced Schedule Timeline with PCB Bus Spine */
+.sibacom-timeline {
+  position: relative;
+  overflow: visible;
+}
+
+/* Dual-line PCB bus spine */
+.sibacom-timeline.layout-left::before,
+.sibacom-timeline:not(.layout-alternating)::before,
+.sibacom-timeline-line {
+  background: linear-gradient(180deg, 
+    rgba(23, 63, 145, 0.3) 0%, 
+    rgba(23, 63, 145, 0.7) 20%, 
+    rgba(7, 155, 88, 0.7) 80%, 
+    rgba(7, 155, 88, 0.3) 100%
+  ) !important;
+  width: 3px !important;
+  box-shadow: 0 0 6px rgba(23, 63, 145, 0.2);
+}
+
+/* Traveling Electric Pulse along the Timeline Spine */
+.sibacom-timeline-signal-pulse {
+  position: absolute;
+  top: 1.5rem;
+  bottom: 1.5rem;
+  left: var(--timeline-spine-x, 21px);
+  transform: translateX(-50%);
+  width: 7px;
+  pointer-events: none;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.sibacom-timeline-signal-pulse::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 120px;
+  background: linear-gradient(180deg, 
+    transparent 0%, 
+    rgba(7, 155, 88, 0.2) 20%, 
+    var(--sibacom-circuit-green-light) 60%, 
+    #FFFFFF 85%, 
+    var(--sibacom-circuit-green-light) 100%
+  );
+  border-radius: 4px;
+  box-shadow: 0 0 12px var(--sibacom-circuit-green-light), 0 0 20px rgba(7, 155, 88, 0.6);
+  opacity: 0;
+  animation: sibacomTimelineTravel 5.5s cubic-bezier(0.45, 0, 0.55, 1) infinite;
+  will-change: transform, opacity;
+}
+
+/* Timeline Node Electric Glow Enhancement */
+.sibacom-timeline-node .sibacom-node-inner {
+  position: relative;
+}
+
+.sibacom-timeline-node .sibacom-node-inner::after {
+  content: '';
+  position: absolute;
+  inset: -4px;
+  border-radius: 50%;
+  border: 1.5px solid var(--sibacom-circuit-techgreen);
+  opacity: 0;
+  transform: scale(0.85);
+  transition: all 0.3s ease;
+  pointer-events: none;
+}
+
+.sibacom-timeline-item:hover .sibacom-timeline-node .sibacom-node-inner::after {
+  opacity: 1;
+  transform: scale(1.15);
+  box-shadow: 0 0 10px rgba(7, 155, 88, 0.5);
+}
+
+/* Timeline Horizontal Branching Trace from Spine to Card */
+.sibacom-timeline-item::before {
+  content: '';
+  position: absolute;
+  left: calc(var(--timeline-spine-x, 21px) - var(--timeline-padding-left, 3.75rem));
+  top: 2.25rem;
+  width: 2rem;
+  height: 2px;
+  background: linear-gradient(90deg, var(--sibacom-circuit-trace) 0%, rgba(23, 63, 145, 0.35) 100%);
+  z-index: 1;
+  pointer-events: none;
+}
+
+.sibacom-timeline-item:hover::before {
+  background: linear-gradient(90deg, var(--sibacom-circuit-techgreen) 0%, var(--sibacom-circuit-green-light) 100%);
+  box-shadow: 0 0 6px rgba(7, 155, 88, 0.4);
+}
+
+/* ==========================================================================
+   6. Section-Specific Circuit Treatments
+   ========================================================================== */
+
+/* --- HERO SECTION CIRCUITS --- */
+.sibacom-hero-circuit-overlay {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.sibacom-hero-circuit-left {
+  position: absolute;
+  top: 5%;
+  left: 0;
+  width: min(340px, 28vw);
+  height: 90%;
+  opacity: 0.85;
+}
+
+.sibacom-hero-circuit-right {
+  position: absolute;
+  top: 5%;
+  right: 0;
+  width: min(340px, 28vw);
+  height: 90%;
+  opacity: 0.85;
+}
+
+/* Digital Bus Connector in Hero Bottom */
+.sibacom-hero-bus-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 36px;
+  opacity: 0.6;
+}
+
+/* --- ORGANIZERS & ACADEMIC PARTNERS CIRCUIT CONNECTOR --- */
+.sibacom-circuit-connector {
+  position: relative;
+  width: 100%;
+  max-width: 680px;
+  margin: 2.5rem auto 2.5rem auto;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+.sibacom-circuit-connector svg {
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+
+/* Central Bridge Chip in Connector */
+.sibacom-connector-chip {
+  fill: #FFFFFF;
+  stroke: var(--sibacom-circuit-blue);
+  stroke-width: 1.5px;
+}
+
+.sibacom-connector-chip-core {
+  fill: var(--sibacom-circuit-techgreen);
+  opacity: 0.9;
+}
+
+/* --- FOOTER CIRCUIT BACKGROUND --- */
+.sibacom-footer {
+  position: relative;
+  overflow: hidden;
+}
+
+.sibacom-footer-circuit-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  opacity: 0.45;
+  pointer-events: none;
+}
+
+.sibacom-footer-circuit-bg svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.sibacom-footer > .sibacom-container {
+  position: relative;
+  z-index: 1;
+}
+
+/* --- SPEAKERS & GUESTS CARD ACCENTS --- */
+.sibacom-speaker-card,
+.sibacom-guest-card {
+  position: relative;
+}
+
+/* Restrained PCB trace along speaker card header */
+.sibacom-card-tech-header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.75rem;
+  border-bottom: 1px dashed var(--sibacom-circuit-trace);
+}
+
+.sibacom-card-tech-id {
+  font-family: monospace;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--sibacom-circuit-techgreen);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.sibacom-card-tech-id::before {
+  content: '';
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--sibacom-circuit-techgreen);
+  box-shadow: 0 0 5px var(--sibacom-circuit-techgreen);
+}
+
+/* ==========================================================================
+   7. CSS Keyframe Animations
+   ========================================================================== */
+
+/* Main SVG Path Pulse Animation */
+@keyframes sibacomSignalRun {
+  0% {
+    stroke-dashoffset: 244;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes sibacomSignalRunReverse {
+  0% {
+    stroke-dashoffset: 0;
+  }
+  100% {
+    stroke-dashoffset: 244;
+  }
+}
+
+/* Node Blink / Activation when Signal Arrives */
+@keyframes sibacomNodeBlink {
+  0%, 82%, 100% {
+    transform: scale(1);
+    opacity: 0.5;
+    filter: drop-shadow(0 0 0 transparent);
+  }
+  90% {
+    transform: scale(1.4);
+    opacity: 1;
+    fill: var(--sibacom-circuit-green-light);
+    filter: drop-shadow(0 0 6px var(--sibacom-circuit-pulse-glow));
+  }
+  95% {
+    transform: scale(1.15);
+    opacity: 0.85;
+  }
+}
+
+/* Vertical Timeline Pulse Travel */
+@keyframes sibacomTimelineTravel {
+  0% {
+    top: 0;
+    opacity: 0;
+    transform: translateY(0);
+  }
+  4% {
+    opacity: 1;
+  }
+  92% {
+    opacity: 1;
+  }
+  100% {
+    top: calc(100% - 120px);
+    opacity: 0;
+    transform: translateY(20px);
+  }
+}
+
+/* Card Top Border Scan */
+@keyframes sibacomCardTopScan {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+/* Solder Pad Subtle Breath */
+@keyframes sibacomPadBreath {
+  0%, 100% {
+    opacity: 0.7;
+    filter: drop-shadow(0 0 2px rgba(23, 63, 145, 0.3));
+  }
+  50% {
+    opacity: 1;
+    filter: drop-shadow(0 0 6px rgba(7, 155, 88, 0.5));
+  }
+}
+
+/* ==========================================================================
+   8. Responsive & Adaptive Rules
+   ========================================================================== */
+
+/* Tablet Viewport (max-width: 991px) */
+@media (max-width: 991px) {
+  .sibacom-hero-circuit-left,
+  .sibacom-hero-circuit-right {
+    width: 220px;
+    opacity: 0.65;
+  }
+
+  .sibacom-circuit-corner {
+    width: 36px;
+    height: 36px;
+  }
+
+  .sibacom-timeline-signal-pulse {
+    width: 5px;
+  }
+}
+
+/* Mobile Viewport (max-width: 767px) */
+@media (max-width: 767px) {
+  /* Prevent any horizontal overflow */
+  .sibacom-circuit,
+  .sibacom-hero-circuit-overlay,
+  .sibacom-circuit-background {
+    max-width: 100vw;
+    overflow: hidden;
+  }
+
+  /* Simplify hero circuits on mobile to prevent cluttering title */
+  .sibacom-hero-circuit-left {
+    width: 140px;
+    left: -30px;
+    opacity: 0.45;
+  }
+
+  .sibacom-hero-circuit-right {
+    width: 140px;
+    right: -30px;
+    opacity: 0.45;
+  }
+
+  /* Smaller corner brackets */
+  .sibacom-circuit-corner {
+    width: 28px;
+    height: 28px;
+  }
+
+  .sibacom-circuit-corner.corner-tr,
+  .sibacom-circuit-corner.corner-bl {
+    display: none; /* Keep only TL and BR on mobile for cleaner card layout */
+  }
+
+  /* Compact timeline pulse */
+  .sibacom-timeline-signal-pulse::after {
+    height: 80px;
+  }
+
+  .sibacom-circuit-connector {
+    max-width: 340px;
+    height: 36px;
+    margin: 1.5rem auto;
+  }
+}
+
+/* Extra Small Mobile (max-width: 480px) */
+@media (max-width: 480px) {
+  .sibacom-hero-circuit-left,
+  .sibacom-hero-circuit-right {
+    width: 110px;
+    opacity: 0.35;
+  }
+
+  .sibacom-circuit-corner {
+    width: 22px;
+    height: 22px;
+  }
+}
+
+/* ==========================================================================
+   9. Accessibility: Reduced Motion Support
+   ========================================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  .sibacom-signal-pulse,
+  .sibacom-timeline-signal-pulse::after,
+  .sibacom-card-circuit:hover::before,
+  .sibacom-circuit-node.node-pulse-1,
+  .sibacom-circuit-node.node-pulse-2,
+  .sibacom-circuit-node.node-pulse-3,
+  .sibacom-circuit-node.node-pulse-4 {
+    animation: none !important;
+    transition: none !important;
+    stroke-dashoffset: 0 !important;
+  }
+
+  /* Keep circuit traces visible as static architectural graphics */
+  .sibacom-signal-pulse {
+    stroke-dasharray: none !important;
+    opacity: 0.4 !important;
+  }
+
+  .sibacom-timeline-signal-pulse::after {
+    display: none !important;
+  }
+}
+

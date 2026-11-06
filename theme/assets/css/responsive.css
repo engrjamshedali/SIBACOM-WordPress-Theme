@@ -1,0 +1,1110 @@
+/* ==========================================================================
+   SIBACOM Responsive Stylesheet
+   ========================================================================== */
+
+/* Header and Navigation */
+.sibacom-header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: var(--header-height);
+  background: rgba(255, 255, 255, 0.98);
+  border-bottom: 1px solid var(--sibacom-border-neu);
+  box-shadow: 0 4px 20px rgba(16, 46, 104, 0.08);
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.sibacom-header.is-scrolled {
+  background: #FFFFFF;
+  box-shadow: 0 10px 30px rgba(16, 46, 104, 0.12);
+}
+
+.sibacom-header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.sibacom-branding {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  text-decoration: none;
+}
+
+.sibacom-branding img.uni-logo {
+  height: 48px;
+  width: auto;
+  object-fit: contain;
+}
+
+.sibacom-branding img.society-logo {
+  height: 44px;
+  width: auto;
+  object-fit: contain;
+}
+
+.sibacom-branding-divider {
+  width: 1.5px;
+  height: 36px;
+  background-color: var(--sibacom-border);
+}
+
+.sibacom-logo-badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 9px;
+  overflow: hidden;
+  background: #03326A;
+  box-shadow: 0 2px 8px rgba(3, 50, 106, 0.22);
+  flex-shrink: 0;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.sibacom-logo-badge:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(3, 50, 106, 0.32);
+}
+
+.sibacom-logo-badge img.sibacom-main-logo {
+  height: 44px;
+  width: 44px;
+  aspect-ratio: 1/1;
+  object-fit: contain;
+  display: block;
+}
+
+.sibacom-hero-emblem-wrap {
+  margin-bottom: 1.25rem;
+  display: flex;
+  justify-content: center;
+}
+
+.sibacom-hero-emblem {
+  background: #03326A;
+  padding: 4px;
+  border-radius: 18px;
+  box-shadow: 0 12px 36px rgba(3, 50, 106, 0.35), 0 0 0 1px rgba(255, 255, 255, 0.15);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.sibacom-hero-emblem:hover {
+  transform: scale(1.03) translateY(-2px);
+  box-shadow: 0 16px 44px rgba(3, 50, 106, 0.45), 0 0 0 2px rgba(255, 255, 255, 0.25);
+}
+
+.sibacom-hero-emblem img.sibacom-hero-logo {
+  height: 84px;
+  width: 84px;
+  aspect-ratio: 1/1;
+  object-fit: contain;
+  border-radius: 14px;
+  display: block;
+}
+
+.sibacom-nav-desktop {
+  display: flex;
+  align-items: center;
+  gap: 1.75rem;
+  list-style: none;
+}
+
+.sibacom-nav-link {
+  font-family: var(--font-primary);
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--sibacom-text-primary);
+  padding: 0.5rem 0.25rem;
+  position: relative;
+  transition: color 0.25s ease;
+}
+
+.sibacom-nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: var(--sibacom-primary);
+  transition: width 0.3s ease;
+  border-radius: 2px;
+}
+
+.sibacom-nav-link:hover {
+  color: var(--sibacom-primary);
+}
+
+.sibacom-nav-link:hover::after {
+  width: 100%;
+}
+
+.sibacom-nav-desktop .sibacom-nav-link.active,
+.sibacom-nav-desktop .sibacom-nav-link.is-active,
+.sibacom-nav-desktop li.current-menu-item > a {
+  color: var(--sibacom-primary);
+  font-weight: 700;
+}
+
+.sibacom-nav-desktop .sibacom-nav-link.active::after,
+.sibacom-nav-desktop .sibacom-nav-link.is-active::after,
+.sibacom-nav-desktop li.current-menu-item > a::after {
+  width: 100%;
+}
+
+.sibacom-header-actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.sibacom-mobile-toggle {
+  display: none;
+  background: var(--sibacom-white);
+  border: 1px solid var(--sibacom-border-neu);
+  box-shadow: var(--neu-flat);
+  border-radius: var(--radius-sm);
+  padding: 0.6rem 0.75rem;
+  cursor: pointer;
+  color: var(--sibacom-primary);
+  font-size: 1.2rem;
+}
+
+.sibacom-mobile-menu {
+  display: none;
+  position: absolute;
+  top: var(--header-height);
+  left: 0;
+  right: 0;
+  max-height: calc(100vh - var(--header-height));
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior: contain;
+  background: var(--sibacom-white);
+  box-shadow: 0 15px 35px rgba(16, 46, 104, 0.15);
+  border-bottom: 2px solid var(--sibacom-primary);
+  padding: 1.25rem 1.5rem 2.5rem 1.5rem;
+  z-index: 998;
+}
+
+.sibacom-mobile-menu.active {
+  display: block;
+  animation: sibacomSlideDown 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes sibacomSlideDown {
+  from { opacity: 0; transform: translateY(-8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.sibacom-mobile-nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.sibacom-mobile-nav a {
+  display: flex;
+  align-items: center;
+  min-height: 48px;
+  font-size: 1.02rem;
+  font-weight: 600;
+  color: var(--sibacom-text-primary);
+  padding: 0.75rem 0.65rem;
+  border-bottom: 1px solid rgba(226, 232, 240, 0.6);
+  border-radius: var(--radius-sm);
+  transition: all 0.2s ease;
+}
+
+.sibacom-mobile-nav a:hover,
+.sibacom-mobile-nav a:focus {
+  background: rgba(23, 63, 145, 0.05);
+  color: var(--sibacom-primary);
+  padding-left: 0.85rem;
+}
+
+.sibacom-mobile-nav a.active,
+.sibacom-mobile-nav a.is-active,
+.sibacom-mobile-nav li.current-menu-item > a {
+  background: rgba(23, 63, 145, 0.08);
+  color: var(--sibacom-primary);
+  font-weight: 700;
+  border-left: 3px solid var(--sibacom-primary);
+  padding-left: 0.95rem;
+}
+
+/* Background scroll lock when mobile navigation is active */
+body.sibacom-menu-locked,
+html.sibacom-menu-locked {
+  overflow: hidden !important;
+  touch-action: none;
+}
+
+/* Footer Styling */
+.sibacom-footer {
+  background: #0B1938;
+  color: #E2E8F0;
+  padding: 5rem 0 2rem 0;
+  position: relative;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.sibacom-footer-brand-wrap {
+  display: inline-flex;
+  align-items: center;
+  gap: 1.25rem;
+  margin-bottom: 1.25rem;
+  flex-wrap: nowrap;
+}
+
+.sibacom-footer-brand-wrap img.uni-logo-footer {
+  height: 44px;
+  max-height: 44px;
+  width: auto;
+  max-width: 140px;
+  object-fit: contain;
+  display: block;
+}
+
+.sibacom-footer-brand-divider {
+  width: 1.5px;
+  height: 32px;
+  background: rgba(255, 255, 255, 0.25);
+  flex-shrink: 0;
+}
+
+.sibacom-footer-brand-wrap img.society-logo,
+.sibacom-footer-brand-wrap img.society-logo-white,
+.sibacom-footer img.society-logo,
+.sibacom-footer img.society-logo-white {
+  height: 42px !important;
+  max-height: 42px !important;
+  width: auto !important;
+  max-width: 160px !important;
+  object-fit: contain !important;
+  display: block !important;
+  background: transparent !important;
+}
+
+/* Global society-logo constraint so it NEVER overflows anywhere */
+img.society-logo {
+  max-height: 50px;
+  width: auto;
+  object-fit: contain;
+}
+
+.sibacom-org-card .sibacom-org-logo-wrap img.society-logo,
+.sibacom-org-logo-wrap img.org-card-society-logo {
+  height: 68px !important;
+  max-height: 70px !important;
+  width: auto !important;
+  max-width: 200px !important;
+  object-fit: contain !important;
+  display: block !important;
+}
+
+.sibacom-footer-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1.5fr;
+  gap: 3rem;
+  margin-bottom: 4rem;
+}
+
+.sibacom-footer h4 {
+  color: var(--sibacom-white);
+  font-size: 1.15rem;
+  margin-bottom: 1.5rem;
+  position: relative;
+  padding-bottom: 0.75rem;
+}
+
+.sibacom-footer h4::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 32px;
+  height: 2.5px;
+  background: var(--sibacom-techgreen);
+  border-radius: 2px;
+}
+
+.sibacom-footer p {
+  color: #94A3B8;
+  font-size: 0.92rem;
+}
+
+.sibacom-footer-links {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.sibacom-footer-links a {
+  color: #94A3B8;
+  font-size: 0.92rem;
+  transition: color 0.25s ease, padding 0.25s ease;
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0.25rem 0;
+  touch-action: manipulation;
+}
+
+.sibacom-footer-links a:hover {
+  color: var(--sibacom-white);
+  padding-left: 4px;
+}
+
+.sibacom-footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  padding-top: 1.75rem;
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  font-size: 0.88rem;
+  color: #94A3B8;
+  width: 100%;
+}
+
+.sibacom-footer-bottom-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  width: 100%;
+}
+
+.sibacom-footer-copyright {
+  color: #94A3B8;
+  font-size: 0.88rem;
+  line-height: 1.5;
+}
+
+.sibacom-footer-legal-links {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.sibacom-footer-legal-links a {
+  color: #94A3B8;
+  text-decoration: none;
+  font-size: 0.88rem;
+  transition: color 0.25s ease;
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0.25rem 0;
+  touch-action: manipulation;
+}
+
+.sibacom-footer-legal-links a:hover {
+  color: #FFFFFF;
+}
+
+/* ==========================================================================
+   Developer Attribution Credit Section
+   "Engineered with 💚 by Jamshed Ali in collaboration with AuraNix Technologies"
+   ========================================================================== */
+.sibacom-developer-credit {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1.15rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  text-align: center;
+}
+
+.sibacom-credit-inner {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0.6rem 1.4rem;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 9999px;
+  color: #94A3B8;
+  font-size: 0.86rem;
+  line-height: 1.6;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  max-width: 100%;
+  word-break: normal;
+  overflow-wrap: break-word;
+}
+
+.sibacom-credit-inner:hover {
+  background: rgba(255, 255, 255, 0.055);
+  border-color: rgba(255, 255, 255, 0.16);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+  transform: translateY(-1px);
+}
+
+.sibacom-credit-text {
+  display: inline-block;
+  text-align: center;
+  max-width: 100%;
+}
+
+/* Continuous Heartbeat Animation */
+.sibacom-heart {
+  display: inline-block;
+  color: #22C55E;
+  font-size: 0.95em;
+  margin: 0 0.25em;
+  vertical-align: baseline;
+  transform-origin: center center;
+  animation: sibacomHeartbeat 1.4s ease-in-out infinite;
+  will-change: transform;
+}
+
+@keyframes sibacomHeartbeat {
+  0% {
+    transform: scale(1);
+    filter: drop-shadow(0 0 1px rgba(34, 197, 94, 0.4));
+  }
+  14% {
+    transform: scale(1.22);
+    filter: drop-shadow(0 0 5px rgba(34, 197, 94, 0.7));
+  }
+  28% {
+    transform: scale(1);
+    filter: drop-shadow(0 0 1px rgba(34, 197, 94, 0.4));
+  }
+  42% {
+    transform: scale(1.15);
+    filter: drop-shadow(0 0 4px rgba(34, 197, 94, 0.6));
+  }
+  70% {
+    transform: scale(1);
+    filter: drop-shadow(0 0 1px rgba(34, 197, 94, 0.4));
+  }
+  100% {
+    transform: scale(1);
+    filter: drop-shadow(0 0 1px rgba(34, 197, 94, 0.4));
+  }
+}
+
+/* Clickable Links & Accent Highlights - Unified Brand Green (#22C55E) */
+.sibacom-credit-link {
+  display: inline;
+  color: #22C55E;
+  text-decoration: none;
+  font-weight: 700;
+  white-space: nowrap;
+  transition: color 0.25s ease, text-shadow 0.25s ease;
+  position: relative;
+}
+
+.sibacom-credit-link:hover,
+.sibacom-credit-link:focus-visible {
+  color: #4ADE80;
+  text-decoration: none;
+  text-shadow: 0 0 10px rgba(34, 197, 94, 0.55);
+}
+
+.sibacom-credit-name-jamshed,
+.sibacom-credit-name-auranix {
+  color: #22C55E;
+  text-decoration: none;
+}
+
+.sibacom-credit-name-jamshed:hover,
+.sibacom-credit-name-auranix:hover,
+.sibacom-credit-name-jamshed:focus-visible,
+.sibacom-credit-name-auranix:focus-visible {
+  color: #4ADE80;
+  text-decoration: none;
+  text-shadow: 0 0 10px rgba(34, 197, 94, 0.55);
+}
+
+/* Accessibility: Respect prefers-reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+  .sibacom-heart {
+    animation: none !important;
+    transform: none !important;
+    filter: none !important;
+  }
+  .sibacom-credit-inner:hover {
+    transform: none !important;
+  }
+}
+
+/* ==========================================================================
+   Ultra-Wide & High-Resolution Display Scaling (1920px - 2560px+)
+   ========================================================================== */
+@media (min-width: 1920px) {
+  :root {
+    --container-max-width: 1320px;
+  }
+  .sibacom-container {
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .sibacom-hero-wrap {
+    min-height: 82vh;
+  }
+}
+
+@media (min-width: 2560px) {
+  :root {
+    --container-max-width: 1440px;
+  }
+  .sibacom-container {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .sibacom-hero-wordmark,
+  .sibacom-hero-title {
+    font-size: 7.8rem;
+  }
+}
+
+/* ==========================================================================
+   Responsive Media Queries
+   ========================================================================== */
+
+/* Laptop & Small Desktop scaling (1081px - 1280px) */
+@media (min-width: 1081px) and (max-width: 1280px) {
+  .sibacom-nav-desktop {
+    gap: 0.85rem;
+  }
+  .sibacom-nav-link {
+    font-size: 0.85rem;
+    padding: 0.4rem 0.2rem;
+  }
+  .sibacom-branding {
+    gap: 0.85rem;
+  }
+  .sibacom-branding img.uni-logo {
+    height: 40px;
+  }
+  .sibacom-branding img.society-logo {
+    height: 36px;
+  }
+  .sibacom-header-actions .sibacom-btn {
+    padding: 0.5rem 0.9rem;
+    font-size: 0.82rem;
+  }
+}
+
+/* Tablet Landscape and below (<= 1080px) - Switches to Mobile Navigation */
+@media (max-width: 1080px) {
+  .sibacom-nav-desktop,
+  .sibacom-header-actions .sibacom-btn {
+    display: none;
+  }
+  .sibacom-mobile-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 44px;
+    min-height: 44px;
+  }
+  .sibacom-branding img.uni-logo {
+    height: 42px;
+  }
+  .sibacom-logo-badge {
+    width: 40px;
+    height: 40px;
+  }
+  .sibacom-logo-badge img.sibacom-main-logo {
+    height: 40px;
+    width: 40px;
+  }
+  .sibacom-branding img.society-logo {
+    height: 38px;
+  }
+  .sibacom-footer-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+  }
+  .sibacom-info-cards-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+  .sibacom-events-grid,
+  .sibacom-events-grid.cols-3,
+  .sibacom-events-grid.col-3,
+  .sibacom-events-grid.cols-4,
+  .sibacom-events-grid.col-4 {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+  .sibacom-guests-grid,
+  .sibacom-speakers-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+  .sibacom-organizers-grid,
+  .sibacom-joint-organizers-grid,
+  .sibacom-academic-partners-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+}
+
+/* Tablet Portrait and below (<= 868px) */
+@media (max-width: 868px) {
+  .sibacom-meta-bar {
+    flex-direction: column;
+    gap: 0.75rem;
+    padding: 1.25rem;
+    border-radius: var(--radius-lg);
+  }
+  .sibacom-meta-divider {
+    display: none;
+  }
+  .sibacom-countdown {
+    gap: 0.6rem;
+  }
+  .sibacom-countdown-box {
+    padding: 0.75rem 0.9rem;
+    min-width: 72px;
+  }
+  .sibacom-countdown-number {
+    font-size: 1.75rem;
+  }
+
+  /* Schedule Timeline for Tablet (Left-aligned with unified spine and nodes) */
+  .sibacom-timeline {
+    --timeline-spine-x: 18px;
+    --timeline-padding-left: 3.25rem;
+  }
+  .sibacom-timeline,
+  .sibacom-timeline.layout-alternating,
+  .sibacom-timeline.layout-left {
+    padding-left: var(--timeline-padding-left) !important;
+  }
+  .sibacom-timeline::before,
+  .sibacom-timeline.layout-alternating::before,
+  .sibacom-timeline.layout-left::before,
+  .sibacom-timeline-line {
+    left: var(--timeline-spine-x) !important;
+    transform: translateX(-50%) !important;
+  }
+  .sibacom-timeline.layout-alternating .sibacom-timeline-item,
+  .sibacom-timeline-item {
+    width: 100% !important;
+    left: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-bottom: 2rem;
+  }
+  .sibacom-timeline.layout-alternating .sibacom-timeline-item.item-left .sibacom-timeline-node,
+  .sibacom-timeline.layout-alternating .sibacom-timeline-item.item-right .sibacom-timeline-node,
+  .sibacom-timeline-node {
+    left: calc(var(--timeline-spine-x) - var(--timeline-padding-left)) !important;
+    transform: translateX(-50%) !important;
+    right: auto !important;
+    top: 1.5rem !important;
+    width: 36px !important;
+    height: 36px !important;
+    font-size: 0.88rem !important;
+  }
+  .sibacom-timeline-dot {
+    left: calc(var(--timeline-spine-x) - var(--timeline-padding-left)) !important;
+    transform: translateX(-50%) !important;
+    right: auto !important;
+    top: 1.75rem !important;
+  }
+  .sibacom-timeline-card {
+    padding: 1.5rem 1.65rem;
+  }
+  .sibacom-footer-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .sibacom-footer-bottom {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 1.25rem;
+  }
+  .sibacom-footer-bottom-main {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 0.85rem;
+  }
+  .sibacom-footer-legal-links {
+    justify-content: center;
+    gap: 1.25rem;
+  }
+  .sibacom-credit-inner {
+    border-radius: 14px;
+    padding: 0.65rem 1rem;
+    font-size: 0.82rem;
+    line-height: 1.6;
+    text-align: center;
+  }
+  .sibacom-section {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+  }
+  .sibacom-section-header {
+    margin-bottom: 2.5rem;
+  }
+}
+
+/* Mobile landscape / small tablets (<= 768px) */
+@media (max-width: 768px) {
+  .sibacom-info-cards-grid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+  .sibacom-events-grid,
+  .sibacom-events-grid.cols-2,
+  .sibacom-events-grid.col-2,
+  .sibacom-events-grid.cols-3,
+  .sibacom-events-grid.col-3,
+  .sibacom-events-grid.cols-4,
+  .sibacom-events-grid.col-4 {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  .sibacom-guests-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  .sibacom-speakers-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  .sibacom-organizers-grid,
+  .sibacom-joint-organizers-grid,
+  .sibacom-academic-partners-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  .sibacom-schedule-tabs,
+  .sibacom-speaker-filters {
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+  .sibacom-day-tab,
+  .sibacom-speaker-pill {
+    flex-grow: 1;
+    min-height: 44px;
+    font-size: 0.88rem !important;
+  }
+  .sibacom-speaker-social a {
+    min-width: 44px;
+    min-height: 44px;
+  }
+}
+
+/* Small devices (<= 640px) */
+@media (max-width: 640px) {
+  .sibacom-footer-brand-wrap {
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
+  .sibacom-hero-wordmark,
+  .sibacom-hero-title {
+    font-size: clamp(3.0rem, 9.5vw, 4.2rem);
+  }
+  .sibacom-hero-tagline,
+  .sibacom-hero-tagline-electrified {
+    font-size: clamp(1.02rem, 2.6vw, 1.3rem);
+    letter-spacing: 0.18em;
+  }
+  .sibacom-tagline-electrified-container {
+    gap: 0.75rem;
+  }
+  .sibacom-conduit-line {
+    width: 22px;
+  }
+  .sibacom-hero-badge {
+    margin-bottom: 1.5rem;
+  }
+  .sibacom-section-title {
+    font-size: clamp(1.75rem, 6vw, 2.35rem);
+  }
+  .sibacom-day-tab {
+    padding: 0.5rem 0.85rem;
+    font-size: 0.82rem !important;
+  }
+}
+
+/* Mobile Portrait (<= 480px) */
+@media (max-width: 480px) {
+  :root {
+    --header-height: 72px;
+  }
+  .sibacom-hero-wrap {
+    min-height: auto;
+    padding: 3.25rem 0 4.5rem 0;
+  }
+  .sibacom-hero-wordmark,
+  .sibacom-hero-title {
+    font-size: clamp(2.35rem, 10.5vw, 3.1rem);
+    letter-spacing: -0.035em;
+  }
+  .sibacom-brand-edition-badge {
+    font-size: 0.35em;
+    padding: 0.06em 0.26em 0.08em 0.24em;
+    border-radius: 6px;
+  }
+  .sibacom-hero-tagline-wrap,
+  .sibacom-tagline-electrified-container {
+    gap: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1.25rem;
+  }
+  .sibacom-tagline-rule,
+  .sibacom-conduit-line {
+    width: 14px;
+  }
+  .sibacom-hero-tagline,
+  .sibacom-hero-tagline-electrified {
+    font-size: clamp(0.88rem, 3.8vw, 1.08rem);
+    letter-spacing: 0.14em;
+    padding: 0.2rem 0.4rem;
+  }
+  .sibacom-hero-description {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+  }
+  .sibacom-hero-badge {
+    padding: 0.35rem 0.85rem;
+    gap: 0.45rem;
+    margin-bottom: 1.25rem;
+    max-width: 96%;
+    justify-content: center;
+  }
+  .sibacom-hero-badge-text {
+    font-size: 0.62rem;
+    letter-spacing: 0.05em;
+    white-space: normal;
+    text-align: center;
+    line-height: 1.35;
+  }
+  .sibacom-hero-badge-sep {
+    margin: 0 0.25rem;
+  }
+  .sibacom-countdown {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 260px;
+  }
+  .sibacom-branding {
+    gap: 0.65rem;
+  }
+  .sibacom-branding img.uni-logo {
+    height: 38px;
+    max-width: 110px;
+    width: auto;
+    object-fit: contain;
+  }
+  .sibacom-branding-divider {
+    display: block;
+    width: 1px;
+    height: 26px;
+    background-color: var(--sibacom-border);
+    flex-shrink: 0;
+  }
+  .sibacom-brand-name {
+    font-size: 1.15rem !important;
+  }
+  .sibacom-brand-sub {
+    font-size: 0.62rem !important;
+  }
+  .sibacom-container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .neu-card {
+    padding: 1.35rem 1.15rem;
+  }
+  .sibacom-highlight-card {
+    padding: 1.5rem;
+  }
+  .sibacom-timeline {
+    --timeline-spine-x: 14px;
+    --timeline-padding-left: 2.75rem;
+  }
+  .sibacom-timeline,
+  .sibacom-timeline.layout-alternating,
+  .sibacom-timeline.layout-left {
+    padding-left: var(--timeline-padding-left) !important;
+  }
+  .sibacom-timeline::before,
+  .sibacom-timeline.layout-alternating::before,
+  .sibacom-timeline.layout-left::before,
+  .sibacom-timeline-line {
+    left: var(--timeline-spine-x) !important;
+    transform: translateX(-50%) !important;
+  }
+  .sibacom-timeline-node {
+    left: calc(var(--timeline-spine-x) - var(--timeline-padding-left)) !important;
+    transform: translateX(-50%) !important;
+    width: 30px !important;
+    height: 30px !important;
+    font-size: 0.78rem !important;
+    top: 1.25rem !important;
+  }
+  .sibacom-timeline-dot {
+    left: calc(var(--timeline-spine-x) - var(--timeline-padding-left)) !important;
+    transform: translateX(-50%) !important;
+    width: 16px !important;
+    height: 16px !important;
+    top: 1.5rem !important;
+  }
+  .sibacom-timeline-card {
+    padding: 1.25rem 1.15rem;
+  }
+  .sibacom-timeline-title {
+    font-size: 1.15rem;
+  }
+  .sibacom-timeline-meta-bar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  .sibacom-timeline-footer-meta {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+  .sibacom-sponsor-card {
+    min-width: 140px;
+    padding: 1.25rem 1.5rem;
+  }
+  .sibacom-event-btn,
+  .sibacom-btn {
+    min-height: 44px;
+    width: 100%;
+    justify-content: center;
+  }
+  .sibacom-event-badges-bar,
+  .sibacom-event-badges {
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+  .sibacom-footer-brand-wrap img.uni-logo-footer {
+    height: 38px;
+  }
+  .sibacom-footer-brand-wrap img.society-logo,
+  .sibacom-footer-brand-wrap img.society-logo-white {
+    height: 36px !important;
+  }
+}
+
+/* Extra small mobile (<= 360px) */
+@media (max-width: 360px) {
+  :root {
+    --header-height: 68px;
+  }
+  .sibacom-header-inner {
+    gap: 0.35rem;
+  }
+  .sibacom-branding {
+    gap: 0.45rem;
+  }
+  .sibacom-logo-badge {
+    width: 34px;
+    height: 34px;
+    border-radius: 7px;
+  }
+  .sibacom-logo-badge img.sibacom-main-logo {
+    height: 34px;
+    width: 34px;
+  }
+  .sibacom-branding-divider-secondary {
+    display: none;
+  }
+  .sibacom-hero-emblem img.sibacom-hero-logo {
+    height: 60px;
+    width: 60px;
+  }
+  .sibacom-branding img.uni-logo {
+    height: 32px;
+    max-width: 92px;
+  }
+  .sibacom-branding-divider {
+    height: 22px;
+  }
+  .sibacom-brand-name {
+    font-size: 1.02rem !important;
+  }
+  .sibacom-brand-sub {
+    font-size: 0.54rem !important;
+    letter-spacing: 0.02em !important;
+  }
+  .sibacom-mobile-toggle {
+    min-width: 42px;
+    min-height: 42px;
+    padding: 0.45rem;
+  }
+  .sibacom-hero-wordmark,
+  .sibacom-hero-title {
+    font-size: 2.15rem;
+  }
+  .sibacom-hero-tagline,
+  .sibacom-hero-tagline-electrified {
+    font-size: 0.82rem;
+    letter-spacing: 0.08em;
+  }
+  .sibacom-tagline-rule {
+    width: 8px;
+  }
+  .sibacom-electric-conduit {
+    display: none;
+  }
+  .sibacom-hero-badge-text {
+    font-size: 0.60rem;
+    letter-spacing: 0.04em;
+  }
+  .sibacom-countdown-box {
+    min-width: 58px;
+    padding: 0.5rem 0.6rem;
+  }
+  .sibacom-countdown-number {
+    font-size: 1.45rem;
+  }
+  .sibacom-event-badges-bar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.35rem;
+  }
+  .sibacom-footer-brand-wrap {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  .sibacom-footer-brand-divider {
+    display: none;
+  }
+  .sibacom-credit-inner {
+    border-radius: 12px;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.78rem;
+    line-height: 1.5;
+    text-align: center;
+  }
+}
+

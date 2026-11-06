@@ -1,0 +1,672 @@
+/* ==========================================================================
+   SIBACOM Website Manager - Frontend & Elementor Widget CSS
+   ========================================================================== */
+
+.sibacom-widget-wrap {
+  width: 100%;
+  position: relative;
+}
+
+/* Ensure official logo constraints across all 3 key brand placements */
+img.society-logo {
+  height: 42px;
+  max-height: 44px;
+  width: auto;
+  max-width: 160px;
+  object-fit: contain;
+  display: inline-block;
+}
+
+/* 1. Header placement */
+.sibacom-branding img.society-logo {
+  height: 42px !important;
+  max-height: 42px !important;
+  width: auto !important;
+  max-width: 160px !important;
+  object-fit: contain !important;
+  display: block;
+}
+
+@media (max-width: 480px) {
+  .sibacom-branding img.society-logo {
+    height: 32px !important;
+    max-height: 32px !important;
+    max-width: 100px !important;
+  }
+}
+
+/* 2. Organizers Grid Card - Prominent, clean display */
+.sibacom-org-card .sibacom-org-logo-wrap img.society-logo,
+.sibacom-org-logo-wrap img.org-card-society-logo {
+  height: 68px !important;
+  max-height: 70px !important;
+  width: auto !important;
+  max-width: 200px !important;
+  object-fit: contain !important;
+  display: block !important;
+}
+
+/* 3. Footer placement - Seamless blending on dark background, never overflows */
+.sibacom-footer-brand-wrap img.society-logo,
+.sibacom-footer-brand-wrap img.society-logo-white,
+.sibacom-footer img.society-logo,
+.sibacom-footer img.society-logo-white {
+  height: 42px !important;
+  max-height: 42px !important;
+  width: auto !important;
+  max-width: 160px !important;
+  object-fit: contain !important;
+  display: block !important;
+  background: transparent !important;
+}
+
+img.uni-logo {
+  height: 44px !important;
+  max-height: 48px !important;
+  width: auto !important;
+  max-width: 150px !important;
+  object-fit: contain !important;
+  display: inline-block !important;
+}
+
+/* Ensure smooth element transitions */
+.sibacom-widget-wrap .neu-card,
+.sibacom-widget-wrap .sibacom-speaker-card,
+.sibacom-widget-wrap .sibacom-timeline-card {
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Speaker & Judge Profile Grid Styles */
+.sibacom-speakers-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  align-items: stretch;
+}
+.sibacom-speakers-grid.col-4,
+.sibacom-speakers-grid.cols-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.25rem;
+}
+.sibacom-speakers-grid.col-3,
+.sibacom-speakers-grid.cols-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+.sibacom-speakers-grid.col-2,
+.sibacom-speakers-grid.cols-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.75rem;
+}
+
+@media (max-width: 991px) {
+  .sibacom-speakers-grid.col-4,
+  .sibacom-speakers-grid.cols-4 {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .sibacom-speakers-grid.col-4,
+  .sibacom-speakers-grid.cols-4,
+  .sibacom-speakers-grid.col-3,
+  .sibacom-speakers-grid.cols-3,
+  .sibacom-speakers-grid.col-2,
+  .sibacom-speakers-grid.cols-2 {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+}
+
+.sibacom-speaker-card {
+  padding: 1.35rem 1.15rem 1.15rem 1.15rem !important;
+  display: flex !important;
+  flex-direction: column !important;
+  height: 100% !important;
+}
+.sibacom-speaker-card.is-judge-card {
+  border-top: 3px solid #173F91 !important;
+}
+.sibacom-speaker-card.is-speaker-card {
+  border-top: 3px solid #079B58 !important;
+}
+.sibacom-speaker-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 0.25rem 0.65rem;
+  border-radius: 9999px;
+  margin: 0 auto 0.45rem auto;
+  width: fit-content;
+}
+.sibacom-speaker-badge.judge-badge {
+  background: rgba(23, 63, 145, 0.08) !important;
+  color: #173F91 !important;
+  border: 1px solid rgba(23, 63, 145, 0.2) !important;
+}
+.sibacom-speaker-card.is-judge-card .sibacom-speaker-designation {
+  color: #173F91 !important;
+}
+.sibacom-speaker-card.is-judge-card .sibacom-speaker-topic {
+  border-left-color: #173F91 !important;
+}
+.sibacom-speaker-img-wrap {
+  width: 96px !important;
+  height: 96px !important;
+  margin: 0 auto 0.85rem auto !important;
+  padding: 4px !important;
+  flex-shrink: 0;
+}
+.sibacom-speaker-name {
+  font-size: 1.12rem !important;
+  line-height: 1.25 !important;
+  margin-bottom: 0.2rem !important;
+}
+.sibacom-speaker-designation {
+  font-size: 0.8rem !important;
+  line-height: 1.3 !important;
+  margin-bottom: 0.15rem !important;
+}
+.sibacom-speaker-org {
+  font-size: 0.76rem !important;
+  line-height: 1.25 !important;
+  margin-bottom: 0.55rem !important;
+}
+.sibacom-speaker-topic {
+  padding: 0.45rem 0.65rem !important;
+  font-size: 0.76rem !important;
+  line-height: 1.3 !important;
+  margin-bottom: 0.5rem !important;
+  border-radius: 6px !important;
+}
+.sibacom-speaker-topic .topic-label {
+  font-size: 0.66rem !important;
+  margin-bottom: 2px !important;
+}
+.sibacom-speaker-bio {
+  font-size: 0.78rem !important;
+  line-height: 1.4 !important;
+  margin-bottom: 0.55rem !important;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 2 !important;
+  -webkit-box-orient: vertical !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  min-height: 2.2rem !important;
+}
+.sibacom-speaker-social {
+  display: flex !important;
+  justify-content: center !important;
+  gap: 0.5rem !important;
+  margin-top: auto !important;
+  padding-top: 0.35rem !important;
+}
+.sibacom-speaker-social a {
+  width: 32px !important;
+  height: 32px !important;
+  font-size: 0.82rem !important;
+}
+
+/* Fallback for icons if FontAwesome isn't loaded by theme */
+.sibacom-icon-fallback {
+  display: inline-block;
+  line-height: 1;
+}
+
+/* ==========================================================================
+   SIBACOM Event Information Cards (Section C)
+   ========================================================================== */
+.sibacom-info-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.75rem;
+  margin-top: 1.5rem;
+  margin-bottom: 3.5rem;
+}
+
+@media (max-width: 991px) {
+  .sibacom-info-cards-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .sibacom-info-cards-grid {
+    grid-template-columns: 1fr !important;
+    gap: 1.25rem;
+  }
+}
+
+.sibacom-info-card {
+  background: #FFFFFF;
+  background-image: linear-gradient(155deg, rgba(255, 255, 255, 1) 0%, rgba(248, 250, 254, 0.75) 100%);
+  border-radius: 20px;
+  border: 1px solid rgba(226, 232, 240, 0.85);
+  box-shadow: 0 4px 18px -2px rgba(16, 46, 104, 0.05), 0 2px 6px -1px rgba(16, 46, 104, 0.02), inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  padding: 1.85rem 1.65rem 1.75rem 1.65rem;
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.sibacom-info-card::before,
+.sibacom-info-card-accent {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3.5px;
+  background: linear-gradient(90deg, #173F91 0%, #3B82F6 100%);
+  transition: height 0.3s ease, opacity 0.3s ease;
+  z-index: 3;
+}
+
+.sibacom-info-card:nth-child(1)::before,
+.sibacom-info-card.card-variant-dates::before {
+  background: linear-gradient(90deg, #173F91 0%, #3B82F6 100%);
+}
+.sibacom-info-card:nth-child(2)::before,
+.sibacom-info-card.card-variant-venue::before {
+  background: linear-gradient(90deg, #079B58 0%, #10B981 100%);
+}
+.sibacom-info-card:nth-child(3)::before,
+.sibacom-info-card.card-variant-deadline::before {
+  background: linear-gradient(90deg, #D97706 0%, #F59E0B 100%);
+}
+.sibacom-info-card:nth-child(4)::before,
+.sibacom-info-card.card-variant-category::before {
+  background: linear-gradient(90deg, #102E68 0%, #4338CA 100%);
+}
+.sibacom-info-card:nth-child(5)::before,
+.sibacom-info-card.card-variant-participation::before {
+  background: linear-gradient(90deg, #1D4ED8 0%, #0284C7 100%);
+}
+.sibacom-info-card:nth-child(6)::before,
+.sibacom-info-card.card-variant-status::before {
+  background: linear-gradient(90deg, #079B58 0%, #34D399 100%);
+}
+.sibacom-info-card[style*="--card-accent"]::before {
+  background: var(--card-accent) !important;
+}
+a.sibacom-info-card {
+  text-decoration: none !important;
+  color: inherit !important;
+  display: flex !important;
+  cursor: pointer;
+}
+a.sibacom-info-card:hover {
+  text-decoration: none !important;
+}
+
+.sibacom-info-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 32px -8px rgba(16, 46, 104, 0.12), 0 8px 16px -4px rgba(16, 46, 104, 0.04), inset 0 1px 0 #FFFFFF;
+  border-color: rgba(23, 63, 145, 0.22);
+}
+
+.sibacom-info-card:nth-child(2):hover,
+.sibacom-info-card.card-variant-venue:hover {
+  border-color: rgba(7, 155, 88, 0.3);
+}
+.sibacom-info-card:nth-child(3):hover,
+.sibacom-info-card.card-variant-deadline:hover {
+  border-color: rgba(217, 119, 6, 0.32);
+}
+.sibacom-info-card:nth-child(6):hover,
+.sibacom-info-card.card-variant-status:hover {
+  border-color: rgba(7, 155, 88, 0.35);
+}
+
+.sibacom-info-card-header,
+.sibacom-info-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.25rem;
+  position: relative;
+  z-index: 2;
+  width: 100%;
+}
+
+.sibacom-info-icon-badge,
+.sibacom-info-icon-wrap {
+  width: 48px !important;
+  height: 48px !important;
+  min-width: 48px !important;
+  min-height: 48px !important;
+  max-width: 48px !important;
+  max-height: 48px !important;
+  border-radius: 14px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-size: 1.25rem !important;
+  line-height: 1 !important;
+  margin-bottom: 1.15rem;
+  box-shadow: 0 4px 10px rgba(16, 46, 104, 0.05), inset 0 1px 0 rgba(255, 255, 255, 0.8) !important;
+  border: 1px solid rgba(23, 63, 145, 0.12) !important;
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1) !important;
+  flex-shrink: 0 !important;
+}
+
+.sibacom-info-card-header .sibacom-info-icon-badge,
+.sibacom-info-card-header .sibacom-info-icon-wrap,
+.sibacom-info-card-top .sibacom-info-icon-badge,
+.sibacom-info-card-top .sibacom-info-icon-wrap {
+  margin-bottom: 0 !important;
+}
+
+.sibacom-info-card:hover .sibacom-info-icon-badge,
+.sibacom-info-card:hover .sibacom-info-icon-wrap {
+  transform: scale(1.1) rotate(2deg);
+  box-shadow: 0 8px 18px rgba(16, 46, 104, 0.12), inset 0 1px 0 #FFFFFF !important;
+}
+
+.sibacom-info-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.32rem 0.72rem;
+  border-radius: 9999px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  line-height: 1;
+  white-space: nowrap;
+  transition: all 0.3s ease;
+}
+.sibacom-info-pill.pill-blue,
+.sibacom-info-pill.pill-primary {
+  background: rgba(23, 63, 145, 0.07);
+  color: #173F91;
+  border: 1px solid rgba(23, 63, 145, 0.16);
+}
+.sibacom-info-pill.pill-green,
+.sibacom-info-pill.pill-success {
+  background: rgba(7, 155, 88, 0.07);
+  color: #079B58;
+  border: 1px solid rgba(7, 155, 88, 0.18);
+}
+.sibacom-info-pill.pill-amber,
+.sibacom-info-pill.pill-warning {
+  background: rgba(217, 119, 6, 0.08);
+  color: #B45309;
+  border: 1px solid rgba(217, 119, 6, 0.22);
+}
+.sibacom-info-pill.pill-navy {
+  background: rgba(16, 46, 104, 0.07);
+  color: #102E68;
+  border: 1px solid rgba(16, 46, 104, 0.16);
+}
+.sibacom-info-pill.pill-cyan {
+  background: rgba(2, 132, 199, 0.07);
+  color: #0284C7;
+  border: 1px solid rgba(2, 132, 199, 0.18);
+}
+.sibacom-info-pill.pill-live {
+  background: rgba(7, 155, 88, 0.09);
+  color: #047857;
+  border: 1px solid rgba(7, 155, 88, 0.24);
+}
+
+.sibacom-info-card-body {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.sibacom-info-label {
+  font-size: 0.73rem !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.09em !important;
+  color: #64748B !important;
+  margin-bottom: 0.45rem !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 0.4rem !important;
+  line-height: 1.2 !important;
+}
+
+.sibacom-info-val,
+.sibacom-info-value {
+  font-family: var(--font-heading, "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif) !important;
+  font-size: 1.38rem !important;
+  font-weight: 800 !important;
+  color: #0F172A !important;
+  line-height: 1.24 !important;
+  letter-spacing: -0.025em !important;
+  margin: 0 0 0.45rem 0 !important;
+  transition: color 0.3s ease;
+}
+
+.sibacom-info-card:hover .sibacom-info-val,
+.sibacom-info-card:hover .sibacom-info-value {
+  color: #173F91;
+}
+.sibacom-info-card:nth-child(2):hover .sibacom-info-val,
+.sibacom-info-card.card-variant-venue:hover .sibacom-info-val {
+  color: #079B58;
+}
+.sibacom-info-card:nth-child(3):hover .sibacom-info-val,
+.sibacom-info-card.card-variant-deadline:hover .sibacom-info-val {
+  color: #B45309;
+}
+.sibacom-info-card.card-variant-status .sibacom-info-val,
+.sibacom-info-card:nth-child(6) .sibacom-info-val {
+  color: #079B58 !important;
+}
+
+.sibacom-info-sub,
+.sibacom-info-desc {
+  font-size: 0.86rem !important;
+  font-weight: 500 !important;
+  color: #64748B !important;
+  line-height: 1.45 !important;
+  margin: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 0.35rem !important;
+}
+
+.sibacom-info-watermark {
+  position: absolute;
+  right: -6px;
+  bottom: -10px;
+  font-size: 4.8rem;
+  color: rgba(16, 46, 104, 0.032);
+  pointer-events: none;
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  transform: rotate(-10deg);
+  z-index: 1;
+}
+.sibacom-info-card:hover .sibacom-info-watermark {
+  transform: rotate(0deg) scale(1.1);
+  color: rgba(16, 46, 104, 0.06);
+}
+.sibacom-info-card:nth-child(2):hover .sibacom-info-watermark,
+.sibacom-info-card.card-variant-venue:hover .sibacom-info-watermark {
+  color: rgba(7, 155, 88, 0.07);
+}
+.sibacom-info-card:nth-child(3):hover .sibacom-info-watermark,
+.sibacom-info-card.card-variant-deadline:hover .sibacom-info-watermark {
+  color: rgba(217, 119, 6, 0.07);
+}
+.sibacom-info-card:nth-child(6):hover .sibacom-info-watermark,
+.sibacom-info-card.card-variant-status:hover .sibacom-info-watermark {
+  color: rgba(7, 155, 88, 0.07);
+}
+
+.pulse-dot-live {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #079B58;
+  position: relative;
+  flex-shrink: 0;
+}
+.pulse-dot-live::after {
+  content: '';
+  position: absolute;
+  inset: -3px;
+  border-radius: 50%;
+  background: rgba(7, 155, 88, 0.45);
+  animation: sibacom-pulse-ring 1.8s cubic-bezier(0.24, 0, 0.38, 1) infinite;
+}
+
+/* ==========================================================================
+   SIBACOM About & Institutional Narrative Section (Plugin Mirror)
+   ========================================================================== */
+
+.sibacom-about-grid {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 3rem;
+  align-items: stretch;
+}
+
+@media (max-width: 991px) {
+  .sibacom-about-grid {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+}
+
+.sibacom-about-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sibacom-vision-card,
+.sibacom-mission-card {
+  background: var(--sibacom-white, #FFFFFF);
+  border: 1px solid var(--sibacom-border-neu, #DCE3EE);
+  border-radius: var(--radius-lg, 20px);
+  box-shadow: var(--neu-raised, 0 8px 24px rgba(16, 46, 104, 0.08));
+  padding: 1.5rem 1.75rem;
+  margin-bottom: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s ease;
+}
+
+.sibacom-vision-card {
+  border-left: 4px solid var(--sibacom-primary, #173F91);
+}
+
+.sibacom-mission-card {
+  border-left: 4px solid var(--sibacom-techgreen, #079B58);
+  margin-bottom: 0;
+}
+
+.sibacom-vision-card:hover,
+.sibacom-mission-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--neu-hover, 0 14px 32px rgba(16, 46, 104, 0.12));
+}
+
+.sibacom-vm-icon-box {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  font-size: 1.2rem;
+  box-shadow: var(--neu-flat, 4px 4px 12px rgba(16, 46, 104, 0.08));
+}
+
+.sibacom-vision-card .sibacom-vm-icon-box {
+  background: rgba(23, 63, 145, 0.08);
+  border: 1px solid rgba(23, 63, 145, 0.18);
+  color: var(--sibacom-primary, #173F91);
+}
+
+.sibacom-mission-card .sibacom-vm-icon-box {
+  background: rgba(7, 155, 88, 0.08);
+  border: 1px solid rgba(7, 155, 88, 0.18);
+  color: var(--sibacom-techgreen, #079B58);
+}
+
+.sibacom-about-showcase-card {
+  background: var(--sibacom-white, #FFFFFF);
+  border: 1px solid var(--sibacom-border-neu, #DCE3EE);
+  border-radius: var(--radius-xl, 28px);
+  box-shadow: var(--neu-raised, 0 8px 24px rgba(16, 46, 104, 0.08));
+  padding: 2.25rem;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.sibacom-about-showcase-card:hover {
+  box-shadow: var(--neu-hover, 0 14px 32px rgba(16, 46, 104, 0.12));
+}
+
+.sibacom-campus-img-frame {
+  border-radius: var(--radius-lg, 20px);
+  overflow: hidden;
+  margin-bottom: 1.75rem;
+  box-shadow: var(--neu-flat, 4px 4px 12px rgba(16, 46, 104, 0.08));
+  border: 1px solid var(--sibacom-border-neu, #DCE3EE);
+  position: relative;
+  background: #E2E8F0;
+}
+
+.sibacom-campus-img-frame img {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+.sibacom-about-showcase-card:hover .sibacom-campus-img-frame img {
+  transform: scale(1.03);
+}
+
+.sibacom-campus-img-overlay {
+  position: absolute;
+  bottom: 0;
+  inset-inline: 0;
+  background: linear-gradient(180deg, transparent 0%, rgba(16, 46, 104, 0.88) 100%);
+  padding: 1.25rem 1.25rem 0.85rem 1.25rem;
+  color: #FFFFFF;
+}
+
+.sibacom-about-stats-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+}
+
+@media (max-width: 480px) {
+  .sibacom-about-stats-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+
+

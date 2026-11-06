@@ -1,0 +1,53 @@
+{
+  "version": "0.4",
+  "title": "SIBACOM Sponsors Template",
+  "type": "page",
+  "content": [
+    {
+      "id": "agy2wnb",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "padding": {
+          "unit": "px",
+          "top": 60,
+          "right": 20,
+          "bottom": 60,
+          "left": 20
+        }
+      },
+      "elements": [
+        {
+          "id": "5uk6pqb",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "ktar9jg",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Official Sponsors & Strategic Partners",
+                "header_size": "h1",
+                "align": "center",
+                "title_color": "#173F91"
+              }
+            },
+            {
+              "id": "70u4osg",
+              "elType": "widget",
+              "widgetType": "sibacom_sponsors",
+              "settings": {}
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

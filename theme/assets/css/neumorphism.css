@@ -1,0 +1,2522 @@
+/* ==========================================================================
+   SIBACOM Neumorphic UI Design System
+   ========================================================================== */
+
+/* Neumorphic Cards */
+.neu-card {
+  background: var(--sibacom-white);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--sibacom-border-neu);
+  box-shadow: var(--neu-raised);
+  padding: 2rem;
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.neu-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--neu-hover);
+}
+
+.neu-card-flat {
+  background: var(--sibacom-white);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--sibacom-border-neu);
+  box-shadow: var(--neu-flat);
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.neu-card-flat:hover {
+  box-shadow: var(--neu-raised);
+}
+
+/* Inset Neumorphic Containers / Inputs */
+.neu-inset {
+  background: #EDF1F7;
+  border-radius: var(--radius-md);
+  box-shadow: var(--neu-inset);
+  border: 1px solid rgba(226, 232, 240, 0.6);
+  padding: 1rem 1.25rem;
+}
+
+/* ==========================================================================
+   SIBACOM '26 Premium Brand Identity & Hero Section
+   ========================================================================== */
+.sibacom-hero-wrap {
+  position: relative;
+  min-height: 92vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4.5rem 0 5.5rem 0;
+  overflow: hidden;
+  background-color: var(--sibacom-bg);
+}
+
+.sibacom-hero-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.sibacom-hero-bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 26%;
+  opacity: 0.28;
+  filter: contrast(1.10) saturate(1.15) brightness(1.02);
+  transform: scale(1.02);
+  transition: opacity 0.4s ease;
+}
+
+/* Atmospheric Overlays: Soft center spotlight, vertical gradient, and subtle energy hue */
+.sibacom-hero-overlay-v {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, 
+    rgba(244, 246, 250, 0.40) 0%, 
+    rgba(244, 246, 250, 0.68) 45%, 
+    rgba(244, 246, 250, 0.98) 100%);
+}
+
+.sibacom-hero-overlay-h {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse 80% 70% at 50% 44%, 
+    rgba(255, 255, 255, 0.82) 0%, 
+    rgba(244, 246, 250, 0.88) 55%, 
+    rgba(244, 246, 250, 0.98) 100%);
+}
+
+.sibacom-hero-content {
+  position: relative;
+  z-index: 10;
+  max-width: 980px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* --------------------------------------------------------------------------
+   1. Top Announcement Badge: Sukkur IBA University Presents
+   -------------------------------------------------------------------------- */
+.sibacom-hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  padding: 0.45rem 1.35rem;
+  background: rgba(255, 255, 255, 0.94);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(23, 63, 145, 0.16);
+  border-radius: var(--radius-full);
+  box-shadow: 0 4px 18px rgba(16, 46, 104, 0.06), 0 1px 3px rgba(16, 46, 104, 0.04), inset 0 1px 1px #FFFFFF;
+  margin-bottom: 1.75rem;
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s ease, border-color 0.25s ease;
+  user-select: none;
+  animation: sibacomBadgeEntrance 0.7s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.sibacom-hero-badge:hover {
+  transform: translateY(-1px);
+  border-color: rgba(7, 155, 88, 0.35);
+  box-shadow: 0 8px 24px rgba(16, 46, 104, 0.10), 0 0 12px rgba(7, 155, 88, 0.15);
+}
+
+.sibacom-hero-badge .pulse-indicator {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 10px;
+  height: 10px;
+  flex-shrink: 0;
+}
+
+.sibacom-hero-badge .pulse-indicator-ring {
+  position: absolute;
+  inset: -3px;
+  border-radius: 50%;
+  background: rgba(7, 155, 88, 0.35);
+  animation: sibacomBadgePulse 2.4s cubic-bezier(0.24, 0, 0.38, 1) infinite;
+}
+
+.sibacom-hero-badge .pulse-indicator-core {
+  position: relative;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--sibacom-techgreen);
+  box-shadow: 0 0 6px rgba(7, 155, 88, 0.8);
+}
+
+@keyframes sibacomBadgePulse {
+  0% { transform: scale(0.9); opacity: 0.9; }
+  50% { transform: scale(1.6); opacity: 0; }
+  100% { transform: scale(0.9); opacity: 0; }
+}
+
+@keyframes sibacomBadgeEntrance {
+  0% { opacity: 0; transform: translateY(-14px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+.sibacom-hero-badge-text {
+  font-family: var(--font-primary);
+  font-size: clamp(0.72rem, 1.1vw, 0.82rem);
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--sibacom-navy);
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.sibacom-hero-badge-sep {
+  display: inline-block;
+  margin: 0 0.4rem;
+  color: var(--sibacom-techgreen);
+  font-size: 0.85em;
+  opacity: 0.9;
+}
+
+.sibacom-hero-badge-highlight {
+  color: var(--sibacom-techgreen);
+  font-weight: 800;
+}
+
+/* --------------------------------------------------------------------------
+   2. Main Wordmark & Brand Identity: SIBACOM '26 & Official Emblem
+   -------------------------------------------------------------------------- */
+.sibacom-brand-hero-emblem-wrap {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 980px;
+  animation: sibacomWordmarkEntrance 0.8s cubic-bezier(0.16, 1, 0.3, 1) both 0.15s;
+}
+
+@keyframes sibacomWordmarkEntrance {
+  0% { opacity: 0; transform: translateY(16px) scale(0.98); }
+  100% { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+/* Atmospheric Radial Ambient Backlight behind SIBACOM Wordmark */
+.sibacom-brand-glow {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: min(840px, 94vw);
+  height: 240px;
+  background: radial-gradient(ellipse 65% 55% at 50% 50%, 
+    rgba(2, 132, 199, 0.18) 0%, 
+    rgba(7, 155, 88, 0.10) 45%, 
+    rgba(244, 246, 250, 0) 75%);
+  filter: blur(36px);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.sibacom-brand-wordmark-lockup {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  padding: 0.75rem 2rem 0.5rem 1.75rem;
+}
+
+/* Dynamic SVG Orbital Trajectory Arc, Apex Satellite Node & Crescent Wings */
+.sibacom-brand-orbital-arc {
+  position: absolute;
+  top: -18%;
+  left: -4%;
+  width: 108%;
+  height: 136%;
+  pointer-events: none;
+  z-index: 1;
+  overflow: visible;
+}
+
+/* Apex Satellite Pulse Ring Animation */
+.sibacom-satellite-ring {
+  transform-origin: 370px 18px;
+  animation: sibacomSatellitePulse 2.8s cubic-bezier(0.24, 0, 0.38, 1) infinite;
+}
+
+@keyframes sibacomSatellitePulse {
+  0% { transform: scale(0.9); opacity: 0.9; }
+  50% { transform: scale(1.8); opacity: 0; }
+  100% { transform: scale(0.9); opacity: 0; }
+}
+
+/* Traveling Orbital Electron Energy Particle */
+.sibacom-satellite-traveler {
+  animation: sibacomTravelerGlider 6s ease-in-out infinite;
+  transform-origin: 370px 18px;
+}
+
+@keyframes sibacomTravelerGlider {
+  0% { transform: translate(-300px, 120px) scale(0.7); opacity: 0; }
+  15% { opacity: 0.9; }
+  45% { transform: translate(0px, 0px) scale(1.2); opacity: 1; }
+  75% { transform: translate(290px, 70px) scale(0.85); opacity: 0.9; }
+  100% { transform: translate(340px, 150px) scale(0.5); opacity: 0; }
+}
+
+/* Primary Wordmark Typography */
+.sibacom-hero-wordmark {
+  position: relative;
+  z-index: 2;
+  margin: 0;
+  display: inline-flex;
+  align-items: flex-start;
+  justify-content: center;
+  font-family: var(--font-heading), 'Manrope', 'Montserrat', -apple-system, sans-serif;
+  font-size: clamp(3.75rem, 9.8vw, 7.8rem);
+  font-weight: 900;
+  line-height: 0.92;
+  letter-spacing: -0.038em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+/* Core SIBACOM Text with Signature Blue -> Teal -> Green Gradient */
+.sibacom-wordmark-core {
+  display: inline-block;
+  background: linear-gradient(116deg, 
+    #07234D 0%, 
+    #102E68 18%, 
+    #173F91 38%, 
+    #0284C7 64%, 
+    #079B58 90%, 
+    #0BB768 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #173F91;
+  filter: drop-shadow(0 14px 30px rgba(16, 46, 104, 0.16)) 
+          drop-shadow(0 2px 4px rgba(3, 50, 106, 0.08));
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* The '26 Edition Lockup */
+.sibacom-brand-edition-lockup {
+  display: inline-flex;
+  align-items: flex-start;
+  margin-left: 0.08em;
+  margin-top: 0.02em;
+  vertical-align: top;
+  position: relative;
+  z-index: 3;
+}
+
+.sibacom-brand-edition-badge {
+  display: inline-flex;
+  align-items: baseline;
+  justify-content: center;
+  position: relative;
+  padding: 0.08em 0.36em 0.10em 0.30em;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.98) 0%, rgba(240, 249, 255, 0.94) 100%);
+  border: 1.5px solid rgba(7, 155, 88, 0.45);
+  border-radius: 10px;
+  box-shadow: 
+    0 4px 18px rgba(7, 155, 88, 0.22),
+    0 2px 6px rgba(16, 46, 104, 0.08),
+    inset 0 1px 1px rgba(255, 255, 255, 1);
+  font-family: var(--font-heading), 'Manrope', -apple-system, sans-serif;
+  font-size: 0.38em;
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.sibacom-brand-edition-badge:hover {
+  transform: translateY(-1px) scale(1.02);
+  border-color: var(--sibacom-techgreen);
+  box-shadow: 
+    0 6px 22px rgba(7, 155, 88, 0.30),
+    0 2px 8px rgba(16, 46, 104, 0.12);
+}
+
+.sibacom-brand-edition-dot {
+  position: absolute;
+  top: -3px;
+  right: -3px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #079B58;
+  box-shadow: 0 0 6px rgba(7, 155, 88, 0.9);
+  animation: sibacomBadgePulse 2.4s cubic-bezier(0.24, 0, 0.38, 1) infinite;
+}
+
+.sibacom-brand-apostrophe {
+  display: inline-block;
+  background: linear-gradient(135deg, #0284C7 0%, #079B58 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #079B58;
+  margin-right: 0.02em;
+  font-weight: 900;
+  transform: translateY(-0.04em);
+}
+
+.sibacom-brand-year {
+  display: inline-block;
+  background: linear-gradient(135deg, #0284C7 0%, #079B58 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #079B58;
+  font-variant-numeric: tabular-nums;
+  font-weight: 900;
+  letter-spacing: -0.02em;
+}
+
+/* --------------------------------------------------------------------------
+   3. Electrifying "POWER TO PROGRESS" Animated Tagline
+   -------------------------------------------------------------------------- */
+.sibacom-tagline-electrified-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(0.75rem, 2vw, 1.4rem);
+  margin-top: 1.35rem;
+  margin-bottom: 1.75rem;
+  width: 100%;
+  position: relative;
+  z-index: 3;
+  animation: sibacomTaglineEntrance 0.8s cubic-bezier(0.16, 1, 0.3, 1) both 0.3s;
+}
+
+@keyframes sibacomTaglineEntrance {
+  0% { opacity: 0; transform: translateY(12px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+/* Active Electrical Conduit Lines flanking the Tagline */
+.sibacom-electric-conduit {
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.sibacom-conduit-line {
+  height: 1.5px;
+  width: clamp(24px, 5vw, 60px);
+  flex-shrink: 0;
+  border-radius: 2px;
+}
+
+.conduit-left .sibacom-conduit-line {
+  background: linear-gradient(90deg, 
+    transparent 0%, 
+    rgba(2, 132, 199, 0.3) 40%, 
+    rgba(7, 155, 88, 0.85) 100%);
+}
+
+.conduit-right .sibacom-conduit-line {
+  background: linear-gradient(90deg, 
+    rgba(7, 155, 88, 0.85) 0%, 
+    rgba(2, 132, 199, 0.3) 60%, 
+    transparent 100%);
+}
+
+.sibacom-conduit-node {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #079B58;
+  box-shadow: 0 0 8px rgba(7, 155, 88, 0.8), 0 0 2px #FFFFFF;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.conduit-left .sibacom-conduit-node {
+  animation: sibacomNodeLeftSpark 5s cubic-bezier(0.25, 1, 0.5, 1) infinite;
+}
+
+.conduit-right .sibacom-conduit-node {
+  animation: sibacomNodeRightSpark 5s cubic-bezier(0.25, 1, 0.5, 1) infinite;
+}
+
+@keyframes sibacomNodeLeftSpark {
+  0%, 100% { transform: scale(1); box-shadow: 0 0 6px rgba(7, 155, 88, 0.7); }
+  5% { transform: scale(1.6); background: #FFFFFF; box-shadow: 0 0 12px #38BDF8, 0 0 20px #079B58; }
+  12% { transform: scale(1); background: #079B58; box-shadow: 0 0 6px rgba(7, 155, 88, 0.7); }
+}
+
+@keyframes sibacomNodeRightSpark {
+  0%, 100% { transform: scale(1); box-shadow: 0 0 6px rgba(7, 155, 88, 0.7); }
+  32% { transform: scale(1); background: #079B58; box-shadow: 0 0 6px rgba(7, 155, 88, 0.7); }
+  38% { transform: scale(1.6); background: #FFFFFF; box-shadow: 0 0 12px #34D399, 0 0 20px #079B58; }
+  45% { transform: scale(1); background: #079B58; box-shadow: 0 0 6px rgba(7, 155, 88, 0.7); }
+}
+
+/* Electrified Tagline Typography Lockup */
+.sibacom-hero-tagline-electrified {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0.4rem 0.9rem;
+  border-radius: 10px;
+  font-family: var(--font-heading), 'Manrope', -apple-system, sans-serif;
+  font-size: clamp(1.15rem, 2.3vw, 1.6rem);
+  font-weight: 800;
+  letter-spacing: clamp(0.18em, 0.4vw, 0.26em);
+  text-transform: uppercase;
+  line-height: 1.2;
+  white-space: nowrap;
+  user-select: none;
+  overflow: hidden; /* Strictly clips lightning beam within tagline bounds */
+}
+
+.sibacom-electric-word {
+  display: inline-flex;
+  align-items: center;
+}
+
+.sibacom-electric-gap {
+  display: inline-block;
+  width: 0.65em;
+}
+
+/* Individual Electrical Letter with Staggered Travelling Pulse */
+.sibacom-electric-char {
+  display: inline-block;
+  position: relative;
+  color: #0A2540;
+  transition: transform 0.25s ease, color 0.25s ease, text-shadow 0.25s ease;
+  animation: sibacomElectricCharPulse 5s cubic-bezier(0.25, 1, 0.5, 1) infinite;
+  animation-delay: calc(var(--char-index) * 0.08s + 0.35s);
+  will-change: transform, color, text-shadow;
+}
+
+@keyframes sibacomElectricCharPulse {
+  0%, 100% {
+    color: #0A2540;
+    transform: translateY(0);
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.9);
+  }
+  4% {
+    color: #0165A8;
+    transform: translateY(-0.75px);
+    text-shadow: 0 0 8px rgba(2, 132, 199, 0.6), 0 0 16px rgba(7, 155, 88, 0.3);
+  }
+  9% {
+    color: #0077B6;
+    transform: translateY(-1.5px) scale(1.05);
+    text-shadow: 0 0 8px #00D2FF, 0 0 16px rgba(2, 132, 199, 0.8), 0 0 24px rgba(7, 155, 88, 0.7);
+  }
+  14% {
+    color: #079B58;
+    transform: translateY(-0.5px);
+    text-shadow: 0 0 8px rgba(7, 155, 88, 0.7);
+  }
+  20%, 90% {
+    color: #0A2540;
+    transform: translateY(0);
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.9);
+  }
+  94% {
+    color: #103A70;
+    text-shadow: 0 0 4px rgba(2, 132, 199, 0.3);
+  }
+}
+
+/* Travelling Lightning-Inspired Energy Highlight Beam */
+.sibacom-tagline-electric-beam {
+  position: absolute;
+  inset: -4px -16px;
+  border-radius: 8px;
+  pointer-events: none;
+  background: linear-gradient(108deg, 
+    transparent 38%, 
+    rgba(2, 132, 199, 0.15) 45%, 
+    rgba(255, 255, 255, 0.88) 50%, 
+    rgba(7, 155, 88, 0.40) 55%, 
+    transparent 62%);
+  mix-blend-mode: overlay;
+  animation: sibacomElectricBeamSweep 5s cubic-bezier(0.25, 1, 0.5, 1) infinite;
+  animation-delay: 0.35s;
+  will-change: transform;
+}
+
+@keyframes sibacomElectricBeamSweep {
+  0% { transform: translateX(-120%); opacity: 0; }
+  3% { opacity: 1; }
+  28% { transform: translateX(120%); opacity: 1; }
+  29%, 100% { opacity: 0; transform: translateX(120%); }
+}
+
+/* Ambient Breathing Energy Wave Aura behind Tagline */
+.sibacom-tagline-aura {
+  position: absolute;
+  inset: -12px -20px;
+  border-radius: 20px;
+  pointer-events: none;
+  background: radial-gradient(ellipse 65% 50% at 50% 50%, 
+    rgba(2, 132, 199, 0.12) 0%, 
+    rgba(7, 155, 88, 0.08) 45%, 
+    transparent 75%);
+  filter: blur(14px);
+  animation: sibacomTaglineAuraBreathe 4.2s ease-in-out infinite alternate;
+}
+
+@keyframes sibacomTaglineAuraBreathe {
+  0% { opacity: 0.35; transform: scale(0.96); }
+  100% { opacity: 0.90; transform: scale(1.03); }
+}
+
+/* Plasma Filament Energy Wave SVG */
+.sibacom-plasma-filament-svg {
+  position: absolute;
+  bottom: -4px;
+  left: 6%;
+  width: 88%;
+  height: 12px;
+  pointer-events: none;
+  opacity: 0.8;
+  overflow: visible;
+}
+
+.sibacom-plasma-trace {
+  stroke-dasharray: 8 6;
+  animation: sibacomPlasmaGlide 4s linear infinite;
+}
+
+@keyframes sibacomPlasmaGlide {
+  0% { stroke-dashoffset: 0; }
+  100% { stroke-dashoffset: -28; }
+}
+
+/* Backward compatibility for legacy tagline wrappers */
+.sibacom-hero-tagline-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(0.75rem, 2vw, 1.5rem);
+  margin-top: 1.35rem;
+  margin-bottom: 1.5rem;
+  width: 100%;
+}
+
+.sibacom-tagline-rule {
+  height: 1.5px;
+  width: clamp(24px, 5vw, 56px);
+  flex-shrink: 0;
+  border-radius: 2px;
+}
+
+.sibacom-tagline-rule.rule-left {
+  background: linear-gradient(90deg, transparent 0%, rgba(7, 155, 88, 0.7) 100%);
+}
+
+.sibacom-tagline-rule.rule-right {
+  background: linear-gradient(90deg, rgba(7, 155, 88, 0.7) 0%, transparent 100%);
+}
+
+.sibacom-hero-tagline {
+  margin: 0;
+  font-family: var(--font-heading);
+  font-size: clamp(1.15rem, 2.3vw, 1.6rem);
+  font-weight: 800;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: #0A2558;
+  line-height: 1.2;
+  text-shadow: 0 1px 2px rgba(255, 255, 255, 0.9);
+  white-space: nowrap;
+}
+
+/* --------------------------------------------------------------------------
+   4. Hero Description Body
+   -------------------------------------------------------------------------- */
+.sibacom-hero-description {
+  font-family: var(--font-primary);
+  font-size: clamp(1.02rem, 1.35vw, 1.15rem);
+  color: var(--sibacom-text-secondary);
+  max-width: 760px;
+  line-height: 1.75;
+  margin: 0 auto 2.5rem auto;
+  font-weight: 450;
+  text-wrap: pretty;
+}
+
+/* Backward compatibility for legacy hero title */
+.sibacom-hero-title {
+  font-size: clamp(3.75rem, 9.8vw, 7.8rem);
+  font-weight: 900;
+  line-height: 0.92;
+  letter-spacing: -0.038em;
+  margin-bottom: 0.75rem;
+}
+
+/* Event Info Meta Bar */
+.sibacom-meta-bar {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 0.9rem 1.8rem;
+  background: var(--sibacom-white);
+  border-radius: var(--radius-full);
+  box-shadow: var(--neu-raised);
+  border: 1px solid var(--sibacom-border-neu);
+  margin-bottom: 2.5rem;
+}
+
+.sibacom-meta-item {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--sibacom-text-primary);
+}
+
+.sibacom-meta-item i {
+  color: var(--sibacom-techgreen);
+  font-size: 1.05rem;
+}
+
+.sibacom-meta-divider {
+  width: 1px;
+  height: 20px;
+  background: var(--sibacom-border);
+}
+
+/* Countdown Clock */
+.sibacom-countdown {
+  display: flex;
+  justify-content: center;
+  gap: 1.25rem;
+  margin: 2rem auto;
+}
+
+.sibacom-countdown-box {
+  background: var(--sibacom-white);
+  border-radius: var(--radius-md);
+  box-shadow: var(--neu-raised);
+  border: 1px solid var(--sibacom-border-neu);
+  padding: 1rem 1.4rem;
+  min-width: 90px;
+  text-align: center;
+  transition: transform 0.25s ease;
+}
+
+.sibacom-countdown-box:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--neu-hover);
+}
+
+.sibacom-countdown-number {
+  font-family: var(--font-heading);
+  font-size: 2.25rem;
+  font-weight: 800;
+  color: var(--sibacom-primary);
+  line-height: 1;
+  display: block;
+  font-variant-numeric: tabular-nums;
+}
+
+.sibacom-countdown-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--sibacom-text-secondary);
+  margin-top: 0.4rem;
+  display: block;
+}
+
+/* Highlights Grid */
+.sibacom-highlights-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.sibacom-highlight-card {
+  background: var(--sibacom-white);
+  border-radius: var(--radius-xl);
+  border: 1px solid var(--sibacom-border-neu);
+  box-shadow: var(--neu-raised);
+  padding: 2.25rem;
+  transition: all 0.35s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.sibacom-highlight-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--neu-hover);
+  border-color: rgba(23, 63, 145, 0.25);
+}
+
+.sibacom-highlight-icon {
+  width: 58px;
+  height: 58px;
+  border-radius: var(--radius-md);
+  background: linear-gradient(135deg, rgba(23, 63, 145, 0.1) 0%, rgba(7, 155, 88, 0.1) 100%);
+  border: 1px solid rgba(23, 63, 145, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--sibacom-primary);
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: var(--neu-flat);
+}
+
+/* ==========================================================================
+   Schedule Timeline (Premium Redesign)
+   ========================================================================== */
+.sibacom-timeline {
+  position: relative;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1.5rem 0;
+  --timeline-spine-x: 21px;
+  --timeline-padding-left: 3.75rem;
+}
+
+/* Connecting Spine Line (Left-Aligned Default) */
+.sibacom-timeline.layout-left,
+.sibacom-timeline:not(.layout-alternating) {
+  padding-left: var(--timeline-padding-left);
+}
+
+.sibacom-timeline.layout-left::before,
+.sibacom-timeline:not(.layout-alternating)::before,
+.sibacom-timeline-line {
+  content: '';
+  position: absolute;
+  top: 1.5rem;
+  bottom: 1.5rem;
+  left: var(--timeline-spine-x);
+  transform: translateX(-50%);
+  width: 3px;
+  background: linear-gradient(180deg, var(--sibacom-primary) 0%, var(--sibacom-techgreen) 100%);
+  border-radius: 3px;
+  z-index: 1;
+}
+
+.sibacom-timeline-item {
+  position: relative;
+  margin-bottom: 2.5rem;
+}
+
+.sibacom-timeline-item:last-child {
+  margin-bottom: 0;
+}
+
+/* Timeline Node */
+.sibacom-timeline.layout-left .sibacom-timeline-node,
+.sibacom-timeline:not(.layout-alternating) .sibacom-timeline-node {
+  position: absolute;
+  left: calc(var(--timeline-spine-x) - var(--timeline-padding-left));
+  transform: translateX(-50%);
+  top: 1.75rem;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  z-index: 4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sibacom-timeline.layout-left .sibacom-timeline-dot,
+.sibacom-timeline:not(.layout-alternating) .sibacom-timeline-dot {
+  position: absolute;
+  left: calc(var(--timeline-spine-x) - var(--timeline-padding-left));
+  transform: translateX(-50%);
+  top: 2.25rem;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--sibacom-primary);
+  border: 3px solid var(--sibacom-white);
+  box-shadow: 0 0 0 4px rgba(23, 63, 145, 0.16);
+  z-index: 4;
+}
+
+.sibacom-node-inner {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: var(--sibacom-white);
+  border: 2.5px solid var(--sibacom-primary);
+  box-shadow: 0 0 0 4px rgba(23, 63, 145, 0.12), var(--neu-flat);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.95rem;
+  color: var(--sibacom-primary);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.sibacom-timeline-item:hover .sibacom-node-inner {
+  transform: scale(1.12);
+  box-shadow: 0 0 0 6px rgba(23, 63, 145, 0.2), var(--neu-raised);
+}
+
+/* Category specific node rings */
+.sibacom-timeline-node.cat-keynote .sibacom-node-inner {
+  border-color: #173F91;
+  color: #173F91;
+  box-shadow: 0 0 0 4px rgba(23, 63, 145, 0.14), var(--neu-flat);
+}
+.sibacom-timeline-node.cat-competition .sibacom-node-inner {
+  border-color: #079B58;
+  color: #079B58;
+  box-shadow: 0 0 0 4px rgba(7, 155, 88, 0.14), var(--neu-flat);
+}
+.sibacom-timeline-node.cat-workshop .sibacom-node-inner {
+  border-color: #102E68;
+  color: #102E68;
+  box-shadow: 0 0 0 4px rgba(16, 46, 104, 0.14), var(--neu-flat);
+}
+.sibacom-timeline-node.cat-panel .sibacom-node-inner {
+  border-color: #6366F1;
+  color: #6366F1;
+  box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.14), var(--neu-flat);
+}
+.sibacom-timeline-node.cat-ceremony .sibacom-node-inner {
+  border-color: #D97706;
+  color: #D97706;
+  box-shadow: 0 0 0 4px rgba(217, 119, 6, 0.14), var(--neu-flat);
+}
+.sibacom-timeline-node.cat-networking .sibacom-node-inner {
+  border-color: #0D9488;
+  color: #0D9488;
+  box-shadow: 0 0 0 4px rgba(13, 148, 136, 0.14), var(--neu-flat);
+}
+.sibacom-timeline-node.cat-break .sibacom-node-inner {
+  border-color: #64748B;
+  color: #64748B;
+  box-shadow: 0 0 0 4px rgba(100, 116, 139, 0.14), var(--neu-flat);
+}
+
+/* Pulsing ring for featured sessions */
+.sibacom-node-pulse {
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  right: -4px;
+  bottom: -4px;
+  border-radius: 50%;
+  border: 2px solid var(--sibacom-techgreen);
+  animation: sibacomPulseNode 2.4s infinite cubic-bezier(0.25, 0.8, 0.25, 1);
+  pointer-events: none;
+}
+
+@keyframes sibacomPulseNode {
+  0% { transform: scale(1); opacity: 0.8; }
+  60% { transform: scale(1.6); opacity: 0; }
+  100% { transform: scale(1.6); opacity: 0; }
+}
+
+/* Session Card Container */
+.sibacom-timeline-card {
+  background: var(--sibacom-white);
+  border-radius: var(--radius-xl);
+  border: 1px solid var(--sibacom-border-neu);
+  box-shadow: var(--neu-raised);
+  padding: 1.85rem 2.25rem;
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.35s ease, border-color 0.35s ease;
+  position: relative;
+}
+
+.sibacom-timeline-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--neu-hover);
+  border-color: rgba(23, 63, 145, 0.2);
+}
+
+/* Featured Card Distinction */
+.sibacom-timeline-card.sibacom-card-featured {
+  border-left: 4px solid var(--sibacom-primary);
+  background: linear-gradient(135deg, #FFFFFF 0%, #F8FAFD 100%);
+  box-shadow: 0 12px 28px -6px rgba(23, 63, 145, 0.15), var(--neu-flat);
+}
+
+/* Top Meta Bar: Time, Duration & Badges */
+.sibacom-timeline-meta-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.sibacom-timeline-time-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.38rem 0.95rem;
+  border-radius: var(--radius-full);
+  background: #EDF1F7;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--sibacom-primary);
+  letter-spacing: -0.01em;
+  box-shadow: inset 1px 1px 2px rgba(163, 177, 198, 0.25);
+}
+
+.sibacom-timeline-badges-wrap {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.sibacom-timeline-duration-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.28rem 0.65rem;
+  border-radius: var(--radius-full);
+  background: rgba(100, 116, 139, 0.08);
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #475569;
+}
+
+.sibacom-timeline-cat-badge {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.74rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 0.3rem 0.75rem;
+  border-radius: var(--radius-full);
+}
+
+.sibacom-timeline-cat-badge.cat-keynote {
+  background: rgba(23, 63, 145, 0.08);
+  color: var(--sibacom-primary);
+  border: 1px solid rgba(23, 63, 145, 0.16);
+}
+.sibacom-timeline-cat-badge.cat-competition {
+  background: rgba(7, 155, 88, 0.08);
+  color: var(--sibacom-techgreen);
+  border: 1px solid rgba(7, 155, 88, 0.16);
+}
+.sibacom-timeline-cat-badge.cat-workshop {
+  background: rgba(16, 46, 104, 0.08);
+  color: var(--sibacom-navy);
+  border: 1px solid rgba(16, 46, 104, 0.16);
+}
+.sibacom-timeline-cat-badge.cat-panel {
+  background: rgba(99, 102, 241, 0.08);
+  color: #4F46E5;
+  border: 1px solid rgba(99, 102, 241, 0.16);
+}
+.sibacom-timeline-cat-badge.cat-ceremony {
+  background: rgba(217, 119, 6, 0.08);
+  color: #B45309;
+  border: 1px solid rgba(217, 119, 6, 0.16);
+}
+.sibacom-timeline-cat-badge.cat-networking {
+  background: rgba(13, 148, 136, 0.08);
+  color: #0F766E;
+  border: 1px solid rgba(13, 148, 136, 0.16);
+}
+.sibacom-timeline-cat-badge.cat-break {
+  background: rgba(100, 116, 139, 0.08);
+  color: #475569;
+  border: 1px solid rgba(100, 116, 139, 0.16);
+}
+
+.sibacom-timeline-featured-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.74rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 0.3rem 0.75rem;
+  border-radius: var(--radius-full);
+  background: #FEF3C7;
+  color: #92400E;
+  border: 1px solid #FCD34D;
+}
+
+/* Titles & Descriptions */
+.sibacom-timeline-title {
+  font-size: 1.35rem;
+  font-weight: 700;
+  margin-bottom: 0.65rem;
+  color: var(--sibacom-text-primary);
+  line-height: 1.35;
+}
+
+.sibacom-timeline-desc {
+  font-size: 0.95rem;
+  color: var(--sibacom-text-secondary);
+  line-height: 1.65;
+  margin-bottom: 1.25rem;
+}
+
+.sibacom-timeline-desc p:last-child {
+  margin-bottom: 0;
+}
+
+/* Bottom Metadata: Speaker Profile & Venue */
+.sibacom-timeline-footer-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--sibacom-border);
+  margin-top: 0.75rem;
+}
+
+.sibacom-session-speaker-info {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.sibacom-session-speaker-photo,
+.sibacom-timeline-speaker-photo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--sibacom-white);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  flex-shrink: 0;
+}
+
+.sibacom-session-speaker-photo-fallback {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(7, 155, 88, 0.1);
+  color: var(--sibacom-techgreen);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.05rem;
+  border: 2px solid var(--sibacom-white);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  flex-shrink: 0;
+}
+
+.sibacom-session-speaker-details .speaker-role-label {
+  display: block;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--sibacom-text-muted);
+  font-weight: 600;
+  line-height: 1.1;
+  margin-bottom: 2px;
+}
+
+.sibacom-session-speaker-details .speaker-full-name {
+  font-size: 0.92rem;
+  color: var(--sibacom-text-primary);
+  font-weight: 700;
+}
+
+.sibacom-session-venue-info {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--sibacom-text-secondary);
+  padding: 0.38rem 0.85rem;
+  border-radius: var(--radius-sm);
+  background: #F8FAFD;
+  border: 1px solid var(--sibacom-border);
+}
+
+.sibacom-session-venue-info i {
+  color: var(--sibacom-primary);
+  font-size: 0.9rem;
+}
+
+/* ==========================================================================
+   Alternating Timeline Structure (Desktop >= 992px)
+   ========================================================================== */
+@media (min-width: 992px) {
+  .sibacom-timeline.layout-alternating {
+    padding: 2rem 0;
+  }
+
+  .sibacom-timeline.layout-alternating::before {
+    content: '';
+    position: absolute;
+    top: 1.5rem;
+    bottom: 1.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 3px;
+    background: linear-gradient(180deg, var(--sibacom-primary) 0%, var(--sibacom-techgreen) 100%);
+    border-radius: 3px;
+    z-index: 1;
+  }
+
+  .sibacom-timeline.layout-alternating .sibacom-timeline-item {
+    width: 50%;
+    margin-bottom: 3rem;
+  }
+
+  .sibacom-timeline.layout-alternating .sibacom-timeline-item.item-left {
+    left: 0;
+    padding-right: 3rem;
+    padding-left: 0;
+  }
+
+  .sibacom-timeline.layout-alternating .sibacom-timeline-item.item-left .sibacom-timeline-node {
+    left: auto;
+    right: -21px;
+    top: 2rem;
+  }
+
+  .sibacom-timeline.layout-alternating .sibacom-timeline-item.item-right {
+    left: 50%;
+    padding-left: 3rem;
+    padding-right: 0;
+  }
+
+  .sibacom-timeline.layout-alternating .sibacom-timeline-item.item-right .sibacom-timeline-node {
+    left: -21px;
+    right: auto;
+    top: 2rem;
+  }
+}
+
+/* Speaker & Judge Profile Cards */
+.sibacom-speakers-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  align-items: stretch;
+}
+
+.sibacom-speakers-grid.col-4,
+.sibacom-speakers-grid.cols-4 {
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.25rem;
+}
+
+.sibacom-speakers-grid.col-3,
+.sibacom-speakers-grid.cols-3 {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.sibacom-speakers-grid.col-2,
+.sibacom-speakers-grid.cols-2 {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.75rem;
+}
+
+.sibacom-speaker-card {
+  background: var(--sibacom-white);
+  border-radius: var(--radius-xl);
+  border: 1px solid var(--sibacom-border-neu);
+  box-shadow: var(--neu-raised);
+  padding: 1.35rem 1.15rem 1.15rem 1.15rem;
+  text-align: center;
+  transition: all 0.35s ease;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.sibacom-speaker-card.is-judge-card {
+  border-top: 3px solid var(--sibacom-primary);
+}
+
+.sibacom-speaker-card.is-speaker-card {
+  border-top: 3px solid var(--sibacom-techgreen);
+}
+
+.sibacom-speaker-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 0.25rem 0.65rem;
+  border-radius: 9999px;
+  margin: 0 auto 0.45rem auto;
+  width: fit-content;
+  background: rgba(7, 155, 88, 0.08);
+  color: var(--sibacom-techgreen);
+  border: 1px solid rgba(7, 155, 88, 0.2);
+}
+
+.sibacom-speaker-badge.judge-badge {
+  background: rgba(23, 63, 145, 0.08);
+  color: var(--sibacom-primary);
+  border: 1px solid rgba(23, 63, 145, 0.2);
+}
+
+.sibacom-speaker-card.is-judge-card .sibacom-speaker-designation {
+  color: var(--sibacom-primary);
+}
+
+.sibacom-speaker-topic {
+  background: var(--sibacom-bg);
+  border-radius: 6px;
+  padding: 0.45rem 0.65rem;
+  font-size: 0.76rem;
+  line-height: 1.3;
+  color: var(--sibacom-text-primary);
+  margin-bottom: 0.5rem;
+  border-left: 3px solid var(--sibacom-techgreen);
+  text-align: left;
+}
+
+.sibacom-speaker-card.is-judge-card .sibacom-speaker-topic {
+  border-left-color: var(--sibacom-primary);
+}
+
+.sibacom-speaker-topic .topic-label {
+  display: block;
+  font-size: 0.66rem;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  color: var(--sibacom-text-muted);
+  margin-bottom: 2px;
+}
+
+.sibacom-speaker-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--neu-hover);
+}
+
+.sibacom-speaker-img-wrap {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  margin: 0 auto 0.85rem auto;
+  padding: 4px;
+  background: var(--sibacom-white);
+  box-shadow: var(--neu-raised);
+  border: 2px solid rgba(23, 63, 145, 0.15);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.sibacom-speaker-img-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  transition: transform 0.4s ease;
+}
+
+.sibacom-speaker-card:hover .sibacom-speaker-img-wrap img {
+  transform: scale(1.08);
+}
+
+.sibacom-speaker-name {
+  font-size: 1.12rem;
+  font-weight: 700;
+  color: var(--sibacom-text-primary);
+  margin-bottom: 0.2rem;
+  line-height: 1.25;
+}
+
+.sibacom-speaker-designation {
+  font-size: 0.8rem;
+  color: var(--sibacom-techgreen);
+  font-weight: 600;
+  margin-bottom: 0.15rem;
+  line-height: 1.3;
+}
+
+.sibacom-speaker-org {
+  font-size: 0.76rem;
+  color: var(--sibacom-text-secondary);
+  font-weight: 500;
+  margin-bottom: 0.55rem;
+  line-height: 1.25;
+}
+
+.sibacom-speaker-bio {
+  font-size: 0.78rem;
+  line-height: 1.4;
+  color: var(--sibacom-text-secondary);
+  margin-bottom: 0.55rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-height: 2.2rem;
+}
+
+.sibacom-speaker-social {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: auto;
+  padding-top: 0.35rem;
+}
+
+.sibacom-speaker-social a {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--sibacom-bg);
+  box-shadow: var(--neu-flat);
+  border: 1px solid var(--sibacom-border-neu);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--sibacom-text-secondary);
+  font-size: 0.82rem;
+  transition: all 0.25s ease;
+}
+
+.sibacom-speaker-social a:hover {
+  color: var(--sibacom-white);
+  background: var(--sibacom-primary);
+  box-shadow: var(--neu-glow-primary);
+  transform: translateY(-2px);
+}
+
+/* Institutional Bodies & Organizers */
+.sibacom-organizers-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
+  gap: 2rem;
+}
+
+/* Joint Primary Organizers Grid (2-Column Equal Prominence) */
+.sibacom-joint-organizers-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin-bottom: 3.5rem;
+}
+
+/* Academic Partners Grid (Visually Distinct from Primary Organizers) */
+.sibacom-academic-partners-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.sibacom-org-card {
+  background: var(--sibacom-white);
+  border-radius: var(--radius-xl);
+  border: 1px solid var(--sibacom-border-neu);
+  box-shadow: var(--neu-raised);
+  padding: 2.25rem;
+  transition: all 0.35s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+.sibacom-org-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--neu-hover);
+}
+
+/* Equal Visual Prominence for Both Primary Organizing Societies */
+.sibacom-org-card.primary-society,
+.sibacom-org-card.joint-primary-organizer {
+  border: 2px solid rgba(23, 63, 145, 0.45);
+  box-shadow: var(--neu-raised), 0 4px 24px rgba(23, 63, 145, 0.09);
+  background: linear-gradient(180deg, #FFFFFF 0%, #FAFCFF 100%);
+}
+
+.sibacom-org-card.joint-primary-organizer:hover {
+  border-color: var(--sibacom-primary);
+  box-shadow: var(--neu-hover), 0 8px 30px rgba(23, 63, 145, 0.16);
+}
+
+/* Distinct Academic Partner Card Styling */
+.sibacom-org-card.academic-partner-card {
+  background: #FAFCFE;
+  border: 1.5px solid rgba(16, 46, 104, 0.22);
+  border-left: 4px solid var(--sibacom-navy);
+  box-shadow: 0 4px 18px rgba(16, 46, 104, 0.05);
+}
+
+.sibacom-org-card.academic-partner-card:hover {
+  border-color: var(--sibacom-navy);
+  box-shadow: var(--neu-hover), 0 6px 25px rgba(16, 46, 104, 0.12);
+}
+
+/* Institutional Host Card Styling */
+.sibacom-org-card.institutional-host-card {
+  border: 1.5px solid rgba(7, 155, 88, 0.3);
+  box-shadow: var(--neu-raised), 0 4px 20px rgba(7, 155, 88, 0.06);
+}
+
+.sibacom-org-logo-wrap {
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 1.5rem;
+}
+
+.sibacom-org-logo-wrap img {
+  max-height: 80px;
+  width: auto;
+  max-width: 220px;
+  object-fit: contain;
+  display: block;
+}
+
+/* Equal Prominence for Society Logos */
+.sibacom-org-logo-wrap img.society-logo,
+.sibacom-org-logo-wrap img.cse-society-logo,
+.sibacom-org-logo-wrap img.ee-society-logo {
+  height: 72px;
+  max-height: 75px;
+  width: auto;
+  max-width: 220px;
+  object-fit: contain;
+}
+
+/* Society Badges & Roles */
+.sibacom-org-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0.3rem 0.85rem;
+  border-radius: var(--radius-full);
+}
+
+.sibacom-org-badge.badge-primary-organizer {
+  color: var(--sibacom-primary);
+  background: rgba(23, 63, 145, 0.1);
+  border: 1px solid rgba(23, 63, 145, 0.2);
+}
+
+.sibacom-org-badge.badge-academic-partner {
+  color: var(--sibacom-navy);
+  background: rgba(16, 46, 104, 0.08);
+  border: 1px solid rgba(16, 46, 104, 0.18);
+}
+
+.sibacom-org-badge.badge-institutional-host {
+  color: var(--sibacom-techgreen);
+  background: rgba(7, 155, 88, 0.08);
+  border: 1px solid rgba(7, 155, 88, 0.2);
+}
+
+.sibacom-org-affiliation-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  margin-top: 1rem;
+  padding: 0.45rem 0.9rem;
+  background: #EDF3FC;
+  border-radius: var(--radius-md);
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--sibacom-primary);
+}
+
+/* Footer 3-Group Hierarchy Styling */
+.sibacom-footer-org-group {
+  margin-bottom: 1.25rem;
+}
+
+.sibacom-footer-org-group:last-child {
+  margin-bottom: 0;
+}
+
+.sibacom-footer-org-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--sibacom-techgreen);
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.sibacom-footer-org-items {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+
+.sibacom-footer-org-item {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  color: #CBD5E1;
+  text-decoration: none;
+  font-size: 0.88rem;
+  font-weight: 600;
+  transition: color 0.2s ease;
+  min-height: 44px;
+  padding: 0.25rem 0;
+  touch-action: manipulation;
+}
+
+.sibacom-footer-org-item:hover {
+  color: #FFFFFF;
+}
+
+/* Sponsors Gallery */
+.sibacom-sponsors-tier {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.sibacom-sponsors-tier-title {
+  display: inline-block;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--sibacom-text-secondary);
+  padding: 0.35rem 1.25rem;
+  border-radius: var(--radius-full);
+  background: #EDF1F7;
+  margin-bottom: 1.75rem;
+}
+
+.sibacom-sponsors-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.sibacom-sponsor-card {
+  background: var(--sibacom-white);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--sibacom-border-neu);
+  box-shadow: var(--neu-flat);
+  padding: 1.75rem 2.5rem;
+  min-width: 200px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.sibacom-sponsor-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--neu-hover);
+  border-color: rgba(7, 155, 88, 0.3);
+}
+
+.sibacom-sponsor-card img {
+  max-height: 55px;
+  max-width: 160px;
+  object-fit: contain;
+  filter: none;
+  transition: transform 0.3s ease;
+}
+
+.sibacom-sponsor-card:hover img {
+  filter: none;
+  transform: scale(1.05);
+}
+
+/* FAQ Accordion */
+.sibacom-accordion {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.sibacom-accordion-item {
+  background: var(--sibacom-white);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--sibacom-border-neu);
+  box-shadow: var(--neu-raised);
+  margin-bottom: 1.25rem;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.sibacom-accordion-item.active {
+  box-shadow: var(--neu-hover);
+  border-color: rgba(23, 63, 145, 0.25);
+}
+
+.sibacom-accordion-header {
+  padding: 1.35rem 1.75rem;
+  font-family: var(--font-heading);
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--sibacom-text-primary);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.sibacom-accordion-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--sibacom-bg);
+  box-shadow: var(--neu-flat);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  color: var(--sibacom-primary);
+  transition: transform 0.3s ease;
+}
+
+.sibacom-accordion-item.active .sibacom-accordion-icon {
+  transform: rotate(180deg);
+  background: var(--sibacom-primary);
+  color: var(--sibacom-white);
+}
+
+.sibacom-accordion-content {
+  padding: 0 1.75rem 1.5rem 1.75rem;
+  display: none;
+  font-size: 0.95rem;
+  color: var(--sibacom-text-secondary);
+  line-height: 1.65;
+}
+
+.sibacom-accordion-item.active .sibacom-accordion-content {
+  display: block;
+  animation: sibacomFadeIn 0.3s ease;
+}
+
+@keyframes sibacomFadeIn {
+  from { opacity: 0; transform: translateY(-6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ==========================================================================
+   SIBACOM Event Information Cards (6 Neumorphic Cards)
+   ========================================================================== */
+.sibacom-info-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.75rem;
+  margin-top: 1.5rem;
+  margin-bottom: 3.5rem;
+}
+
+@media (max-width: 991px) {
+  .sibacom-info-cards-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .sibacom-info-cards-grid {
+    grid-template-columns: 1fr !important;
+    gap: 1.25rem;
+  }
+}
+
+.sibacom-info-card {
+  background: var(--sibacom-white, #FFFFFF);
+  background-image: linear-gradient(155deg, rgba(255, 255, 255, 1) 0%, rgba(248, 250, 254, 0.75) 100%);
+  border-radius: 20px;
+  border: 1px solid rgba(226, 232, 240, 0.85);
+  box-shadow: 0 4px 18px -2px rgba(16, 46, 104, 0.05), 0 2px 6px -1px rgba(16, 46, 104, 0.02), inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  padding: 1.85rem 1.65rem 1.75rem 1.65rem;
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+/* Elegant Top Gradient Accent Bar */
+.sibacom-info-card::before,
+.sibacom-info-card-accent {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3.5px;
+  background: linear-gradient(90deg, var(--sibacom-primary, #173F91) 0%, #3B82F6 100%);
+  transition: height 0.3s ease, opacity 0.3s ease;
+  z-index: 3;
+}
+
+/* Variant Specific Top Accent Lines */
+.sibacom-info-card:nth-child(1)::before,
+.sibacom-info-card.card-variant-dates::before {
+  background: linear-gradient(90deg, #173F91 0%, #3B82F6 100%);
+}
+.sibacom-info-card:nth-child(2)::before,
+.sibacom-info-card.card-variant-venue::before {
+  background: linear-gradient(90deg, #079B58 0%, #10B981 100%);
+}
+.sibacom-info-card:nth-child(3)::before,
+.sibacom-info-card.card-variant-deadline::before {
+  background: linear-gradient(90deg, #D97706 0%, #F59E0B 100%);
+}
+.sibacom-info-card:nth-child(4)::before,
+.sibacom-info-card.card-variant-category::before {
+  background: linear-gradient(90deg, #102E68 0%, #4338CA 100%);
+}
+.sibacom-info-card:nth-child(5)::before,
+.sibacom-info-card.card-variant-participation::before {
+  background: linear-gradient(90deg, #1D4ED8 0%, #0284C7 100%);
+}
+.sibacom-info-card:nth-child(6)::before,
+.sibacom-info-card.card-variant-status::before {
+  background: linear-gradient(90deg, #079B58 0%, #34D399 100%);
+}
+.sibacom-info-card[style*="--card-accent"]::before {
+  background: var(--card-accent) !important;
+}
+a.sibacom-info-card {
+  text-decoration: none !important;
+  color: inherit !important;
+  display: flex !important;
+  cursor: pointer;
+}
+a.sibacom-info-card:hover {
+  text-decoration: none !important;
+}
+
+.sibacom-info-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 32px -8px rgba(16, 46, 104, 0.12), 0 8px 16px -4px rgba(16, 46, 104, 0.04), inset 0 1px 0 #FFFFFF;
+  border-color: rgba(23, 63, 145, 0.22);
+}
+
+.sibacom-info-card:nth-child(2):hover,
+.sibacom-info-card.card-variant-venue:hover {
+  border-color: rgba(7, 155, 88, 0.3);
+}
+.sibacom-info-card:nth-child(3):hover,
+.sibacom-info-card.card-variant-deadline:hover {
+  border-color: rgba(217, 119, 6, 0.32);
+}
+.sibacom-info-card:nth-child(6):hover,
+.sibacom-info-card.card-variant-status:hover {
+  border-color: rgba(7, 155, 88, 0.35);
+}
+
+/* Card Header (Icon Badge + Status Pill) */
+.sibacom-info-card-header,
+.sibacom-info-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.25rem;
+  position: relative;
+  z-index: 2;
+  width: 100%;
+}
+
+/* Icon Squircle Badge: constrained, beautiful, never full-width */
+.sibacom-info-icon-badge,
+.sibacom-info-icon-wrap {
+  width: 48px !important;
+  height: 48px !important;
+  min-width: 48px !important;
+  min-height: 48px !important;
+  max-width: 48px !important;
+  max-height: 48px !important;
+  border-radius: 14px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-size: 1.25rem !important;
+  line-height: 1 !important;
+  margin-bottom: 1.15rem;
+  box-shadow: 0 4px 10px rgba(16, 46, 104, 0.05), inset 0 1px 0 rgba(255, 255, 255, 0.8) !important;
+  border: 1px solid rgba(23, 63, 145, 0.12) !important;
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1) !important;
+  flex-shrink: 0 !important;
+}
+
+.sibacom-info-card-header .sibacom-info-icon-badge,
+.sibacom-info-card-header .sibacom-info-icon-wrap,
+.sibacom-info-card-top .sibacom-info-icon-badge,
+.sibacom-info-card-top .sibacom-info-icon-wrap {
+  margin-bottom: 0 !important;
+}
+
+.sibacom-info-card:hover .sibacom-info-icon-badge,
+.sibacom-info-card:hover .sibacom-info-icon-wrap {
+  transform: scale(1.1) rotate(2deg);
+  box-shadow: 0 8px 18px rgba(16, 46, 104, 0.12), inset 0 1px 0 #FFFFFF !important;
+}
+
+/* Refined Pill Tags */
+.sibacom-info-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.32rem 0.72rem;
+  border-radius: 9999px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  line-height: 1;
+  white-space: nowrap;
+  transition: all 0.3s ease;
+}
+.sibacom-info-pill.pill-blue,
+.sibacom-info-pill.pill-primary {
+  background: rgba(23, 63, 145, 0.07);
+  color: #173F91;
+  border: 1px solid rgba(23, 63, 145, 0.16);
+}
+.sibacom-info-pill.pill-green,
+.sibacom-info-pill.pill-success {
+  background: rgba(7, 155, 88, 0.07);
+  color: #079B58;
+  border: 1px solid rgba(7, 155, 88, 0.18);
+}
+.sibacom-info-pill.pill-amber,
+.sibacom-info-pill.pill-warning {
+  background: rgba(217, 119, 6, 0.08);
+  color: #B45309;
+  border: 1px solid rgba(217, 119, 6, 0.22);
+}
+.sibacom-info-pill.pill-navy {
+  background: rgba(16, 46, 104, 0.07);
+  color: #102E68;
+  border: 1px solid rgba(16, 46, 104, 0.16);
+}
+.sibacom-info-pill.pill-cyan {
+  background: rgba(2, 132, 199, 0.07);
+  color: #0284C7;
+  border: 1px solid rgba(2, 132, 199, 0.18);
+}
+.sibacom-info-pill.pill-live {
+  background: rgba(7, 155, 88, 0.09);
+  color: #047857;
+  border: 1px solid rgba(7, 155, 88, 0.24);
+}
+
+/* Card Body Typography */
+.sibacom-info-card-body {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.sibacom-info-label {
+  font-size: 0.73rem !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.09em !important;
+  color: #64748B !important;
+  margin-bottom: 0.45rem !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 0.4rem !important;
+  line-height: 1.2 !important;
+}
+
+.sibacom-info-val,
+.sibacom-info-value {
+  font-family: var(--font-heading, "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif) !important;
+  font-size: 1.38rem !important;
+  font-weight: 800 !important;
+  color: #0F172A !important;
+  line-height: 1.24 !important;
+  letter-spacing: -0.025em !important;
+  margin: 0 0 0.45rem 0 !important;
+  transition: color 0.3s ease;
+}
+
+.sibacom-info-card:hover .sibacom-info-val,
+.sibacom-info-card:hover .sibacom-info-value {
+  color: #173F91;
+}
+.sibacom-info-card:nth-child(2):hover .sibacom-info-val,
+.sibacom-info-card.card-variant-venue:hover .sibacom-info-val {
+  color: #079B58;
+}
+.sibacom-info-card:nth-child(3):hover .sibacom-info-val,
+.sibacom-info-card.card-variant-deadline:hover .sibacom-info-val {
+  color: #B45309;
+}
+.sibacom-info-card.card-variant-status .sibacom-info-val,
+.sibacom-info-card:nth-child(6) .sibacom-info-val {
+  color: #079B58 !important;
+}
+
+.sibacom-info-sub,
+.sibacom-info-desc {
+  font-size: 0.86rem !important;
+  font-weight: 500 !important;
+  color: #64748B !important;
+  line-height: 1.45 !important;
+  margin: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 0.35rem !important;
+}
+
+/* Subtle Watermark Silhouette in Background */
+.sibacom-info-watermark {
+  position: absolute;
+  right: -6px;
+  bottom: -10px;
+  font-size: 4.8rem;
+  color: rgba(16, 46, 104, 0.032);
+  pointer-events: none;
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  transform: rotate(-10deg);
+  z-index: 1;
+}
+.sibacom-info-card:hover .sibacom-info-watermark {
+  transform: rotate(0deg) scale(1.1);
+  color: rgba(16, 46, 104, 0.06);
+}
+.sibacom-info-card:nth-child(2):hover .sibacom-info-watermark,
+.sibacom-info-card.card-variant-venue:hover .sibacom-info-watermark {
+  color: rgba(7, 155, 88, 0.07);
+}
+.sibacom-info-card:nth-child(3):hover .sibacom-info-watermark,
+.sibacom-info-card.card-variant-deadline:hover .sibacom-info-watermark {
+  color: rgba(217, 119, 6, 0.07);
+}
+.sibacom-info-card:nth-child(6):hover .sibacom-info-watermark,
+.sibacom-info-card.card-variant-status:hover .sibacom-info-watermark {
+  color: rgba(7, 155, 88, 0.07);
+}
+
+/* Pulsing Radar Dot Animation for Live Status */
+.pulse-dot-live {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #079B58;
+  position: relative;
+  flex-shrink: 0;
+}
+.pulse-dot-live::after {
+  content: '';
+  position: absolute;
+  inset: -3px;
+  border-radius: 50%;
+  background: rgba(7, 155, 88, 0.45);
+  animation: sibacom-pulse-ring 1.8s cubic-bezier(0.24, 0, 0.38, 1) infinite;
+}
+@keyframes sibacom-pulse-ring {
+  0% { transform: scale(0.8); opacity: 0.9; }
+  50% { transform: scale(1.9); opacity: 0; }
+  100% { transform: scale(0.8); opacity: 0; }
+}
+
+/* ==========================================================================
+   SIBACOM Event Registration & Pricing Cards
+   ========================================================================== */
+.sibacom-events-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-bottom: 3.5rem;
+}
+
+.sibacom-events-grid.cols-2,
+.sibacom-events-grid.col-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.sibacom-events-grid.cols-3,
+.sibacom-events-grid.col-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.sibacom-events-grid.cols-4,
+.sibacom-events-grid.col-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.sibacom-event-card {
+  background: var(--sibacom-white);
+  border-radius: var(--radius-xl);
+  border: 1px solid var(--sibacom-border-neu);
+  box-shadow: var(--neu-raised);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  position: relative;
+}
+
+.sibacom-event-card:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--neu-hover);
+  border-color: rgba(7, 155, 88, 0.3);
+}
+
+.sibacom-event-banner,
+.sibacom-event-card-media {
+  position: relative;
+  width: 100%;
+  height: 190px;
+  overflow: hidden;
+  background: linear-gradient(135deg, #102E68 0%, #173F91 100%);
+}
+
+.sibacom-event-banner img,
+.sibacom-event-card-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.sibacom-event-card:hover .sibacom-event-banner img,
+.sibacom-event-card:hover .sibacom-event-card-media img {
+  transform: scale(1.06);
+}
+
+.sibacom-event-badges-bar,
+.sibacom-event-badges {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  right: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.sibacom-price-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.35rem 0.85rem;
+  border-radius: var(--radius-full);
+  background: var(--sibacom-navy);
+  color: var(--sibacom-white);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  box-shadow: 0 4px 12px rgba(16, 46, 104, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.sibacom-price-badge.price-free {
+  background: rgba(7, 155, 88, 0.92);
+}
+
+.sibacom-status-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.35rem 0.85rem;
+  border-radius: var(--radius-full);
+  font-size: 0.74rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.sibacom-status-badge.status-open {
+  background: #E8F8F0;
+  color: #079B58;
+  border: 1px solid rgba(7, 155, 88, 0.3);
+}
+
+.sibacom-status-badge.status-closing {
+  background: #FFF8E6;
+  color: #D97706;
+  border: 1px solid rgba(217, 119, 6, 0.3);
+}
+
+.sibacom-status-badge.status-closed {
+  background: #FEE2E2;
+  color: #DC2626;
+  border: 1px solid rgba(220, 38, 38, 0.3);
+}
+
+.sibacom-status-badge.status-upcoming {
+  background: #EFF6FF;
+  color: #173F91;
+  border: 1px solid rgba(23, 63, 145, 0.3);
+}
+
+.sibacom-event-body {
+  padding: 1.75rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.sibacom-event-title {
+  font-family: var(--font-heading);
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--sibacom-text-primary);
+  margin-bottom: 0.65rem;
+  line-height: 1.3;
+}
+
+.sibacom-event-excerpt {
+  font-size: 0.92rem;
+  color: var(--sibacom-text-secondary);
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
+  flex-grow: 1;
+}
+
+.sibacom-event-meta-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+  padding: 0.9rem 0;
+  border-top: 1px solid var(--sibacom-border-neu);
+  border-bottom: 1px solid var(--sibacom-border-neu);
+  margin-bottom: 1.25rem;
+  font-size: 0.85rem;
+  color: var(--sibacom-text-secondary);
+}
+
+.sibacom-event-meta-item {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.sibacom-event-meta-item i {
+  color: var(--sibacom-primary);
+  width: 16px;
+  text-align: center;
+}
+
+.sibacom-event-actions {
+  margin-top: auto;
+}
+
+.sibacom-event-btn {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.85rem 1.25rem;
+  border-radius: var(--radius-md);
+  font-weight: 700;
+  font-size: 0.92rem;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  min-height: 44px;
+}
+
+.sibacom-event-btn.btn-active {
+  background: linear-gradient(135deg, var(--sibacom-primary) 0%, var(--sibacom-navy) 100%);
+  color: var(--sibacom-white);
+  box-shadow: var(--neu-glow-primary);
+}
+
+.sibacom-event-btn.btn-active:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px rgba(23, 63, 145, 0.45);
+}
+
+.sibacom-event-btn.btn-disabled {
+  background: #E2E8F0;
+  color: #94A3B8;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+/* ==========================================================================
+   SIBACOM Distinguished Guests & Dignitaries
+   ========================================================================== */
+.sibacom-guests-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-bottom: 3.5rem;
+}
+
+.sibacom-guest-card {
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+}
+
+.sibacom-guest-card .sibacom-speaker-bio {
+  flex-grow: 1;
+  font-size: 0.92rem;
+  color: var(--sibacom-text-secondary);
+  line-height: 1.6;
+  margin-top: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.sibacom-guest-card .sibacom-speaker-social {
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+@media (max-width: 1024px) {
+  .sibacom-guests-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .sibacom-guests-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
+
+.sibacom-guest-card .guest-portrait {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  margin: 0 auto 1.25rem auto;
+  padding: 5px;
+  background: var(--sibacom-white);
+  box-shadow: var(--neu-raised);
+  border: 3px solid rgba(7, 155, 88, 0.25);
+  overflow: hidden;
+}
+
+.guest-portrait img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  transition: transform 0.4s ease;
+}
+
+.sibacom-guest-card:hover .guest-portrait img {
+  transform: scale(1.08);
+}
+
+.guest-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.3rem 0.85rem;
+  border-radius: var(--radius-full);
+  background: rgba(7, 155, 88, 0.12);
+  color: var(--sibacom-techgreen);
+  border: 1px solid rgba(7, 155, 88, 0.35);
+  font-size: 0.76rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 0.75rem;
+}
+
+/* Day & Speaker Interactive Filter Controls */
+.sibacom-day-tab.active,
+.sibacom-speaker-pill.active {
+  background: linear-gradient(135deg, var(--sibacom-primary) 0%, var(--sibacom-navy) 100%) !important;
+  color: var(--sibacom-white) !important;
+  box-shadow: var(--neu-glow-primary) !important;
+  border-color: transparent !important;
+}
+
+.sibacom-day-tab.active i,
+.sibacom-speaker-pill.active i {
+  color: var(--sibacom-white) !important;
+}
+
+/* ==========================================================================
+   SIBACOM About & Institutional Narrative Section
+   ========================================================================== */
+
+.sibacom-about-grid {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 3rem;
+  align-items: stretch;
+}
+
+@media (max-width: 991px) {
+  .sibacom-about-grid {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+}
+
+.sibacom-about-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sibacom-vision-card,
+.sibacom-mission-card {
+  background: var(--sibacom-white);
+  border: 1px solid var(--sibacom-border-neu);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--neu-raised);
+  padding: 1.5rem 1.75rem;
+  margin-bottom: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s ease;
+}
+
+.sibacom-vision-card {
+  border-left: 4px solid var(--sibacom-primary);
+}
+
+.sibacom-mission-card {
+  border-left: 4px solid var(--sibacom-techgreen);
+  margin-bottom: 0;
+}
+
+.sibacom-vision-card:hover,
+.sibacom-mission-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--neu-hover);
+}
+
+.sibacom-vm-icon-box {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  font-size: 1.2rem;
+  box-shadow: var(--neu-flat);
+}
+
+.sibacom-vision-card .sibacom-vm-icon-box {
+  background: rgba(23, 63, 145, 0.08);
+  border: 1px solid rgba(23, 63, 145, 0.18);
+  color: var(--sibacom-primary);
+}
+
+.sibacom-mission-card .sibacom-vm-icon-box {
+  background: rgba(7, 155, 88, 0.08);
+  border: 1px solid rgba(7, 155, 88, 0.18);
+  color: var(--sibacom-techgreen);
+}
+
+.sibacom-about-showcase-card {
+  background: var(--sibacom-white);
+  border: 1px solid var(--sibacom-border-neu);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--neu-raised);
+  padding: 2.25rem;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.sibacom-about-showcase-card:hover {
+  box-shadow: var(--neu-hover);
+}
+
+.sibacom-campus-img-frame {
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  margin-bottom: 1.75rem;
+  box-shadow: var(--neu-flat);
+  border: 1px solid var(--sibacom-border-neu);
+  position: relative;
+  background: #E2E8F0;
+}
+
+.sibacom-campus-img-frame img {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+.sibacom-about-showcase-card:hover .sibacom-campus-img-frame img {
+  transform: scale(1.03);
+}
+
+.sibacom-campus-img-overlay {
+  position: absolute;
+  bottom: 0;
+  inset-inline: 0;
+  background: linear-gradient(180deg, transparent 0%, rgba(16, 46, 104, 0.88) 100%);
+  padding: 1.25rem 1.25rem 0.85rem 1.25rem;
+  color: #FFFFFF;
+}
+
+.sibacom-about-stats-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+}
+
+@media (max-width: 480px) {
+  .sibacom-about-stats-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+
+

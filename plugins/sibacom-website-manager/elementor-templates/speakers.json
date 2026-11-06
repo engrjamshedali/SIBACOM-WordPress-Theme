@@ -1,0 +1,57 @@
+{
+  "version": "0.4",
+  "title": "SIBACOM Speakers Template",
+  "type": "page",
+  "content": [
+    {
+      "id": "wj19hsa",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "padding": {
+          "unit": "px",
+          "top": 60,
+          "right": 20,
+          "bottom": 60,
+          "left": 20
+        }
+      },
+      "elements": [
+        {
+          "id": "k46fup2",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "tcl7sha",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Meet Our Distinguished Speakers & Judges",
+                "header_size": "h1",
+                "align": "center",
+                "title_color": "#173F91"
+              }
+            },
+            {
+              "id": "umh60yr",
+              "elType": "widget",
+              "widgetType": "sibacom_speakers",
+              "settings": {
+                "limit": -1,
+                "columns": "4",
+                "role_filter": "all"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

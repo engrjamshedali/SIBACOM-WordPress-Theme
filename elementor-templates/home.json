@@ -1,0 +1,688 @@
+{
+  "version": "0.4",
+  "title": "SIBACOM Home Template",
+  "type": "page",
+  "content": [
+    {
+      "id": "sec_hero",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width"
+      },
+      "elements": [
+        {
+          "id": "col_hero",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "wgt_hero",
+              "elType": "widget",
+              "widgetType": "sibacom_hero",
+              "settings": {
+                "badge_text": "Sukkur IBA University Presents • National Tech Olympiad",
+                "title": "SIBACOM",
+                "edition": "'26",
+                "headline": "POWER TO PROGRESS",
+                "description": "SIBACOM is Pakistan's premier collegiate technology festival, bringing together talented university students, programmers, robotics enthusiasts, AI innovators, cybersecurity enthusiasts, and future technology leaders for an extraordinary celebration of innovation and technology.",
+                "event_dates": "November 30, 2026",
+                "event_venue": "Academic Block-III, Sukkur IBA University",
+                "cta_text": "Register for SIBACOM",
+                "cta_url": {
+                  "url": "/events/"
+                },
+                "sec_text": "Explore Schedule",
+                "sec_url": {
+                  "url": "/schedule/"
+                },
+                "countdown_date": "2026-11-30T09:00:00"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_info",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "padding": {
+          "unit": "px",
+          "top": 30,
+          "right": 20,
+          "bottom": 30,
+          "left": 20
+        }
+      },
+      "elements": [
+        {
+          "id": "col_info",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "wgt_info",
+              "elType": "widget",
+              "widgetType": "sibacom_info",
+              "settings": {
+                "display_mode": "cards",
+                "card1_title": "Event Dates",
+                "card1_val": "Nov 30 – Dec 02, 2026",
+                "card1_sub": "1-Day National Summit",
+                "card1_pill": "Official Dates",
+                "card1_pill_icon": "fa-regular fa-calendar-check",
+                "card1_pill_style": "pill-blue",
+                "card1_icon": "fa-regular fa-calendar-days",
+                "card1_color": "#173F91",
+                "card2_title": "Event Venue",
+                "card2_val": "Academic Block-III",
+                "card2_sub": "Sukkur IBA University",
+                "card2_pill": "Main Campus",
+                "card2_pill_icon": "fa-solid fa-building-columns",
+                "card2_pill_style": "pill-green",
+                "card2_icon": "fa-solid fa-location-dot",
+                "card2_color": "#079B58",
+                "card3_title": "Registration Deadline",
+                "card3_val": "Nov 25, 2026",
+                "card3_sub": "11:59 PM PKT Strict Cutoff",
+                "card3_pill": "Strict Cutoff",
+                "card3_pill_icon": "fa-solid fa-hourglass-half",
+                "card3_pill_style": "pill-amber",
+                "card3_icon": "fa-solid fa-hourglass-half",
+                "card3_color": "#D97706",
+                "card4_title": "Event Category",
+                "card4_val": "Tech Olympiad",
+                "card4_sub": "14+ Competitive Tracks",
+                "card4_pill": "14+ Tracks",
+                "card4_pill_icon": "fa-solid fa-layer-group",
+                "card4_pill_style": "pill-navy",
+                "card4_icon": "fa-solid fa-microchip",
+                "card4_color": "#102E68",
+                "card5_title": "Participation",
+                "card5_val": "1,500+ Innovators",
+                "card5_sub": "120+ Universities Nationwide",
+                "card5_pill": "Nationwide",
+                "card5_pill_icon": "fa-solid fa-globe",
+                "card5_pill_style": "pill-cyan",
+                "card5_icon": "fa-solid fa-users",
+                "card5_color": "#1D4ED8",
+                "card6_title": "Registration Status",
+                "card6_val": "Registration Open",
+                "card6_sub": "Verified Delegate Portals",
+                "card6_pill": "Live Now",
+                "card6_pill_style": "pill-live",
+                "card6_has_pulse": "yes",
+                "card6_icon": "fa-solid fa-circle-check",
+                "card6_color": "#079B58"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_events",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": {
+          "unit": "px",
+          "top": 60,
+          "right": 20,
+          "bottom": 60,
+          "left": 20
+        }
+      },
+      "elements": [
+        {
+          "id": "col_events",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "wgt_events_head",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Event Registration & Competitions",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#17233D"
+              }
+            },
+            {
+              "id": "wgt_events_sub",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align:center; color:#334155; max-width:680px; margin:0 auto 40px auto;\">Select your competitive track from exactly 7 national championship categories. Check pricing, venue, start/end schedules, and live registration status.</p>"
+              }
+            },
+            {
+              "id": "wgt_events_grid",
+              "elType": "widget",
+              "widgetType": "sibacom_events",
+              "settings": {
+                "data_mode": "manual",
+                "limit": 7,
+                "columns": "3",
+                "featured_only": "yes"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_about",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "padding": {
+          "unit": "px",
+          "top": 60,
+          "right": 20,
+          "bottom": 60,
+          "left": 20
+        }
+      },
+      "elements": [
+        {
+          "id": "col_about",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "wgt_about",
+              "elType": "widget",
+              "widgetType": "sibacom_about",
+              "settings": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_highlights",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": {
+          "unit": "px",
+          "top": 60,
+          "right": 20,
+          "bottom": 60,
+          "left": 20
+        }
+      },
+      "elements": [
+        {
+          "id": "col_highlights",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "wgt_high_head",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Competitive Tracks & Olympiad Pillars",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#17233D"
+              }
+            },
+            {
+              "id": "wgt_high_sub",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align:center; color:#334155; max-width:680px; margin:0 auto 40px auto;\">Explore high-impact competitive categories designed to challenge algorithmic mastery, engineering resilience, and technical vision.</p>"
+              }
+            },
+            {
+              "id": "wgt_high_grid",
+              "elType": "widget",
+              "widgetType": "sibacom_highlights",
+              "settings": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_schedule",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "padding": {
+          "unit": "px",
+          "top": 60,
+          "right": 20,
+          "bottom": 60,
+          "left": 20
+        }
+      },
+      "elements": [
+        {
+          "id": "col_schedule",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "wgt_sched_head",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "SIBACOM Technical Agenda & Schedule",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#17233D"
+              }
+            },
+            {
+              "id": "wgt_sched_sub",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align:center; color:#334155; max-width:680px; margin:0 auto 40px auto;\">Chronological tracks of keynotes, hackathons, robotic runs, and the grand awards gala at Sukkur IBA University.</p>"
+              }
+            },
+            {
+              "id": "wgt_sched_list",
+              "elType": "widget",
+              "widgetType": "sibacom_schedule",
+              "settings": {
+                "limit": 6
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_speakers",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": {
+          "unit": "px",
+          "top": 60,
+          "right": 20,
+          "bottom": 60,
+          "left": 20
+        }
+      },
+      "elements": [
+        {
+          "id": "col_speakers",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "wgt_spk_head",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Keynote Speakers & Competition Judges",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#17233D"
+              }
+            },
+            {
+              "id": "wgt_spk_sub",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align:center; color:#334155; max-width:680px; margin:0 auto 40px auto;\">Distinguished academic scholars, senior tech leaders, and industry evaluators guiding competitive brackets at SIBACOM.</p>"
+              }
+            },
+            {
+              "id": "wgt_spk_grid",
+              "elType": "widget",
+              "widgetType": "sibacom_speakers",
+              "settings": {
+                "limit": 4,
+                "columns": "4",
+                "role_filter": "all"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_guests",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "padding": {
+          "unit": "px",
+          "top": 60,
+          "right": 20,
+          "bottom": 60,
+          "left": 20
+        }
+      },
+      "elements": [
+        {
+          "id": "col_guests",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "wgt_gst_head",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Honorable Guests & University Leadership",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#17233D"
+              }
+            },
+            {
+              "id": "wgt_gst_sub",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align:center; color:#334155; max-width:680px; margin:0 auto 40px auto;\">SIBACOM proudly welcomes eminent university leadership, patrons, and institutional executives honoring our national Olympiad.</p>"
+              }
+            },
+            {
+              "id": "wgt_gst_grid",
+              "elType": "widget",
+              "widgetType": "sibacom_guests",
+              "settings": {
+                "limit": 3,
+                "columns": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_organizers",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": {
+          "unit": "px",
+          "top": 60,
+          "right": 20,
+          "bottom": 60,
+          "left": 20
+        }
+      },
+      "elements": [
+        {
+          "id": "col_organizers",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "wgt_org_head",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "JOINTLY ORGANIZED BY",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#17233D"
+              }
+            },
+            {
+              "id": "wgt_org_sub",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align:center; color:#64748B; max-width:720px; margin:0 auto 40px auto; font-size:1.05rem;\">Bringing together the Computer Systems Engineering and Electrical Engineering communities.</p>"
+              }
+            },
+            {
+              "id": "wgt_org_grid",
+              "elType": "widget",
+              "widgetType": "sibacom_organizers",
+              "settings": {
+                "data_mode": "dynamic"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_sponsors",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "padding": {
+          "unit": "px",
+          "top": 60,
+          "right": 20,
+          "bottom": 60,
+          "left": 20
+        }
+      },
+      "elements": [
+        {
+          "id": "col_sponsors",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "wgt_spn_head",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Our Valued Industry Partners & Sponsors",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#17233D"
+              }
+            },
+            {
+              "id": "wgt_spn_grid",
+              "elType": "widget",
+              "widgetType": "sibacom_sponsors",
+              "settings": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_faq",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1000
+        },
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": {
+          "unit": "px",
+          "top": 60,
+          "right": 20,
+          "bottom": 60,
+          "left": 20
+        }
+      },
+      "elements": [
+        {
+          "id": "col_faq",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "wgt_faq_head",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Frequently Asked Questions",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#17233D"
+              }
+            },
+            {
+              "id": "wgt_faq_list",
+              "elType": "widget",
+              "widgetType": "sibacom_faq",
+              "settings": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_cta",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width"
+      },
+      "elements": [
+        {
+          "id": "col_cta",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "wgt_cta_banner",
+              "elType": "widget",
+              "widgetType": "sibacom_cta_banner",
+              "settings": {
+                "badge_text": "Registration Live • Sukkur IBA University",
+                "title": "Secure Your Spot at SIBACOM",
+                "description": "Join hundreds of elite student programmers, robotics designers, and engineering innovators competing for national recognition and prestigious prize pools.",
+                "btn_text": "Register Now",
+                "btn_url": {
+                  "url": "/events/"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_contact",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "padding": {
+          "unit": "px",
+          "top": 60,
+          "right": 20,
+          "bottom": 80,
+          "left": 20
+        }
+      },
+      "elements": [
+        {
+          "id": "col_contact",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "wgt_cnt_head",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Connect With The Secretariat",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#17233D"
+              }
+            },
+            {
+              "id": "wgt_cnt_info",
+              "elType": "widget",
+              "widgetType": "sibacom_contact",
+              "settings": {}
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

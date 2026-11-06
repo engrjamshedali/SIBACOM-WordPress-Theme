@@ -1,0 +1,1962 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- generator="WordPress/6.7" created="2026-11-03 21:50" -->
+<rss version="2.0"
+	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:wp="http://wordpress.org/export/1.2/"
+>
+<channel>
+	<title>SIBACOM &#8211; Sukkur IBA University</title>
+	<link>https://iba-suk.edu.pk/sibacom</link>
+	<description>Connecting Ideas. Empowering Innovation. Building Tomorrow.</description>
+	<pubDate>Tue, 03 Nov 2026 21:50:00 +0000</pubDate>
+	<language>en-US</language>
+	<wp:wxr_version>1.2</wp:wxr_version>
+	<wp:base_site_url>https://iba-suk.edu.pk</wp:base_site_url>
+	<wp:base_blog_url>https://iba-suk.edu.pk/sibacom</wp:base_blog_url>
+
+	<item>
+		<title>Home</title>
+		<link>https://iba-suk.edu.pk/sibacom/home/</link>
+		<pubDate>Tue, 03 Nov 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://iba-suk.edu.pk/sibacom/?p=101</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- SIBACOM Home Fallback Content -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>101</wp:post_id>
+		<wp:post_date><![CDATA[2026-11-03 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-11-03 10:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[home]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[templates/template-home.php]]></wp:meta_value>
+		</wp:postmeta>
+			<wp:postmeta>
+			<wp:meta_key><![CDATA[_elementor_edit_mode]]></wp:meta_key>
+			<wp:meta_value><![CDATA[builder]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_elementor_template_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[wp-page]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_elementor_version]]></wp:meta_key>
+			<wp:meta_value><![CDATA[3.25.0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_elementor_data]]></wp:meta_key>
+			<wp:meta_value><![CDATA[[{"id": "sec_hero", "elType": "section", "settings": {"layout": "full_width"}, "elements": [{"id": "col_hero", "elType": "column", "settings": {"_column_size": 100}, "elements": [{"id": "wgt_hero", "elType": "widget", "widgetType": "sibacom_hero", "settings": {"badge_text": "Sukkur IBA University Presents • National Tech Olympiad", "title": "SIBACOM", "edition": "'26", "headline": "Connecting Ideas. Empowering Innovation. Building Tomorrow.", "description": "Pakistan's premier collegiate technology festival convening top student programmers, robotics engineers, AI researchers, and startup founders for high-stakes competition at Sukkur IBA University.", "event_dates": "November 30, 2026", "event_venue": "Academic Block-III, Sukkur IBA University", "cta_text": "Register for SIBACOM", "cta_url": {"url": "https://iba-suk.edu.pk/sibacom/events/"}, "sec_text": "Explore Schedule", "sec_url": {"url": "https://iba-suk.edu.pk/sibacom/schedule/"}, "countdown_date": "2026-11-30T09:00:00"}}]}]}, {"id": "sec_info", "elType": "section", "settings": {"layout": "boxed", "content_width": {"unit": "px", "size": 1240}, "padding": {"unit": "px", "top": 30, "right": 20, "bottom": 30, "left": 20}}, "elements": [{"id": "col_info", "elType": "column", "settings": {"_column_size": 100}, "elements": [{"id": "wgt_info", "elType": "widget", "widgetType": "sibacom_info", "settings": {"display_mode": "cards", "card1_title": "Event Dates", "card1_val": "Nov 30 – Dec 02, 2026", "card1_sub": "1-Day National Summit", "card1_pill": "Official Dates", "card1_pill_icon": "fa-regular fa-calendar-check", "card1_pill_style": "pill-blue", "card1_icon": "fa-regular fa-calendar-days", "card1_color": "#173F91", "card2_title": "Event Venue", "card2_val": "Academic Block-III", "card2_sub": "Sukkur IBA University", "card2_pill": "Main Campus", "card2_pill_icon": "fa-solid fa-building-columns", "card2_pill_style": "pill-green", "card2_icon": "fa-solid fa-location-dot", "card2_color": "#079B58", "card3_title": "Registration Deadline", "card3_val": "Nov 25, 2026", "card3_sub": "11:59 PM PKT Strict Cutoff", "card3_pill": "Strict Cutoff", "card3_pill_icon": "fa-solid fa-hourglass-half", "card3_pill_style": "pill-amber", "card3_icon": "fa-solid fa-hourglass-half", "card3_color": "#D97706", "card4_title": "Event Category", "card4_val": "Tech Olympiad", "card4_sub": "14+ Competitive Tracks", "card4_pill": "14+ Tracks", "card4_pill_icon": "fa-solid fa-layer-group", "card4_pill_style": "pill-navy", "card4_icon": "fa-solid fa-microchip", "card4_color": "#102E68", "card5_title": "Participation", "card5_val": "1,500+ Innovators", "card5_sub": "120+ Universities Nationwide", "card5_pill": "Nationwide", "card5_pill_icon": "fa-solid fa-globe", "card5_pill_style": "pill-cyan", "card5_icon": "fa-solid fa-users", "card5_color": "#1D4ED8", "card6_title": "Registration Status", "card6_val": "Registration Open", "card6_sub": "Verified Delegate Portals", "card6_pill": "Live Now", "card6_pill_style": "pill-live", "card6_has_pulse": "yes", "card6_icon": "fa-solid fa-circle-check", "card6_color": "#079B58"}}]}]}, {"id": "sec_events", "elType": "section", "settings": {"layout": "boxed", "content_width": {"unit": "px", "size": 1240}, "background_background": "classic", "background_color": "#FFFFFF", "padding": {"unit": "px", "top": 60, "right": 20, "bottom": 60, "left": 20}}, "elements": [{"id": "col_events", "elType": "column", "settings": {"_column_size": 100}, "elements": [{"id": "wgt_events_head", "elType": "widget", "widgetType": "heading", "settings": {"title": "Event Registration & Competitions", "header_size": "h2", "align": "center", "title_color": "#17233D"}}, {"id": "wgt_events_sub", "elType": "widget", "widgetType": "text-editor", "settings": {"editor": "<p style=\"text-align:center; color:#334155; max-width:680px; margin:0 auto 40px auto;\">Select your competitive track from exactly 7 national championship categories. Check pricing, venue, start/end schedules, and live registration status.</p>"}}, {"id": "wgt_events_grid", "elType": "widget", "widgetType": "sibacom_events", "settings": {"data_mode": "dynamic", "limit": 7, "columns": "3", "featured_only": "yes"}}]}]}, {"id": "sec_about", "elType": "section", "settings": {"layout": "boxed", "content_width": {"unit": "px", "size": 1240}, "padding": {"unit": "px", "top": 60, "right": 20, "bottom": 60, "left": 20}}, "elements": [{"id": "col_about", "elType": "column", "settings": {"_column_size": 100}, "elements": [{"id": "wgt_about", "elType": "widget", "widgetType": "sibacom_about", "settings": {}}]}]}, {"id": "sec_highlights", "elType": "section", "settings": {"layout": "boxed", "content_width": {"unit": "px", "size": 1240}, "background_background": "classic", "background_color": "#FFFFFF", "padding": {"unit": "px", "top": 60, "right": 20, "bottom": 60, "left": 20}}, "elements": [{"id": "col_highlights", "elType": "column", "settings": {"_column_size": 100}, "elements": [{"id": "wgt_high_head", "elType": "widget", "widgetType": "heading", "settings": {"title": "Competitive Tracks & Olympiad Pillars", "header_size": "h2", "align": "center", "title_color": "#17233D"}}, {"id": "wgt_high_sub", "elType": "widget", "widgetType": "text-editor", "settings": {"editor": "<p style=\"text-align:center; color:#334155; max-width:680px; margin:0 auto 40px auto;\">Explore high-impact competitive categories designed to challenge algorithmic mastery, engineering resilience, and technical vision.</p>"}}, {"id": "wgt_high_grid", "elType": "widget", "widgetType": "sibacom_highlights", "settings": {}}]}]}, {"id": "sec_schedule", "elType": "section", "settings": {"layout": "boxed", "content_width": {"unit": "px", "size": 1240}, "padding": {"unit": "px", "top": 60, "right": 20, "bottom": 60, "left": 20}}, "elements": [{"id": "col_schedule", "elType": "column", "settings": {"_column_size": 100}, "elements": [{"id": "wgt_sched_head", "elType": "widget", "widgetType": "heading", "settings": {"title": "SIBACOM Technical Agenda & Schedule", "header_size": "h2", "align": "center", "title_color": "#17233D"}}, {"id": "wgt_sched_sub", "elType": "widget", "widgetType": "text-editor", "settings": {"editor": "<p style=\"text-align:center; color:#334155; max-width:680px; margin:0 auto 40px auto;\">Chronological tracks of keynotes, hackathons, robotic runs, and the grand awards gala at Sukkur IBA University.</p>"}}, {"id": "wgt_sched_list", "elType": "widget", "widgetType": "sibacom_schedule", "settings": {"limit": 6}}]}]}, {"id": "sec_speakers", "elType": "section", "settings": {"layout": "boxed", "content_width": {"unit": "px", "size": 1240}, "background_background": "classic", "background_color": "#FFFFFF", "padding": {"unit": "px", "top": 60, "right": 20, "bottom": 60, "left": 20}}, "elements": [{"id": "col_speakers", "elType": "column", "settings": {"_column_size": 100}, "elements": [{"id": "wgt_spk_head", "elType": "widget", "widgetType": "heading", "settings": {"title": "Keynote Speakers & Competition Judges", "header_size": "h2", "align": "center", "title_color": "#17233D"}}, {"id": "wgt_spk_sub", "elType": "widget", "widgetType": "text-editor", "settings": {"editor": "<p style=\"text-align:center; color:#334155; max-width:680px; margin:0 auto 40px auto;\">Distinguished academic scholars, senior tech leaders, and industry evaluators guiding competitive brackets at SIBACOM.</p>"}}, {"id": "wgt_spk_grid", "elType": "widget", "widgetType": "sibacom_speakers", "settings": {"limit": 3, "columns": 3}}]}]}, {"id": "sec_guests", "elType": "section", "settings": {"layout": "boxed", "content_width": {"unit": "px", "size": 1240}, "padding": {"unit": "px", "top": 60, "right": 20, "bottom": 60, "left": 20}}, "elements": [{"id": "col_guests", "elType": "column", "settings": {"_column_size": 100}, "elements": [{"id": "wgt_gst_head", "elType": "widget", "widgetType": "heading", "settings": {"title": "Honorable Guests & University Leadership", "header_size": "h2", "align": "center", "title_color": "#17233D"}}, {"id": "wgt_gst_sub", "elType": "widget", "widgetType": "text-editor", "settings": {"editor": "<p style=\"text-align:center; color:#334155; max-width:680px; margin:0 auto 40px auto;\">SIBACOM proudly welcomes eminent university leadership, patrons, and institutional executives honoring our national Olympiad.</p>"}}, {"id": "wgt_gst_grid", "elType": "widget", "widgetType": "sibacom_guests", "settings": {"limit": 3, "columns": 3}}]}]}, {"id": "sec_organizers", "elType": "section", "settings": {"layout": "boxed", "content_width": {"unit": "px", "size": 1240}, "background_background": "classic", "background_color": "#FFFFFF", "padding": {"unit": "px", "top": 60, "right": 20, "bottom": 60, "left": 20}}, "elements": [{"id": "col_organizers", "elType": "column", "settings": {"_column_size": 100}, "elements": [{"id": "wgt_org_head", "elType": "widget", "widgetType": "heading", "settings": {"title": "Institutional Leadership & Organizing Bodies", "header_size": "h2", "align": "center", "title_color": "#17233D"}}, {"id": "wgt_org_sub", "elType": "widget", "widgetType": "text-editor", "settings": {"editor": "<p style=\"text-align:center; color:#334155; max-width:680px; margin:0 auto 40px auto;\">SIBACOM is organized under Sukkur IBA University, jointly organized by the Computer Systems Engineering Society (CSE Society) and Electrical Engineering Society (EE Society), supported by academic partners: Department of Computer Systems Engineering and Department of Electrical Engineering.</p>"}}, {"id": "wgt_org_grid", "elType": "widget", "widgetType": "sibacom_organizers", "settings": {}}]}]}, {"id": "sec_sponsors", "elType": "section", "settings": {"layout": "boxed", "content_width": {"unit": "px", "size": 1240}, "padding": {"unit": "px", "top": 60, "right": 20, "bottom": 60, "left": 20}}, "elements": [{"id": "col_sponsors", "elType": "column", "settings": {"_column_size": 100}, "elements": [{"id": "wgt_spn_head", "elType": "widget", "widgetType": "heading", "settings": {"title": "Our Valued Industry Partners & Sponsors", "header_size": "h2", "align": "center", "title_color": "#17233D"}}, {"id": "wgt_spn_grid", "elType": "widget", "widgetType": "sibacom_sponsors", "settings": {}}]}]}, {"id": "sec_faq", "elType": "section", "settings": {"layout": "boxed", "content_width": {"unit": "px", "size": 1000}, "background_background": "classic", "background_color": "#FFFFFF", "padding": {"unit": "px", "top": 60, "right": 20, "bottom": 60, "left": 20}}, "elements": [{"id": "col_faq", "elType": "column", "settings": {"_column_size": 100}, "elements": [{"id": "wgt_faq_head", "elType": "widget", "widgetType": "heading", "settings": {"title": "Frequently Asked Questions", "header_size": "h2", "align": "center", "title_color": "#17233D"}}, {"id": "wgt_faq_list", "elType": "widget", "widgetType": "sibacom_faq", "settings": {}}]}]}, {"id": "sec_cta", "elType": "section", "settings": {"layout": "full_width"}, "elements": [{"id": "col_cta", "elType": "column", "settings": {"_column_size": 100}, "elements": [{"id": "wgt_cta_banner", "elType": "widget", "widgetType": "sibacom_cta_banner", "settings": {"badge_text": "Registration Live • Sukkur IBA University", "title": "Secure Your Spot at SIBACOM", "description": "Join hundreds of elite student programmers, robotics designers, and engineering innovators competing for national recognition and prestigious prize pools.", "btn_text": "Register Now", "btn_url": {"url": "https://iba-suk.edu.pk/sibacom/events/"}}}]}]}, {"id": "sec_contact", "elType": "section", "settings": {"layout": "boxed", "content_width": {"unit": "px", "size": 1240}, "padding": {"unit": "px", "top": 60, "right": 20, "bottom": 80, "left": 20}}, "elements": [{"id": "col_contact", "elType": "column", "settings": {"_column_size": 100}, "elements": [{"id": "wgt_cnt_head", "elType": "widget", "widgetType": "heading", "settings": {"title": "Connect With The Secretariat", "header_size": "h2", "align": "center", "title_color": "#17233D"}}, {"id": "wgt_cnt_info", "elType": "widget", "widgetType": "sibacom_contact", "settings": {}}]}]}]]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title>About SIBACOM</title>
+		<link>https://iba-suk.edu.pk/sibacom/about/</link>
+		<pubDate>Tue, 03 Nov 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://iba-suk.edu.pk/sibacom/?p=102</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- SIBACOM About Content -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>102</wp:post_id>
+		<wp:post_date><![CDATA[2026-11-03 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-11-03 10:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[about]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[templates/template-about.php]]></wp:meta_value>
+		</wp:postmeta>
+			<wp:postmeta>
+			<wp:meta_key><![CDATA[_elementor_edit_mode]]></wp:meta_key>
+			<wp:meta_value><![CDATA[builder]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_elementor_template_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[wp-page]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_elementor_version]]></wp:meta_key>
+			<wp:meta_value><![CDATA[3.25.0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_elementor_data]]></wp:meta_key>
+			<wp:meta_value><![CDATA[[{"id": "sec_about_main", "elType": "section", "settings": {"layout": "boxed", "content_width": {"unit": "px", "size": 1240}, "padding": {"unit": "px", "top": 70, "right": 20, "bottom": 70, "left": 20}}, "elements": [{"id": "col_about_main", "elType": "column", "settings": {"_column_size": 100}, "elements": [{"id": "wgt_about_heading", "elType": "widget", "widgetType": "heading", "settings": {"title": "About SIBACOM \u2013 Sukkur IBA University", "header_size": "h1", "align": "center", "title_color": "#173F91"}}, {"id": "wgt_about_desc", "elType": "widget", "widgetType": "text-editor", "settings": {"editor": "<p style=\"text-align:center; color:#334155; max-width:720px; margin:0 auto 40px auto; font-size:1.1rem;\">Discover Pakistan\u2019s flagship university technology Olympiad, fostering algorithmic mastery, robotics ingenuity, and engineering innovation.</p>"}}, {"id": "wgt_about_widget", "elType": "widget", "widgetType": "sibacom_about", "settings": {"section_badge": "About The Olympiad", "section_title": "Fostering Innovation. Connecting Builders.", "lead_text": "SIBACOM is Pakistan's premier collegiate technology Olympiad organized by Sukkur IBA University.", "mission_title": "Our Mission", "mission_text": "To provide an elite competitive arena for future engineers and technological visionaries.", "vision_title": "Our Vision", "vision_text": "To establish Sukkur IBA University as a premier hub for algorithmic excellence and technology commercialization."}}]}]}]]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title>Events &amp; Competitions</title>
+		<link>https://iba-suk.edu.pk/sibacom/events/</link>
+		<pubDate>Tue, 03 Nov 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://iba-suk.edu.pk/sibacom/?p=103</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- SIBACOM Events Content -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>103</wp:post_id>
+		<wp:post_date><![CDATA[2026-11-03 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-11-03 10:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[events]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[templates/template-events.php]]></wp:meta_value>
+		</wp:postmeta>
+			<wp:postmeta>
+			<wp:meta_key><![CDATA[_elementor_edit_mode]]></wp:meta_key>
+			<wp:meta_value><![CDATA[builder]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_elementor_template_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[wp-page]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_elementor_version]]></wp:meta_key>
+			<wp:meta_value><![CDATA[3.25.0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_elementor_data]]></wp:meta_key>
+			<wp:meta_value><![CDATA[[{"id": "sec_events_main", "elType": "section", "settings": {"layout": "boxed", "content_width": {"unit": "px", "size": 1240}, "padding": {"unit": "px", "top": 70, "right": 20, "bottom": 70, "left": 20}}, "elements": [{"id": "col_events_main", "elType": "column", "settings": {"_column_size": 100}, "elements": [{"id": "wgt_events_heading", "elType": "widget", "widgetType": "heading", "settings": {"title": "SIBACOM Events & Competitions", "header_size": "h1", "align": "center", "title_color": "#173F91"}}, {"id": "wgt_events_desc", "elType": "widget", "widgetType": "text-editor", "settings": {"editor": "<p style=\"text-align:center; color:#334155; max-width:720px; margin:0 auto 40px auto; font-size:1.1rem;\">National-tier competitive categories across software engineering, artificial intelligence, robotics, cybersecurity CTF, and embedded hardware. Review rules, schedules, venue details, pricing tiers, and real-time registration status.</p>"}}, {"id": "wgt_events_grid", "elType": "widget", "widgetType": "sibacom_events", "settings": {"data_mode": "dynamic", "limit": -1, "columns": "3"}}]}]}]]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title>Event Schedule</title>
+		<link>https://iba-suk.edu.pk/sibacom/schedule/</link>
+		<pubDate>Tue, 03 Nov 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://iba-suk.edu.pk/sibacom/?p=104</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- SIBACOM Schedule Content -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>104</wp:post_id>
+		<wp:post_date><![CDATA[2026-11-03 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-11-03 10:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[schedule]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[templates/template-schedule.php]]></wp:meta_value>
+		</wp:postmeta>
+			<wp:postmeta>
+			<wp:meta_key><![CDATA[_elementor_edit_mode]]></wp:meta_key>
+			<wp:meta_value><![CDATA[builder]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_elementor_template_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[wp-page]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_elementor_version]]></wp:meta_key>
+			<wp:meta_value><![CDATA[3.25.0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_elementor_data]]></wp:meta_key>
+			<wp:meta_value><![CDATA[[{"id": "ggkn5of", "elType": "section", "settings": {"layout": "boxed", "content_width": {"unit": "px", "size": 1240}, "padding": {"unit": "px", "top": 60, "right": 20, "bottom": 60, "left": 20}}, "elements": [{"id": "sdr5bio", "elType": "column", "settings": {"_column_size": 100}, "elements": [{"id": "8fhlq2e", "elType": "widget", "widgetType": "heading", "settings": {"title": "SIBACOM Complete Event Schedule", "header_size": "h1", "align": "center", "title_color": "#173F91"}}, {"id": "3bk3jhf", "elType": "widget", "widgetType": "sibacom_schedule", "settings": {"posts_limit": -1}}]}]}]]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title>Speakers &amp; Judges</title>
+		<link>https://iba-suk.edu.pk/sibacom/speakers/</link>
+		<pubDate>Tue, 03 Nov 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://iba-suk.edu.pk/sibacom/?p=105</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- SIBACOM Speakers Content -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>105</wp:post_id>
+		<wp:post_date><![CDATA[2026-11-03 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-11-03 10:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[speakers]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[templates/template-speakers.php]]></wp:meta_value>
+		</wp:postmeta>
+			<wp:postmeta>
+			<wp:meta_key><![CDATA[_elementor_edit_mode]]></wp:meta_key>
+			<wp:meta_value><![CDATA[builder]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_elementor_template_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[wp-page]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_elementor_version]]></wp:meta_key>
+			<wp:meta_value><![CDATA[3.25.0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_elementor_data]]></wp:meta_key>
+			<wp:meta_value><![CDATA[[{"id": "wj19hsa", "elType": "section", "settings": {"layout": "boxed", "content_width": {"unit": "px", "size": 1240}, "padding": {"unit": "px", "top": 60, "right": 20, "bottom": 60, "left": 20}}, "elements": [{"id": "k46fup2", "elType": "column", "settings": {"_column_size": 100}, "elements": [{"id": "tcl7sha", "elType": "widget", "widgetType": "heading", "settings": {"title": "Meet Our Distinguished Speakers & Judges", "header_size": "h1", "align": "center", "title_color": "#173F91"}}, {"id": "umh60yr", "elType": "widget", "widgetType": "sibacom_speakers", "settings": {"limit": -1}}]}]}]]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title>Guests &amp; Dignitaries</title>
+		<link>https://iba-suk.edu.pk/sibacom/guests/</link>
+		<pubDate>Tue, 03 Nov 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://iba-suk.edu.pk/sibacom/?p=106</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- SIBACOM Guests Content -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>106</wp:post_id>
+		<wp:post_date><![CDATA[2026-11-03 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-11-03 10:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[guests]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[templates/template-guests.php]]></wp:meta_value>
+		</wp:postmeta>
+			<wp:postmeta>
+			<wp:meta_key><![CDATA[_elementor_edit_mode]]></wp:meta_key>
+			<wp:meta_value><![CDATA[builder]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_elementor_template_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[wp-page]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_elementor_version]]></wp:meta_key>
+			<wp:meta_value><![CDATA[3.25.0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_elementor_data]]></wp:meta_key>
+			<wp:meta_value><![CDATA[[{"id": "sec_guests_main", "elType": "section", "settings": {"layout": "boxed", "content_width": {"unit": "px", "size": 1240}, "padding": {"unit": "px", "top": 70, "right": 20, "bottom": 70, "left": 20}}, "elements": [{"id": "col_guests_main", "elType": "column", "settings": {"_column_size": 100}, "elements": [{"id": "wgt_guests_heading", "elType": "widget", "widgetType": "heading", "settings": {"title": "Honorable Guests & Institutional Patrons", "header_size": "h1", "align": "center", "title_color": "#173F91"}}, {"id": "wgt_guests_desc", "elType": "widget", "widgetType": "text-editor", "settings": {"editor": "<p style=\"text-align:center; color:#334155; max-width:720px; margin:0 auto 40px auto; font-size:1.1rem;\">SIBACOM proudly welcomes eminent university leadership, national policymakers, academic dignitaries, and technology industry executives honoring our national Olympiad.</p>"}}, {"id": "wgt_guests_grid", "elType": "widget", "widgetType": "sibacom_guests", "settings": {"limit": -1, "columns": 3}}]}]}]]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title>Organizing Committee</title>
+		<link>https://iba-suk.edu.pk/sibacom/organizers/</link>
+		<pubDate>Tue, 03 Nov 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://iba-suk.edu.pk/sibacom/?p=107</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- SIBACOM Organizers Content -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>107</wp:post_id>
+		<wp:post_date><![CDATA[2026-11-03 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-11-03 10:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[organizers]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[templates/template-organizers.php]]></wp:meta_value>
+		</wp:postmeta>
+			<wp:postmeta>
+			<wp:meta_key><![CDATA[_elementor_edit_mode]]></wp:meta_key>
+			<wp:meta_value><![CDATA[builder]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_elementor_template_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[wp-page]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_elementor_version]]></wp:meta_key>
+			<wp:meta_value><![CDATA[3.25.0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_elementor_data]]></wp:meta_key>
+			<wp:meta_value><![CDATA[[{"id": "pa4nphe", "elType": "section", "settings": {"layout": "boxed", "content_width": {"unit": "px", "size": 1240}, "padding": {"unit": "px", "top": 60, "right": 20, "bottom": 60, "left": 20}}, "elements": [{"id": "e5cvcqi", "elType": "column", "settings": {"_column_size": 100}, "elements": [{"id": "2asbyu0", "elType": "widget", "widgetType": "heading", "settings": {"title": "Organizing Committee & Official Host Bodies", "header_size": "h1", "align": "center", "title_color": "#173F91"}}, {"id": "sikjps1", "elType": "widget", "widgetType": "sibacom_organizers", "settings": {}}]}]}]]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title>Partners &amp; Sponsors</title>
+		<link>https://iba-suk.edu.pk/sibacom/sponsors/</link>
+		<pubDate>Tue, 03 Nov 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://iba-suk.edu.pk/sibacom/?p=108</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- SIBACOM Sponsors Content -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>108</wp:post_id>
+		<wp:post_date><![CDATA[2026-11-03 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-11-03 10:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[sponsors]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[templates/template-sponsors.php]]></wp:meta_value>
+		</wp:postmeta>
+			<wp:postmeta>
+			<wp:meta_key><![CDATA[_elementor_edit_mode]]></wp:meta_key>
+			<wp:meta_value><![CDATA[builder]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_elementor_template_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[wp-page]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_elementor_version]]></wp:meta_key>
+			<wp:meta_value><![CDATA[3.25.0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_elementor_data]]></wp:meta_key>
+			<wp:meta_value><![CDATA[[{"id": "agy2wnb", "elType": "section", "settings": {"layout": "boxed", "content_width": {"unit": "px", "size": 1240}, "padding": {"unit": "px", "top": 60, "right": 20, "bottom": 60, "left": 20}}, "elements": [{"id": "5uk6pqb", "elType": "column", "settings": {"_column_size": 100}, "elements": [{"id": "ktar9jg", "elType": "widget", "widgetType": "heading", "settings": {"title": "Official Sponsors & Strategic Partners", "header_size": "h1", "align": "center", "title_color": "#173F91"}}, {"id": "70u4osg", "elType": "widget", "widgetType": "sibacom_sponsors", "settings": {}}]}]}]]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title>Contact Us</title>
+		<link>https://iba-suk.edu.pk/sibacom/contact/</link>
+		<pubDate>Tue, 03 Nov 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://iba-suk.edu.pk/sibacom/?p=109</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- SIBACOM Contact Content -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>109</wp:post_id>
+		<wp:post_date><![CDATA[2026-11-03 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-11-03 10:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[contact]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[templates/template-contact.php]]></wp:meta_value>
+		</wp:postmeta>
+			<wp:postmeta>
+			<wp:meta_key><![CDATA[_elementor_edit_mode]]></wp:meta_key>
+			<wp:meta_value><![CDATA[builder]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_elementor_template_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[wp-page]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_elementor_version]]></wp:meta_key>
+			<wp:meta_value><![CDATA[3.25.0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_elementor_data]]></wp:meta_key>
+			<wp:meta_value><![CDATA[[{"id": "lmgbj8l", "elType": "section", "settings": {"layout": "boxed", "content_width": {"unit": "px", "size": 1240}, "padding": {"unit": "px", "top": 60, "right": 20, "bottom": 60, "left": 20}}, "elements": [{"id": "42jx5uj", "elType": "column", "settings": {"_column_size": 100}, "elements": [{"id": "k4j52r4", "elType": "widget", "widgetType": "heading", "settings": {"title": "Contact SIBACOM Secretariat", "header_size": "h1", "align": "center", "title_color": "#173F91"}}, {"id": "ulvuiib", "elType": "widget", "widgetType": "sibacom_contact", "settings": {}}]}]}]]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title>Speed Programming Battle</title>
+		<link>https://iba-suk.edu.pk/sibacom/speed-programming/</link>
+		<pubDate>Tue, 03 Nov 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://iba-suk.edu.pk/sibacom/?p=201</guid>
+		<description></description>
+		<content:encoded><![CDATA[3 hours of algorithmic warfare testing data structures, dynamic programming, and computational geometry under strict ICPC rules.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>201</wp:post_id>
+		<wp:post_date><![CDATA[2026-11-03 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-11-03 10:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[speed-programming]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[sibacom_event]]></wp:post_type>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_date]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2026-11-30]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_venue]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Computing Lab 4 & 5, Sukkur IBA University]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_fee_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[paid]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_fee_amount]]></wp:meta_key>
+			<wp:meta_value><![CDATA[PKR 1,000]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_reg_open]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2026-10-01]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_reg_close]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2026-11-25]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_status_mode]]></wp:meta_key>
+			<wp:meta_value><![CDATA[manual]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[open]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_reg_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[https://iba-suk.edu.pk/sibacom/register?event=prog]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_order]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_featured]]></wp:meta_key>
+			<wp:meta_value><![CDATA[yes]]></wp:meta_value>
+		</wp:postmeta>
+			<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_start_time]]></wp:meta_key>
+			<wp:meta_value><![CDATA[09:00 AM]]></wp:meta_value>
+		</wp:postmeta>
+			<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_end_time]]></wp:meta_key>
+			<wp:meta_value><![CDATA[01:00 PM]]></wp:meta_value>
+		</wp:postmeta>
+			<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_category]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Coding & Algorithms]]></wp:meta_value>
+		</wp:postmeta>
+			<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_banner]]></wp:meta_key>
+			<wp:meta_value><![CDATA[https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=800&q=80]]></wp:meta_value>
+		</wp:postmeta>
+			<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_visibility]]></wp:meta_key>
+			<wp:meta_value><![CDATA[yes]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title>Autonomous Robotics &amp; Maze Challenge</title>
+		<link>https://iba-suk.edu.pk/sibacom/robotics-maze-challenge/</link>
+		<pubDate>Tue, 03 Nov 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://iba-suk.edu.pk/sibacom/?p=202</guid>
+		<description></description>
+		<content:encoded><![CDATA[Autonomous micro-controller rover navigation through dynamic obstacle arenas and high-speed line maze benchmarks.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>202</wp:post_id>
+		<wp:post_date><![CDATA[2026-11-03 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-11-03 10:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[robotics-maze-challenge]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[sibacom_event]]></wp:post_type>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_date]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2026-12-01]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_venue]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Robotics Arena, Sukkur IBA University]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_fee_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[paid]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_fee_amount]]></wp:meta_key>
+			<wp:meta_value><![CDATA[PKR 1,500]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_reg_open]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2026-10-01]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_reg_close]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2026-11-25]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_status_mode]]></wp:meta_key>
+			<wp:meta_value><![CDATA[manual]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[open]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_reg_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[https://iba-suk.edu.pk/sibacom/register?event=robotics]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_order]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_featured]]></wp:meta_key>
+			<wp:meta_value><![CDATA[yes]]></wp:meta_value>
+		</wp:postmeta>
+	
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_start_time]]></wp:meta_key>
+			<wp:meta_value><![CDATA[10:00 AM]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_end_time]]></wp:meta_key>
+			<wp:meta_value><![CDATA[04:30 PM]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_category]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Hardware & Robotics]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_banner]]></wp:meta_key>
+			<wp:meta_value><![CDATA[https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=800&q=80]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_visibility]]></wp:meta_key>
+			<wp:meta_value><![CDATA[yes]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title>National Cyber Security CTF</title>
+		<link>https://iba-suk.edu.pk/sibacom/cyber-security-ctf/</link>
+		<pubDate>Tue, 03 Nov 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://iba-suk.edu.pk/sibacom/?p=203</guid>
+		<description></description>
+		<content:encoded><![CDATA[Jeopardy-style capture-the-flag spanning cryptography, reverse engineering, binary exploitation, and forensics.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>203</wp:post_id>
+		<wp:post_date><![CDATA[2026-11-03 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-11-03 10:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[cyber-security-ctf]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[sibacom_event]]></wp:post_type>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_date]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2026-12-01]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_venue]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Cyber Defense Lab, Sukkur IBA University]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_fee_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[paid]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_fee_amount]]></wp:meta_key>
+			<wp:meta_value><![CDATA[PKR 1,200]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_reg_open]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2026-10-01]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_reg_close]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2026-11-25]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_status_mode]]></wp:meta_key>
+			<wp:meta_value><![CDATA[manual]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[open]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_reg_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[https://iba-suk.edu.pk/sibacom/register?event=ctf]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_order]]></wp:meta_key>
+			<wp:meta_value><![CDATA[3]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_featured]]></wp:meta_key>
+			<wp:meta_value><![CDATA[yes]]></wp:meta_value>
+		</wp:postmeta>
+	
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_start_time]]></wp:meta_key>
+			<wp:meta_value><![CDATA[09:30 AM]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_end_time]]></wp:meta_key>
+			<wp:meta_value><![CDATA[05:30 PM]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_category]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Cyber Defense]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_banner]]></wp:meta_key>
+			<wp:meta_value><![CDATA[https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&q=80]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_visibility]]></wp:meta_key>
+			<wp:meta_value><![CDATA[yes]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title>Generative AI &amp; Frontier Hackathon</title>
+		<link>https://iba-suk.edu.pk/sibacom/generative-ai-hackathon/</link>
+		<pubDate>Tue, 03 Nov 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://iba-suk.edu.pk/sibacom/?p=204</guid>
+		<description></description>
+		<content:encoded><![CDATA[Build full-stack AI applications and autonomous multi-agent pipelines addressing urgent real-world problems in 24 hours.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>204</wp:post_id>
+		<wp:post_date><![CDATA[2026-11-03 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-11-03 10:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[generative-ai-hackathon]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[sibacom_event]]></wp:post_type>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_date]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2026-11-30]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_venue]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Incubation Center, Sukkur IBA University]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_fee_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[free]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_fee_amount]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Free Registration]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_reg_open]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2026-10-01]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_reg_close]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2026-11-24]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_status_mode]]></wp:meta_key>
+			<wp:meta_value><![CDATA[manual]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[open]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_reg_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[https://iba-suk.edu.pk/sibacom/register?event=hackathon]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_order]]></wp:meta_key>
+			<wp:meta_value><![CDATA[4]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_featured]]></wp:meta_key>
+			<wp:meta_value><![CDATA[yes]]></wp:meta_value>
+		</wp:postmeta>
+	
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_start_time]]></wp:meta_key>
+			<wp:meta_value><![CDATA[10:00 AM]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_end_time]]></wp:meta_key>
+			<wp:meta_value><![CDATA[10:00 AM]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_category]]></wp:meta_key>
+			<wp:meta_value><![CDATA[AI & Development]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_banner]]></wp:meta_key>
+			<wp:meta_value><![CDATA[https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_visibility]]></wp:meta_key>
+			<wp:meta_value><![CDATA[yes]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title>Embedded IoT &amp; Hardware Design Expo</title>
+		<link>https://iba-suk.edu.pk/sibacom/hardware-iot-expo/</link>
+		<pubDate>Tue, 03 Nov 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://iba-suk.edu.pk/sibacom/?p=205</guid>
+		<description></description>
+		<content:encoded><![CDATA[Showcase custom PCB designs, FPGA accelerators, and edge IoT devices evaluated by industrial embedded hardware leaders.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>205</wp:post_id>
+		<wp:post_date><![CDATA[2026-11-03 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-11-03 10:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[hardware-iot-expo]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[sibacom_event]]></wp:post_type>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_date]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2026-12-02]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_venue]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Hardware Prototyping Hall, Sukkur IBA]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_fee_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[paid]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_fee_amount]]></wp:meta_key>
+			<wp:meta_value><![CDATA[PKR 1,000]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_reg_open]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2026-10-01]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_reg_close]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2026-11-26]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_status_mode]]></wp:meta_key>
+			<wp:meta_value><![CDATA[manual]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[closing]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_reg_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[https://iba-suk.edu.pk/sibacom/register?event=iot]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_order]]></wp:meta_key>
+			<wp:meta_value><![CDATA[5]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_featured]]></wp:meta_key>
+			<wp:meta_value><![CDATA[yes]]></wp:meta_value>
+		</wp:postmeta>
+	
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_start_time]]></wp:meta_key>
+			<wp:meta_value><![CDATA[09:00 AM]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_end_time]]></wp:meta_key>
+			<wp:meta_value><![CDATA[03:00 PM]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_category]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Embedded & IoT]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_banner]]></wp:meta_key>
+			<wp:meta_value><![CDATA[https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_visibility]]></wp:meta_key>
+			<wp:meta_value><![CDATA[yes]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title>UI/UX Design Sprint &amp; Product Challenge</title>
+		<link>https://iba-suk.edu.pk/sibacom/ui-ux-design-sprint/</link>
+		<pubDate>Tue, 03 Nov 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://iba-suk.edu.pk/sibacom/?p=206</guid>
+		<description></description>
+		<content:encoded><![CDATA[Rapid design thinking, user research synthesis, and high-fidelity interactive prototyping under tight sprint deadlines.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>206</wp:post_id>
+		<wp:post_date><![CDATA[2026-11-03 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-11-03 10:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[ui-ux-design-sprint]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[sibacom_event]]></wp:post_type>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_date]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2026-11-30]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_venue]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Design Studio, Sukkur IBA University]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_fee_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[paid]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_fee_amount]]></wp:meta_key>
+			<wp:meta_value><![CDATA[PKR 800]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_reg_open]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2026-10-01]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_reg_close]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2026-11-25]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_status_mode]]></wp:meta_key>
+			<wp:meta_value><![CDATA[manual]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[open]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_reg_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[https://iba-suk.edu.pk/sibacom/register?event=uiux]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_order]]></wp:meta_key>
+			<wp:meta_value><![CDATA[6]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_featured]]></wp:meta_key>
+			<wp:meta_value><![CDATA[yes]]></wp:meta_value>
+		</wp:postmeta>
+	
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_start_time]]></wp:meta_key>
+			<wp:meta_value><![CDATA[10:00 AM]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_end_time]]></wp:meta_key>
+			<wp:meta_value><![CDATA[04:00 PM]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_category]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Product Design]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_banner]]></wp:meta_key>
+			<wp:meta_value><![CDATA[https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?auto=format&fit=crop&w=800&q=80]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_visibility]]></wp:meta_key>
+			<wp:meta_value><![CDATA[yes]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title>Startup Showcase &amp; Venture Pitching</title>
+		<link>https://iba-suk.edu.pk/sibacom/startup-showcase/</link>
+		<pubDate>Tue, 03 Nov 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://iba-suk.edu.pk/sibacom/?p=207</guid>
+		<description></description>
+		<content:encoded><![CDATA[Collegiate founders pitch validated software and hardware prototypes directly before accredited venture capitalists, angel networks, and technology leaders.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>207</wp:post_id>
+		<wp:post_date><![CDATA[2026-11-03 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-11-03 10:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[startup-showcase]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[sibacom_event]]></wp:post_type>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_date]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2026-12-02]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_start_time]]></wp:meta_key>
+			<wp:meta_value><![CDATA[11:00 AM]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_end_time]]></wp:meta_key>
+			<wp:meta_value><![CDATA[04:00 PM]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_venue]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Executive Boardroom, Academic Block-III]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_category]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Entrepreneurship]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_fee_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[free]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_fee_amount]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Free Registration]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_reg_open]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2026-10-01]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_reg_close]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2026-11-26]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_status_mode]]></wp:meta_key>
+			<wp:meta_value><![CDATA[manual]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[open]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_reg_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[https://iba-suk.edu.pk/sibacom/register?event=startup]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_order]]></wp:meta_key>
+			<wp:meta_value><![CDATA[7]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_featured]]></wp:meta_key>
+			<wp:meta_value><![CDATA[yes]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_banner]]></wp:meta_key>
+			<wp:meta_value><![CDATA[https://images.unsplash.com/photo-1559136555-9303baea8ebd?auto=format&fit=crop&w=800&q=80]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_event_visibility]]></wp:meta_key>
+			<wp:meta_value><![CDATA[yes]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title>Grand Opening Ceremony &amp; Institutional Keynote</title>
+		<link>https://iba-suk.edu.pk/sibacom/opening-ceremony/</link>
+		<pubDate>Tue, 03 Nov 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://iba-suk.edu.pk/sibacom/?p=301</guid>
+		<description></description>
+		<content:encoded><![CDATA[Official commencement address by the Vice Chancellor, university leadership, and executive organizing patrons.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>301</wp:post_id>
+		<wp:post_date><![CDATA[2026-11-03 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-11-03 10:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[opening-ceremony]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[sibacom_session]]></wp:post_type>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_session_day]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_session_start]]></wp:meta_key>
+			<wp:meta_value><![CDATA[08:30 AM]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_session_end]]></wp:meta_key>
+			<wp:meta_value><![CDATA[10:00 AM]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_session_venue]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Main University Auditorium]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_session_speaker]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Vice Chancellor & Patron]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_session_category]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Ceremony]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_session_order]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title>Keynote: Scalable Systems &amp; Sovereign Computing</title>
+		<link>https://iba-suk.edu.pk/sibacom/keynote-scalable-systems/</link>
+		<pubDate>Tue, 03 Nov 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://iba-suk.edu.pk/sibacom/?p=302</guid>
+		<description></description>
+		<content:encoded><![CDATA[Frontier insights into designing high-throughput distributed systems and indigenous AI infrastructure.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>302</wp:post_id>
+		<wp:post_date><![CDATA[2026-11-03 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-11-03 10:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[keynote-scalable-systems]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[sibacom_session]]></wp:post_type>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_session_day]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_session_start]]></wp:meta_key>
+			<wp:meta_value><![CDATA[10:15 AM]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_session_end]]></wp:meta_key>
+			<wp:meta_value><![CDATA[11:30 AM]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_session_venue]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Auditorium Hall-A]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_session_speaker]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Dr. Tariq Jamil]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_session_category]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Keynote]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_session_order]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title>Speed Programming League: Algorithmic Sprints</title>
+		<link>https://iba-suk.edu.pk/sibacom/speed-prog-prelim/</link>
+		<pubDate>Tue, 03 Nov 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://iba-suk.edu.pk/sibacom/?p=303</guid>
+		<description></description>
+		<content:encoded><![CDATA[High-intensity algorithmic challenges and competitive problem-solving sprint featuring live automated scoreboard evaluation.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>303</wp:post_id>
+		<wp:post_date><![CDATA[2026-11-03 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-11-03 10:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[speed-prog-prelim]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[sibacom_session]]></wp:post_type>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_session_day]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_session_start]]></wp:meta_key>
+			<wp:meta_value><![CDATA[11:45 AM]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_session_end]]></wp:meta_key>
+			<wp:meta_value><![CDATA[01:30 PM]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_session_venue]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Computing Labs 1 - 4]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_session_speaker]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Adjudication Committee]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_session_category]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Competition]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_session_order]]></wp:meta_key>
+			<wp:meta_value><![CDATA[3]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title>Networking Luncheon &amp; Technical Posters Showcase</title>
+		<link>https://iba-suk.edu.pk/sibacom/hackathon-kickoff/</link>
+		<pubDate>Tue, 03 Nov 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://iba-suk.edu.pk/sibacom/?p=304</guid>
+		<description></description>
+		<content:encoded><![CDATA[Midday networking luncheon, delegate interaction, and poster exhibition of cutting-edge university research projects.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>304</wp:post_id>
+		<wp:post_date><![CDATA[2026-11-03 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-11-03 10:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[networking-luncheon]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[sibacom_session]]></wp:post_type>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_session_day]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_session_start]]></wp:meta_key>
+			<wp:meta_value><![CDATA[01:30 PM]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_session_end]]></wp:meta_key>
+			<wp:meta_value><![CDATA[02:30 PM]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_session_venue]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Executive Lawn & Dining Hall]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_session_speaker]]></wp:meta_key>
+			<wp:meta_value><![CDATA[SIBACOM Secretariat]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_session_category]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Networking]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_session_order]]></wp:meta_key>
+			<wp:meta_value><![CDATA[4]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title>Autonomous Robotics Arena Qualifiers</title>
+		<link>https://iba-suk.edu.pk/sibacom/robotics-qualifiers/</link>
+		<pubDate>Tue, 03 Nov 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://iba-suk.edu.pk/sibacom/?p=305</guid>
+		<description></description>
+		<content:encoded><![CDATA[Precision timing runs for line maze and obstacle courses with real-time electronic telemetry.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>305</wp:post_id>
+		<wp:post_date><![CDATA[2026-11-03 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-11-03 10:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[robotics-qualifiers]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[sibacom_session]]></wp:post_type>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_session_day]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_session_start]]></wp:meta_key>
+			<wp:meta_value><![CDATA[02:30 PM]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_session_end]]></wp:meta_key>
+			<wp:meta_value><![CDATA[04:30 PM]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_session_venue]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Robotics Arena]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_session_speaker]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Engr. Bilal Khan]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_session_category]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Robotics]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_session_order]]></wp:meta_key>
+			<wp:meta_value><![CDATA[5]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title>Cyber Security CTF: Live Defense &amp; Attack Phase</title>
+		<link>https://iba-suk.edu.pk/sibacom/cyber-ctf-live/</link>
+		<pubDate>Tue, 03 Nov 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://iba-suk.edu.pk/sibacom/?p=306</guid>
+		<description></description>
+		<content:encoded><![CDATA[Live scoreboard battle across reverse engineering, network security, and kernel exploitation.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>306</wp:post_id>
+		<wp:post_date><![CDATA[2026-11-03 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-11-03 10:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[cyber-ctf-live]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[sibacom_session]]></wp:post_type>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_session_day]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_session_start]]></wp:meta_key>
+			<wp:meta_value><![CDATA[02:30 PM]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_session_end]]></wp:meta_key>
+			<wp:meta_value><![CDATA[04:45 PM]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_session_venue]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Cyber Defense Lab]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_session_speaker]]></wp:meta_key>
+			<wp:meta_value><![CDATA[CTF Adjudicators]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_session_category]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Cybersecurity]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_session_order]]></wp:meta_key>
+			<wp:meta_value><![CDATA[6]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title>Grand Awards Gala &amp; Closing Ceremony</title>
+		<link>https://iba-suk.edu.pk/sibacom/awards-gala/</link>
+		<pubDate>Tue, 03 Nov 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://iba-suk.edu.pk/sibacom/?p=307</guid>
+		<description></description>
+		<content:encoded><![CDATA[Prize distribution, trophy presentations, chief guest addresses, and formal conclusion of SIBACOM.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>307</wp:post_id>
+		<wp:post_date><![CDATA[2026-11-03 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-11-03 10:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[awards-gala]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[sibacom_session]]></wp:post_type>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_session_day]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_session_start]]></wp:meta_key>
+			<wp:meta_value><![CDATA[05:00 PM]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_session_end]]></wp:meta_key>
+			<wp:meta_value><![CDATA[06:30 PM]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_session_venue]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Main University Auditorium]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_session_speaker]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Patrons & Chief Guests]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_session_category]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Ceremony]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_session_order]]></wp:meta_key>
+			<wp:meta_value><![CDATA[7]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title>Prof. Dr. Asif Ahmed Shaikh</title>
+		<link>https://iba-suk.edu.pk/sibacom/prof-dr-asif-ahmed-shaikh/</link>
+		<pubDate>Tue, 03 Nov 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://iba-suk.edu.pk/sibacom/?p=401</guid>
+		<description></description>
+		<content:encoded><![CDATA[Distinguished academician and institutional visionary serving as the Vice Chancellor of Sukkur IBA University.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>401</wp:post_id>
+		<wp:post_date><![CDATA[2026-11-03 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-11-03 10:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[prof-dr-asif-ahmed-shaikh]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[sibacom_speaker]]></wp:post_type>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_speaker_role_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[guest]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_speaker_designation]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Vice Chancellor]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_speaker_organization]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Sukkur IBA University]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_speaker_category]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Chief Guests]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_speaker_featured]]></wp:meta_key>
+			<wp:meta_value><![CDATA[yes]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_speaker_order]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title>Engr. Zahid Hussain Khand</title>
+		<link>https://iba-suk.edu.pk/sibacom/engr-zahid-hussain-khand/</link>
+		<pubDate>Tue, 03 Nov 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://iba-suk.edu.pk/sibacom/?p=402</guid>
+		<description></description>
+		<content:encoded><![CDATA[Esteemed engineering educator and institutional administrator spearheading academic governance at Sukkur IBA.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>402</wp:post_id>
+		<wp:post_date><![CDATA[2026-11-03 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-11-03 10:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[engr-zahid-hussain-khand]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[sibacom_speaker]]></wp:post_type>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_speaker_role_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[guest]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_speaker_designation]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Registrar]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_speaker_organization]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Sukkur IBA University]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_speaker_category]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Special Guests]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_speaker_featured]]></wp:meta_key>
+			<wp:meta_value><![CDATA[yes]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_speaker_order]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title>Dr. Sher Muhammad Daudpota</title>
+		<link>https://iba-suk.edu.pk/sibacom/dr-sher-muhammad-daudpota/</link>
+		<pubDate>Tue, 03 Nov 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://iba-suk.edu.pk/sibacom/?p=403</guid>
+		<description></description>
+		<content:encoded><![CDATA[Senior computer scientist, research mentor, and academic leader overseeing university quality enhancement.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>403</wp:post_id>
+		<wp:post_date><![CDATA[2026-11-03 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-11-03 10:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[dr-sher-muhammad-daudpota]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[sibacom_speaker]]></wp:post_type>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_speaker_role_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[guest]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_speaker_designation]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Director QEC & Professor of CS]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_speaker_organization]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Sukkur IBA University]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_speaker_category]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Special Guests]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_speaker_featured]]></wp:meta_key>
+			<wp:meta_value><![CDATA[yes]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_speaker_order]]></wp:meta_key>
+			<wp:meta_value><![CDATA[3]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title>Dr. Tariq Jamil Saifullah</title>
+		<link>https://iba-suk.edu.pk/sibacom/dr-tariq-jamil-saifullah/</link>
+		<pubDate>Tue, 03 Nov 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://iba-suk.edu.pk/sibacom/?p=404</guid>
+		<description></description>
+		<content:encoded><![CDATA[Senior machine learning researcher specializing in large foundation models and accelerated hardware architectures.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>404</wp:post_id>
+		<wp:post_date><![CDATA[2026-11-03 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-11-03 10:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[dr-tariq-jamil-saifullah]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[sibacom_speaker]]></wp:post_type>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_speaker_role_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[speaker]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_speaker_designation]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Head of AI Research]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_speaker_organization]]></wp:meta_key>
+			<wp:meta_value><![CDATA[DeepTech Labs Pakistan]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_speaker_category]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Keynote Speakers]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_speaker_session]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Frontier AI & Large Systems]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_speaker_featured]]></wp:meta_key>
+			<wp:meta_value><![CDATA[yes]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_speaker_order]]></wp:meta_key>
+			<wp:meta_value><![CDATA[4]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title>Engr. Ayesha Malik</title>
+		<link>https://iba-suk.edu.pk/sibacom/engr-ayesha-malik/</link>
+		<pubDate>Tue, 03 Nov 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://iba-suk.edu.pk/sibacom/?p=405</guid>
+		<description></description>
+		<content:encoded><![CDATA[Principal cloud infrastructure architect with over 14 years evaluating enterprise resilience and cyber security.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>405</wp:post_id>
+		<wp:post_date><![CDATA[2026-11-03 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-11-03 10:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[engr-ayesha-malik]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[sibacom_speaker]]></wp:post_type>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_speaker_role_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[speaker]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_speaker_designation]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Chief Systems Architect]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_speaker_organization]]></wp:meta_key>
+			<wp:meta_value><![CDATA[CloudScale Global]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_speaker_category]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Guest Speakers]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_speaker_session]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Adjudicating Competition Brackets]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_speaker_featured]]></wp:meta_key>
+			<wp:meta_value><![CDATA[yes]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_speaker_order]]></wp:meta_key>
+			<wp:meta_value><![CDATA[5]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title>Bilal Ahmed Khan</title>
+		<link>https://iba-suk.edu.pk/sibacom/bilal-ahmed-khan/</link>
+		<pubDate>Tue, 03 Nov 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://iba-suk.edu.pk/sibacom/?p=406</guid>
+		<description></description>
+		<content:encoded><![CDATA[Robotics systems engineer focusing on autonomous mobile robotics, ROS2 stacks, and real-time computer vision.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>406</wp:post_id>
+		<wp:post_date><![CDATA[2026-11-03 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-11-03 10:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[bilal-ahmed-khan]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[sibacom_speaker]]></wp:post_type>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_speaker_role_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[speaker]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_speaker_designation]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Senior Staff Robotics Engineer]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_speaker_organization]]></wp:meta_key>
+			<wp:meta_value><![CDATA[CyberDyn Automation]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_speaker_category]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Trainers]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_speaker_session]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Edge Robotics Workshop]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_speaker_featured]]></wp:meta_key>
+			<wp:meta_value><![CDATA[yes]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_speaker_order]]></wp:meta_key>
+			<wp:meta_value><![CDATA[6]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title>Sindh Higher Education Commission</title>
+		<link>https://iba-suk.edu.pk/sibacom/sindh-hec/</link>
+		<pubDate>Tue, 03 Nov 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://iba-suk.edu.pk/sibacom/?p=501</guid>
+		<description></description>
+		<content:encoded><![CDATA[Statutory governmental body committed to empowering higher education and scientific innovation across Sindh.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>501</wp:post_id>
+		<wp:post_date><![CDATA[2026-11-03 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-11-03 10:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[sindh-hec]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[sibacom_sponsor]]></wp:post_type>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_sponsor_tier]]></wp:meta_key>
+			<wp:meta_value><![CDATA[main]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_sponsor_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[https://sindhhec.gov.pk]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_sponsor_order]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title>Techlogix Global</title>
+		<link>https://iba-suk.edu.pk/sibacom/techlogix/</link>
+		<pubDate>Tue, 03 Nov 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://iba-suk.edu.pk/sibacom/?p=502</guid>
+		<description></description>
+		<content:encoded><![CDATA[Global consulting and IT services enterprise driving digital transformation across enterprise sectors.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>502</wp:post_id>
+		<wp:post_date><![CDATA[2026-11-03 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-11-03 10:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[techlogix]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[sibacom_sponsor]]></wp:post_type>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_sponsor_tier]]></wp:meta_key>
+			<wp:meta_value><![CDATA[gold]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_sponsor_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[https://techlogix.com]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_sponsor_order]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title>Systems Limited</title>
+		<link>https://iba-suk.edu.pk/sibacom/systems-limited/</link>
+		<pubDate>Tue, 03 Nov 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://iba-suk.edu.pk/sibacom/?p=503</guid>
+		<description></description>
+		<content:encoded><![CDATA[Pioneering Pakistani technology enterprise providing advanced software solutions globally.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>503</wp:post_id>
+		<wp:post_date><![CDATA[2026-11-03 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-11-03 10:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[systems-limited]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[sibacom_sponsor]]></wp:post_type>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_sponsor_tier]]></wp:meta_key>
+			<wp:meta_value><![CDATA[gold]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_sponsor_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[https://systemsltd.com]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_sponsor_order]]></wp:meta_key>
+			<wp:meta_value><![CDATA[3]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title>Pakistan Software Export Board</title>
+		<link>https://iba-suk.edu.pk/sibacom/pseb/</link>
+		<pubDate>Tue, 03 Nov 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://iba-suk.edu.pk/sibacom/?p=504</guid>
+		<description></description>
+		<content:encoded><![CDATA[Government agency dedicated to the promotion and accelerated growth of Pakistan’s IT industry.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>504</wp:post_id>
+		<wp:post_date><![CDATA[2026-11-03 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-11-03 10:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[pseb]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[sibacom_sponsor]]></wp:post_type>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_sponsor_tier]]></wp:meta_key>
+			<wp:meta_value><![CDATA[silver]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_sponsor_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[https://pseb.org.pk]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_sponsor_order]]></wp:meta_key>
+			<wp:meta_value><![CDATA[4]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title>Contour Software</title>
+		<link>https://iba-suk.edu.pk/sibacom/contour-software/</link>
+		<pubDate>Tue, 03 Nov 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://iba-suk.edu.pk/sibacom/?p=505</guid>
+		<description></description>
+		<content:encoded><![CDATA[Leading international enterprise software development company with multiple innovation hubs across Pakistan.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>505</wp:post_id>
+		<wp:post_date><![CDATA[2026-11-03 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-11-03 10:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[contour-software]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[sibacom_sponsor]]></wp:post_type>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_sponsor_tier]]></wp:meta_key>
+			<wp:meta_value><![CDATA[silver]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_sponsor_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[https://contour-software.com]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_sponsor_order]]></wp:meta_key>
+			<wp:meta_value><![CDATA[5]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title>IEEE Sukkur Subsection</title>
+		<link>https://iba-suk.edu.pk/sibacom/ieee-sukkur/</link>
+		<pubDate>Tue, 03 Nov 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://iba-suk.edu.pk/sibacom/?p=506</guid>
+		<description></description>
+		<content:encoded><![CDATA[Technical society inspiring technological innovation and academic excellence throughout Northern Sindh.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>506</wp:post_id>
+		<wp:post_date><![CDATA[2026-11-03 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-11-03 10:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[ieee-sukkur]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[sibacom_sponsor]]></wp:post_type>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_sponsor_tier]]></wp:meta_key>
+			<wp:meta_value><![CDATA[supporting]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_sponsor_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[https://ieee.org]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_sponsor_order]]></wp:meta_key>
+			<wp:meta_value><![CDATA[6]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title>Who is eligible to participate in SIBACOM competitions?</title>
+		<link>https://iba-suk.edu.pk/sibacom/faq-eligibility/</link>
+		<pubDate>Tue, 03 Nov 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://iba-suk.edu.pk/sibacom/?p=601</guid>
+		<description></description>
+		<content:encoded><![CDATA[SIBACOM is open to all enrolled undergraduate and graduate students from recognized universities, degree-awarding institutions, and colleges across Pakistan. Valid student identity cards or institutional authorization letters are required during badge issuance.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>601</wp:post_id>
+		<wp:post_date><![CDATA[2026-11-03 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-11-03 10:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[faq-eligibility]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[sibacom_faq]]></wp:post_type>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_faq_order]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title>How do team registrations and external payment links work?</title>
+		<link>https://iba-suk.edu.pk/sibacom/faq-registration-links/</link>
+		<pubDate>Tue, 03 Nov 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://iba-suk.edu.pk/sibacom/?p=602</guid>
+		<description></description>
+		<content:encoded><![CDATA[Each event card on the homepage and Events page provides a direct Register Now button linking to the official external portal configured by the organizing team. Follow the on-screen instructions on the external portal to register your team roster and verify payment.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>602</wp:post_id>
+		<wp:post_date><![CDATA[2026-11-03 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-11-03 10:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[faq-registration-links]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[sibacom_faq]]></wp:post_type>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_faq_order]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title>Can a single participant register for multiple competition categories?</title>
+		<link>https://iba-suk.edu.pk/sibacom/faq-multiple-events/</link>
+		<pubDate>Tue, 03 Nov 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://iba-suk.edu.pk/sibacom/?p=603</guid>
+		<description></description>
+		<content:encoded><![CDATA[Yes, provided the scheduled time slots for your chosen events do not directly overlap. Please review the official event schedule before finalizing your registrations.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>603</wp:post_id>
+		<wp:post_date><![CDATA[2026-11-03 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-11-03 10:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[faq-multiple-events]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[sibacom_faq]]></wp:post_type>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_faq_order]]></wp:meta_key>
+			<wp:meta_value><![CDATA[3]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title>Is on-campus accommodation available for outstation teams?</title>
+		<link>https://iba-suk.edu.pk/sibacom/faq-accommodation/</link>
+		<pubDate>Tue, 03 Nov 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://iba-suk.edu.pk/sibacom/?p=604</guid>
+		<description></description>
+		<content:encoded><![CDATA[Yes. Dedicated student hostel accommodations are arranged on a pre-reserved basis for outstation university contingents. Teams should indicate accommodation requirements on their official registration form.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>604</wp:post_id>
+		<wp:post_date><![CDATA[2026-11-03 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-11-03 10:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[faq-accommodation]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[sibacom_faq]]></wp:post_type>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_faq_order]]></wp:meta_key>
+			<wp:meta_value><![CDATA[4]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title>What hardware and development kits are provided for robotics and IoT?</title>
+		<link>https://iba-suk.edu.pk/sibacom/faq-hardware-rules/</link>
+		<pubDate>Tue, 03 Nov 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://iba-suk.edu.pk/sibacom/?p=605</guid>
+		<description></description>
+		<content:encoded><![CDATA[Teams participating in Autonomous Robotics and Embedded Hardware must bring their own microcontrollers, sensors, chassis, and soldering equipment. The university provides regulated AC power outlets, standard testing tracks, and calibration bench facilities.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>605</wp:post_id>
+		<wp:post_date><![CDATA[2026-11-03 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-11-03 10:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[faq-hardware-rules]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[sibacom_faq]]></wp:post_type>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_faq_order]]></wp:meta_key>
+			<wp:meta_value><![CDATA[5]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title>When and where will cash prizes and trophies be awarded?</title>
+		<link>https://iba-suk.edu.pk/sibacom/faq-awards-gala/</link>
+		<pubDate>Tue, 03 Nov 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://iba-suk.edu.pk/sibacom/?p=606</guid>
+		<description></description>
+		<content:encoded><![CDATA[Official shields, cash prize cheques, and certificates of merit will be presented during the Grand Awards Gala on Day 3 in the Main University Auditorium in the presence of distinguished patrons and chief guests.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>606</wp:post_id>
+		<wp:post_date><![CDATA[2026-11-03 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-11-03 10:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[faq-awards-gala]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[sibacom_faq]]></wp:post_type>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sibacom_faq_order]]></wp:meta_key>
+			<wp:meta_value><![CDATA[6]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+</channel>
+</rss>

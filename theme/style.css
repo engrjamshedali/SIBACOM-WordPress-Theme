@@ -1,0 +1,55 @@
+/*
+Theme Name: SIBACOM
+Theme URI: https://iba-suk.edu.pk/sibacom
+Author: Sukkur IBA University, CSE Society & EE Society
+Author URI: https://iba-suk.edu.pk
+Description: Premium, production-ready WordPress event website template for SIBACOM – Sukkur IBA University. Jointly organized by CSE Society and EE Society with academic partnerships from the Department of Computer Systems Engineering and Department of Electrical Engineering. Designed with an exceptional Neumorphic UI and full Elementor Pro editability.
+Version: 2.0.2
+Tested up to: 6.7
+Requires at least: 5.8
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: sibacom
+Tags: event, university, technology, elementor, neumorphism, responsive, custom-header, full-width-template
+*/
+
+/* Reset & Root Variables */
+:root {
+  --sibacom-primary: #173F91;
+  --sibacom-primary-hover: #123275;
+  --sibacom-navy: #102E68;
+  --sibacom-techgreen: #079B58;
+  --sibacom-techgreen-light: #0BB768;
+  --sibacom-bg: #F4F6FA;
+  --sibacom-white: #FFFFFF;
+  --sibacom-text-primary: #17233D;
+  --sibacom-text-secondary: #334155;
+  --sibacom-text-muted: #475569;
+  --sibacom-border: #E2E8F0;
+  --sibacom-border-neu: #DCE3EE;
+  
+  /* Neumorphic Shadows - Optimized with directional ambient occlusion for maximum clarity */
+  --neu-flat: 4px 4px 12px rgba(16, 46, 104, 0.08), -4px -4px 12px #FFFFFF;
+  --neu-raised: 0 8px 24px rgba(16, 46, 104, 0.08), 0 2px 6px rgba(16, 46, 104, 0.04), -4px -4px 12px #FFFFFF;
+  --neu-hover: 0 14px 32px rgba(16, 46, 104, 0.12), 0 4px 10px rgba(16, 46, 104, 0.06), -6px -6px 16px #FFFFFF;
+  --neu-inset: inset 3px 3px 6px rgba(16, 46, 104, 0.08), inset -3px -3px 6px #FFFFFF;
+  --neu-glow-primary: 0 10px 25px -5px rgba(23, 63, 145, 0.4);
+  --neu-glow-green: 0 10px 25px -5px rgba(7, 155, 88, 0.4);
+  
+  /* Radii */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+  --radius-full: 9999px;
+  
+  /* Fonts */
+  --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-heading: 'Manrope', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  
+  /* Layout */
+  --container-max-width: 1240px;
+  --header-height: 82px;
+}
+

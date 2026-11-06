@@ -1,0 +1,55 @@
+{
+  "version": "0.4",
+  "title": "SIBACOM Schedule Template",
+  "type": "page",
+  "content": [
+    {
+      "id": "ggkn5of",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "padding": {
+          "unit": "px",
+          "top": 60,
+          "right": 20,
+          "bottom": 60,
+          "left": 20
+        }
+      },
+      "elements": [
+        {
+          "id": "sdr5bio",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "8fhlq2e",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "SIBACOM Complete Event Schedule",
+                "header_size": "h1",
+                "align": "center",
+                "title_color": "#173F91"
+              }
+            },
+            {
+              "id": "3bk3jhf",
+              "elType": "widget",
+              "widgetType": "sibacom_schedule",
+              "settings": {
+                "posts_limit": -1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

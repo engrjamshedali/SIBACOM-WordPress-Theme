@@ -1,0 +1,122 @@
+{
+  "version": "0.4",
+  "title": "SIBACOM Sticky Header",
+  "type": "header",
+  "content": [
+    {
+      "id": "ihepm94",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "height": "min-height",
+        "custom_height": {
+          "unit": "px",
+          "size": 82
+        },
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "box_shadow_box_shadow_type": "yes",
+        "box_shadow_box_shadow": {
+          "horizontal": 0,
+          "vertical": 4,
+          "blur": 20,
+          "spread": 0,
+          "color": "rgba(163, 177, 198, 0.2)"
+        },
+        "sticky": "top"
+      },
+      "elements": [
+        {
+          "id": "k3tlhq3",
+          "elType": "column",
+          "settings": {
+            "_column_size": 30
+          },
+          "elements": [
+            {
+              "id": "1cjvdfg",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<a href=\"/\" style=\"display:flex; align-items:center; gap:12px; text-decoration:none;\"><div style=\"background:#03326A; padding:2px; border-radius:8px; display:flex; align-items:center; justify-content:center; box-shadow:0 2px 8px rgba(3,50,106,0.22);\"><img src=\"/wp-content/themes/sibacom/assets/images/sibacom_logo.jpg\" alt=\"SIBACOM Official Logo\" style=\"height:42px; width:42px; aspect-ratio:1/1; object-fit:contain; border-radius:6px;\"></div><div style=\"width:1.5px; height:32px; background:#E2E8F0; flex-shrink:0;\"></div><img src=\"/wp-content/themes/sibacom/assets/images/sukkur_iba_logo.png\" alt=\"Sukkur IBA University\" style=\"height:44px; max-height:44px; width:auto; max-width:150px; object-fit:contain;\"><div style=\"width:1.5px; height:32px; background:#E2E8F0; flex-shrink:0;\"></div><div style=\"display:flex; flex-direction:column;\"><span style=\"font-size:1.35rem; font-weight:800; color:#173F91; line-height:1.1; font-family:var(--font-heading, sans-serif);\">SIBACOM</span><span style=\"font-size:0.68rem; font-weight:700; text-transform:uppercase; letter-spacing:0.04em; color:#079B58; margin-top:2px;\">CSE Society &bull; EE Society</span></div></a>"
+              }
+            }
+          ]
+        },
+        {
+          "id": "u5u2gjj",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50
+          },
+          "elements": [
+            {
+              "id": "i98n6hg",
+              "elType": "widget",
+              "widgetType": "nav-menu",
+              "settings": {
+                "layout": "horizontal",
+                "align_items": "center",
+                "pointer": "underline",
+                "animation": "fade",
+                "color_menu_item": "#17233D",
+                "color_menu_item_hover": "#173F91",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_weight": "600",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 15
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "plzzotn",
+          "elType": "column",
+          "settings": {
+            "_column_size": 20
+          },
+          "elements": [
+            {
+              "id": "g0coiwo",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Register Now",
+                "link": {
+                  "url": "https://portal.sibacom.tech/",
+                  "is_external": true
+                },
+                "size": "md",
+                "icon": {
+                  "value": "fas fa-arrow-right",
+                  "library": "fa-solid"
+                },
+                "icon_align": "right",
+                "button_background_color": "#173F91",
+                "button_border_radius": {
+                  "unit": "px",
+                  "size": 12
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 8,
+                  "blur": 20,
+                  "spread": -4,
+                  "color": "rgba(23, 63, 145, 0.4)"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

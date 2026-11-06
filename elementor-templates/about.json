@@ -1,0 +1,72 @@
+{
+  "version": "0.4",
+  "title": "About SIBACOM Template",
+  "type": "page",
+  "content": [
+    {
+      "id": "sec_about_main",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "padding": {
+          "unit": "px",
+          "top": 70,
+          "right": 20,
+          "bottom": 70,
+          "left": 20
+        }
+      },
+      "elements": [
+        {
+          "id": "col_about_main",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "wgt_about_heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "About SIBACOM – Sukkur IBA University",
+                "header_size": "h1",
+                "align": "center",
+                "title_color": "#173F91"
+              }
+            },
+            {
+              "id": "wgt_about_desc",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align:center; color:#64748B; max-width:740px; margin:0 auto 40px auto; font-size:1.1rem;\">Discover Pakistan’s flagship university technology Olympiad, jointly organized by the CSE Society and EE Society of Sukkur IBA University in academic partnership with the Departments of CSE and EE.</p>"
+              }
+            },
+            {
+              "id": "wgt_about_widget",
+              "elType": "widget",
+              "widgetType": "sibacom_about",
+              "settings": {
+                "section_badge": "About The Olympiad",
+                "section_title": "Fostering Innovation. Connecting Builders.",
+                "lead_text": "SIBACOM is Pakistan's premier collegiate technology Olympiad, jointly organized by the Computer Systems Engineering Society (CSE Society) and Electrical Engineering Society (EE Society) of Sukkur IBA University, supported by academic partners: Department of Computer Systems Engineering and Department of Electrical Engineering.",
+                "mission_title": "Our Mission",
+                "mission_text": "To provide an elite competitive arena for future engineers and technological visionaries.",
+                "vision_title": "Our Vision",
+                "vision_text": "To establish Sukkur IBA University as a premier hub for algorithmic excellence and technology commercialization.",
+                "badge_text": "About The Olympiad",
+                "title": "Fostering Innovation. Connecting Builders.",
+                "description": "SIBACOM is Pakistan's premier collegiate technology Olympiad, jointly organized by the Computer Systems Engineering Society (CSE Society) and Electrical Engineering Society (EE Society) of Sukkur IBA University, supported by academic partners: Department of Computer Systems Engineering and Department of Electrical Engineering."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

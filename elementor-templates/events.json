@@ -1,0 +1,66 @@
+{
+  "version": "0.4",
+  "title": "SIBACOM Events & Pricing Template",
+  "type": "page",
+  "content": [
+    {
+      "id": "sec_events_main",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "padding": {
+          "unit": "px",
+          "top": 70,
+          "right": 20,
+          "bottom": 70,
+          "left": 20
+        }
+      },
+      "elements": [
+        {
+          "id": "col_events_main",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "wgt_events_heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "SIBACOM Events & Competitions",
+                "header_size": "h1",
+                "align": "center",
+                "title_color": "#173F91"
+              }
+            },
+            {
+              "id": "wgt_events_desc",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align:center; color:#334155; max-width:760px; margin:0 auto 40px auto; font-size:1.1rem;\">Explore all 9 official university-level competitions across Hardware & Engineering, Computing & Technology, Gaming & E-Sports, and Fun Activities. Review formats, stages, workshops, prizes, campus venues, and registration criteria.</p>"
+              }
+            },
+            {
+              "id": "wgt_events_grid",
+              "elType": "widget",
+              "widgetType": "sibacom_events",
+              "settings": {
+                "data_mode": "manual",
+                "limit": -1,
+                "columns": "3"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+

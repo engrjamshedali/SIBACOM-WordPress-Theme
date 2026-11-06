@@ -1,0 +1,65 @@
+{
+  "version": "0.4",
+  "title": "SIBACOM Guests & Dignitaries Template",
+  "type": "page",
+  "content": [
+    {
+      "id": "sec_guests_main",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "padding": {
+          "unit": "px",
+          "top": 70,
+          "right": 20,
+          "bottom": 70,
+          "left": 20
+        }
+      },
+      "elements": [
+        {
+          "id": "col_guests_main",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "wgt_guests_heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Honorable Guests & Institutional Patrons",
+                "header_size": "h1",
+                "align": "center",
+                "title_color": "#173F91"
+              }
+            },
+            {
+              "id": "wgt_guests_desc",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align:center; color:#334155; max-width:720px; margin:0 auto 40px auto; font-size:1.1rem;\">SIBACOM proudly welcomes eminent university leadership, national policymakers, academic dignitaries, and technology industry executives honoring our national Olympiad.</p>"
+              }
+            },
+            {
+              "id": "wgt_guests_grid",
+              "elType": "widget",
+              "widgetType": "sibacom_guests",
+              "settings": {
+                "limit": -1,
+                "columns": 3
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+

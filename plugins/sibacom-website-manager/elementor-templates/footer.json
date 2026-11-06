@@ -1,0 +1,172 @@
+{
+  "version": "0.4",
+  "title": "SIBACOM Global Footer",
+  "type": "footer",
+  "content": [
+    {
+      "id": "a5hoczx",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "background_background": "classic",
+        "background_color": "#0B1938",
+        "padding": {
+          "unit": "px",
+          "top": 80,
+          "right": 20,
+          "bottom": 30,
+          "left": 20
+        }
+      },
+      "elements": [
+        {
+          "id": "21iyioz",
+          "elType": "column",
+          "settings": {
+            "_column_size": 35
+          },
+          "elements": [
+            {
+              "id": "hrd5mfm",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<div style=\"display:flex; align-items:center; gap:12px; margin-bottom:20px; flex-wrap:wrap;\"><div style=\"background:#03326A; border-radius:8px; padding:2px; border:1px solid rgba(255,255,255,0.2); box-shadow:0 4px 12px rgba(0,0,0,0.3); display:flex; align-items:center; justify-content:center;\"><img src=\"/wp-content/themes/sibacom/assets/images/sibacom_logo.jpg\" alt=\"SIBACOM Official Logo\" style=\"height:42px; width:42px; aspect-ratio:1/1; object-fit:contain; border-radius:6px;\"></div><div style=\"width:1px; height:28px; background:rgba(255,255,255,0.25); flex-shrink:0;\"></div><img src=\"/wp-content/themes/sibacom/assets/images/sukkur_iba_white_logo.png\" alt=\"Sukkur IBA University\" style=\"height:42px; max-height:42px; width:auto; max-width:130px; object-fit:contain;\"><div style=\"width:1px; height:28px; background:rgba(255,255,255,0.25); flex-shrink:0;\"></div><div style=\"display:flex; align-items:center; gap:8px;\"><img src=\"/wp-content/themes/sibacom/assets/images/cse_society_logo_white.png\" alt=\"CSE Society\" style=\"height:36px; max-height:36px; width:auto; max-width:110px; object-fit:contain;\"><div style=\"background:rgba(255,255,255,0.08); border:1px solid rgba(255,255,255,0.22); color:#FFFFFF; height:36px; padding:0 10px; border-radius:6px; display:inline-flex; align-items:center; gap:6px; font-size:12px; font-weight:700;\"><span style=\"width:6px; height:6px; border-radius:50%; background:#079B58;\"></span><span>EE Society</span></div></div></div><p style=\"color:#CBD5E1; font-size:14px; line-height:1.7; max-width:380px;\">SIBACOM (Sukkur IBA Annual Mega Olympiad) is the flagship collegiate technology festival, computing symposium, and engineering championship presented by Sukkur IBA University, jointly organized by the Computer Systems Engineering Society (CSE Society) and the Electrical Engineering Society (EE Society), supported by academic partners: Department of Computer Systems Engineering and Department of Electrical Engineering.</p>"
+              }
+            },
+            {
+              "id": "rothtii",
+              "elType": "widget",
+              "widgetType": "sibacom_social",
+              "settings": {}
+            }
+          ]
+        },
+        {
+          "id": "1g6jtaz",
+          "elType": "column",
+          "settings": {
+            "_column_size": 20
+          },
+          "elements": [
+            {
+              "id": "4vqi29n",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Quick Navigation",
+                "header_size": "h4",
+                "title_color": "#FFFFFF"
+              }
+            },
+            {
+              "id": "l3v8o3m",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<ul style=\"list-style:none; padding:0; margin:0; line-height:2.2; font-size:14px;\"><li><a href=\"/\" style=\"color:#CBD5E1; text-decoration:none;\">Home</a></li><li><a href=\"/about/\" style=\"color:#CBD5E1; text-decoration:none;\">About SIBACOM</a></li><li><a href=\"/events/\" style=\"color:#CBD5E1; text-decoration:none;\">Events & Competitions</a></li><li><a href=\"/schedule/\" style=\"color:#CBD5E1; text-decoration:none;\">Event Schedule</a></li><li><a href=\"/speakers/\" style=\"color:#CBD5E1; text-decoration:none;\">Speakers & Jury</a></li><li><a href=\"/guests/\" style=\"color:#CBD5E1; text-decoration:none;\">Guests & Dignitaries</a></li><li><a href=\"/organizers/\" style=\"color:#CBD5E1; text-decoration:none;\">Organizers</a></li><li><a href=\"/sponsors/\" style=\"color:#CBD5E1; text-decoration:none;\">Partners & Sponsors</a></li><li><a href=\"/contact/\" style=\"color:#CBD5E1; text-decoration:none;\">Contact Secretariat</a></li><li><a href=\"/#faq\" style=\"color:#CBD5E1; text-decoration:none;\">FAQs</a></li></ul>"
+              }
+            }
+          ]
+        },
+        {
+          "id": "4cgd86i",
+          "elType": "column",
+          "settings": {
+            "_column_size": 25
+          },
+          "elements": [
+            {
+              "id": "rcghv9y",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Organizational Hierarchy",
+                "header_size": "h4",
+                "title_color": "#FFFFFF"
+              }
+            },
+            {
+              "id": "ers7ny3",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<div style=\"display:flex; flex-direction:column; gap:14px; margin-top:8px;\"><div><div style=\"font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:0.08em; color:#079B58; margin-bottom:5px;\">Institution</div><a href=\"https://iba-suk.edu.pk\" target=\"_blank\" style=\"display:flex; align-items:center; gap:8px; color:#CBD5E1; text-decoration:none; font-size:13px; font-weight:600;\"><img src=\"/wp-content/themes/sibacom/assets/images/sukkur_iba_white_logo.png\" alt=\"Sukkur IBA University\" style=\"height:22px; width:auto; max-width:80px; object-fit:contain;\"><span>Sukkur IBA University</span></a></div><div><div style=\"font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:0.08em; color:#079B58; margin-bottom:5px;\">Joint Organizers</div><div style=\"display:flex; flex-direction:column; gap:5px;\"><a href=\"/organizers/\" style=\"display:flex; align-items:center; gap:8px; color:#CBD5E1; text-decoration:none; font-size:13px; font-weight:600;\"><img src=\"/wp-content/themes/sibacom/assets/images/cse_society_logo_white.png\" alt=\"CSE Society\" style=\"height:18px; width:auto; max-width:65px; object-fit:contain;\"><span>CSE Society</span></a><a href=\"/organizers/\" style=\"display:flex; align-items:center; gap:8px; color:#CBD5E1; text-decoration:none; font-size:13px; font-weight:600;\"><span style=\"display:inline-block; width:6px; height:6px; border-radius:50%; background:#079B58;\"></span><span>EE Society</span></a></div></div><div><div style=\"font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:0.08em; color:#079B58; margin-bottom:5px;\">Academic Partners</div><div style=\"display:flex; flex-direction:column; gap:5px;\"><a href=\"/organizers/#academic-partners\" style=\"display:flex; align-items:center; gap:8px; color:#CBD5E1; text-decoration:none; font-size:13px; font-weight:600;\"><img src=\"/wp-content/themes/sibacom/assets/images/cse_dept_logo.jpg\" alt=\"Department of CSE\" style=\"height:18px; width:18px; border-radius:3px; object-fit:cover;\"><span>Department of CSE</span></a><a href=\"/organizers/#academic-partners\" style=\"display:flex; align-items:center; gap:8px; color:#CBD5E1; text-decoration:none; font-size:13px; font-weight:600;\"><span style=\"display:inline-block; width:6px; height:6px; border-radius:50%; background:#079B58;\"></span><span>Department of EE</span></a></div></div></div>"
+              }
+            }
+          ]
+        },
+        {
+          "id": "4e593ux",
+          "elType": "column",
+          "settings": {
+            "_column_size": 20
+          },
+          "elements": [
+            {
+              "id": "bdru09i",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Secretariat",
+                "header_size": "h4",
+                "title_color": "#FFFFFF"
+              }
+            },
+            {
+              "id": "2ce1tvz",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<p style=\"color:#CBD5E1; font-size:13px; line-height:1.6; margin-bottom:12px;\"><i class=\"fa-solid fa-location-dot\" style=\"color:#079B58; margin-right:6px;\"></i>Sukkur IBA University, Airport Road, Sukkur, Sindh, Pakistan</p><p style=\"color:#CBD5E1; font-size:13px; line-height:1.6; margin-bottom:12px;\"><i class=\"fa-solid fa-envelope\" style=\"color:#079B58; margin-right:6px;\"></i><a href=\"mailto:sibacom@iba-suk.edu.pk\" style=\"color:#E2E8F0; text-decoration:none;\">sibacom@iba-suk.edu.pk</a></p><p style=\"color:#CBD5E1; font-size:13px; line-height:1.6;\"><i class=\"fa-solid fa-phone\" style=\"color:#079B58; margin-right:6px;\"></i>+92 71 5644000</p>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yp25j1o",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "background_background": "classic",
+        "background_color": "#061026",
+        "padding": {
+          "unit": "px",
+          "top": 20,
+          "right": 20,
+          "bottom": 20,
+          "left": 20
+        }
+      },
+      "elements": [
+        {
+          "id": "xerzcc4",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "v2dhps9",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<div style=\"display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px; font-size:13px; color:#CBD5E1;\"><div>\u00a9 2026 SIBACOM \u2013 Sukkur IBA University. All Rights Reserved.</div><div style=\"display:flex; gap:20px;\"><a href=\"/privacy-policy/\" style=\"color:#CBD5E1; text-decoration:none;\">Privacy Policy</a><a href=\"/terms/\" style=\"color:#CBD5E1; text-decoration:none;\">Terms & Conditions</a><a href=\"/contact/\" style=\"color:#CBD5E1; text-decoration:none;\">Secretariat Helpdesk</a></div></div><div class=\"sibacom-developer-credit\" style=\"width:100%; display:flex; justify-content:center; align-items:center; margin-top:16px; padding-top:16px; border-top:1px solid rgba(255,255,255,0.06); text-align:center;\"><div class=\"sibacom-credit-inner\" style=\"display:inline-flex; align-items:center; justify-content:center; flex-wrap:wrap; gap:4px 6px; padding:8px 18px; background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.08); border-radius:9999px; color:#94A3B8; font-size:13px; line-height:1.6; text-align:center;\"><span class=\"sibacom-credit-text\">Engineered with <span class=\"sibacom-heart\" role=\"img\" aria-label=\"love\" style=\"display:inline-block; color:#22C55E;\">\ud83d\udc9a</span> by <a href=\"https://jamshedali.me\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"sibacom-credit-link sibacom-credit-name-jamshed\" style=\"color:#22C55E; font-weight:700; text-decoration:none;\">Jamshed Ali</a> in collaboration with <a href=\"https://auranix.tech\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"sibacom-credit-link sibacom-credit-name-auranix\" style=\"color:#22C55E; font-weight:700; text-decoration:none;\">AuraNix Technologies</a></span></div></div>"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

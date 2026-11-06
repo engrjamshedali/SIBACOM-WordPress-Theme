@@ -1,0 +1,351 @@
+/* ==========================================================================
+   SIBACOM Main Stylesheet
+   ========================================================================== */
+
+:root {
+  --container-max-width: 1240px;
+  --header-height: 82px;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+button, .sibacom-btn, a {
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  font-family: var(--font-primary);
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--sibacom-text-primary);
+  background-color: var(--sibacom-bg);
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--sibacom-bg);
+  color: var(--sibacom-text-primary);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6,
+.font-display {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  color: var(--sibacom-text-primary);
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+}
+
+h1 { font-size: 2.75rem; }
+h2 { font-size: 2.25rem; }
+h3 { font-size: 1.75rem; }
+h4 { font-size: 1.25rem; }
+h5 { font-size: 1.1rem; }
+h6 { font-size: 0.95rem; }
+
+p {
+  margin-bottom: 1rem;
+  color: var(--sibacom-text-secondary);
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
+a {
+  color: var(--sibacom-primary);
+  text-decoration: none;
+  transition: all 0.25s ease;
+}
+
+a:hover {
+  color: var(--sibacom-techgreen);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Enforce proportional constraints on official logos */
+img.society-logo {
+  height: 42px;
+  max-height: 42px;
+  width: auto;
+  max-width: 160px;
+  object-fit: contain;
+  display: inline-block;
+}
+
+img.uni-logo {
+  height: 44px;
+  max-height: 48px;
+  width: auto;
+  max-width: 150px;
+  object-fit: contain;
+  display: inline-block;
+}
+
+/* Layout Containers */
+.sibacom-container {
+  width: 100%;
+  max-width: var(--container-max-width);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.sibacom-section {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  position: relative;
+}
+
+.sibacom-section-header {
+  text-align: center;
+  max-width: 760px;
+  margin: 0 auto 3.5rem auto;
+}
+
+.sibacom-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.4rem 1rem;
+  border-radius: var(--radius-full);
+  background-color: var(--sibacom-white);
+  box-shadow: var(--neu-flat);
+  border: 1px solid var(--sibacom-border-neu);
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--sibacom-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 1rem;
+}
+
+.sibacom-badge .pulse-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--sibacom-techgreen);
+  animation: sibacomPulse 2s infinite;
+}
+
+@keyframes sibacomPulse {
+  0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(7, 155, 88, 0.7); }
+  70% { transform: scale(1); box-shadow: 0 0 0 8px rgba(7, 155, 88, 0); }
+  100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(7, 155, 88, 0); }
+}
+
+.sibacom-gradient-text {
+  background: linear-gradient(135deg, var(--sibacom-primary) 0%, var(--sibacom-navy) 40%, var(--sibacom-techgreen) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: var(--sibacom-primary);
+  display: inline-block;
+}
+
+/* Buttons */
+.sibacom-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  padding: 0.85rem 1.85rem;
+  font-family: var(--font-primary);
+  font-size: 0.95rem;
+  font-weight: 600;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  border: none;
+  text-decoration: none;
+}
+
+.sibacom-btn-primary {
+  background: linear-gradient(135deg, var(--sibacom-primary) 0%, var(--sibacom-navy) 100%);
+  color: var(--sibacom-white) !important;
+  box-shadow: var(--neu-glow-primary);
+}
+
+.sibacom-btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 28px -5px rgba(23, 63, 145, 0.5);
+}
+
+.sibacom-btn-secondary {
+  background-color: var(--sibacom-white);
+  color: var(--sibacom-primary) !important;
+  box-shadow: var(--neu-raised);
+  border: 1px solid var(--sibacom-border-neu);
+}
+
+.sibacom-btn-secondary:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--neu-hover);
+  color: var(--sibacom-techgreen) !important;
+}
+
+.sibacom-btn-tech {
+  background: linear-gradient(135deg, var(--sibacom-techgreen) 0%, #05703f 100%);
+  color: var(--sibacom-white) !important;
+  box-shadow: var(--neu-glow-green);
+}
+
+.sibacom-btn-tech:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 28px -5px rgba(7, 155, 88, 0.55);
+}
+
+/* Circuit pattern overlay - Crisp dual-accent matrix with transparent gaps and isolated stacking */
+.sibacom-circuit-bg {
+  position: relative;
+  isolation: isolate;
+  background-color: var(--sibacom-bg);
+}
+
+.sibacom-circuit-bg > * {
+  position: relative;
+  z-index: 1;
+}
+
+.sibacom-circuit-bg::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(rgba(23, 63, 145, 0.08) 1.5px, transparent 1.5px),
+                    radial-gradient(rgba(7, 155, 88, 0.06) 1.5px, transparent 1.5px);
+  background-size: 32px 32px;
+  background-position: 0 0, 16px 16px;
+  opacity: 1;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Global Content Sharpness & Visual Clarity Guarantee */
+.neu-card,
+.neu-card-flat,
+.sibacom-highlight-card,
+.sibacom-speaker-card,
+.sibacom-timeline-card,
+.sibacom-org-card,
+.sibacom-event-card,
+.sibacom-info-card,
+.sibacom-guest-card,
+.sibacom-sponsor-card,
+.sibacom-section-header,
+.sibacom-badge {
+  opacity: 1;
+  filter: none;
+  visibility: visible;
+}
+
+/* Elementor Editor & Preview Parity */
+body.elementor-editor-active .neu-card,
+body.elementor-editor-active .neu-card-flat,
+body.elementor-editor-active .sibacom-highlight-card,
+body.elementor-editor-active .sibacom-speaker-card,
+body.elementor-editor-active .sibacom-timeline-card,
+body.elementor-editor-active .sibacom-org-card,
+body.elementor-editor-active .sibacom-event-card,
+body.elementor-editor-active .sibacom-info-card,
+body.elementor-editor-active .sibacom-guest-card,
+body.elementor-editor-active .sibacom-sponsor-card,
+body.elementor-editor-active .sibacom-section-header,
+body.elementor-editor-active .sibacom-badge,
+body.elementor-editor-preview .neu-card,
+body.elementor-editor-preview .neu-card-flat,
+body.elementor-editor-preview .sibacom-highlight-card,
+body.elementor-editor-preview .sibacom-speaker-card,
+body.elementor-editor-preview .sibacom-timeline-card,
+body.elementor-editor-preview .sibacom-org-card,
+body.elementor-editor-preview .sibacom-event-card,
+body.elementor-editor-preview .sibacom-info-card,
+body.elementor-editor-preview .sibacom-guest-card,
+body.elementor-editor-preview .sibacom-sponsor-card,
+body.elementor-editor-preview .sibacom-section-header,
+body.elementor-editor-preview .sibacom-badge {
+  opacity: 1 !important;
+  transform: none !important;
+  filter: none !important;
+  visibility: visible !important;
+}
+
+body.elementor-editor-active .sibacom-header,
+body.elementor-editor-preview .sibacom-header {
+  position: relative !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+  z-index: 50 !important;
+}
+
+body.elementor-editor-active .sibacom-circuit-bg::before,
+body.elementor-editor-preview .sibacom-circuit-bg::before {
+  pointer-events: none !important;
+}
+
+/* Alignment utilities */
+.text-center { text-align: center; }
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+.flex { display: flex; }
+.flex-col { flex-direction: column; }
+.items-center { align-items: center; }
+.justify-center { justify-content: center; }
+.justify-between { justify-content: space-between; }
+.gap-2 { gap: 0.5rem; }
+.gap-4 { gap: 1rem; }
+.gap-6 { gap: 1.5rem; }
+.gap-8 { gap: 2rem; }
+
+/* Accessibility: Standard WordPress Screen Reader Text */
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  word-wrap: normal !important;
+}
+
+.screen-reader-text:focus {
+  background-color: #FFFFFF;
+  border-radius: 6px;
+  box-shadow: 0 0 4px 2px rgba(23, 63, 145, 0.4);
+  clip: auto !important;
+  clip-path: none;
+  color: var(--sibacom-primary, #173F91);
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 700;
+  height: auto;
+  left: 12px;
+  line-height: normal;
+  padding: 12px 18px;
+  text-decoration: none;
+  top: 12px;
+  width: auto;
+  z-index: 100000;
+}
+

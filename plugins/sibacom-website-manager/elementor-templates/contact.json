@@ -1,0 +1,89 @@
+{
+  "version": "0.4",
+  "title": "SIBACOM Contact Template",
+  "type": "page",
+  "content": [
+    {
+      "id": "lmgbj8l",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "padding": {
+          "unit": "px",
+          "top": 60,
+          "right": 20,
+          "bottom": 60,
+          "left": 20
+        }
+      },
+      "elements": [
+        {
+          "id": "42jx5uj",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "k4j52r4",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Contact SIBACOM Secretariat",
+                "header_size": "h1",
+                "align": "center",
+                "title_color": "#173F91"
+              }
+            },
+            {
+              "id": "ulvuiib",
+              "elType": "widget",
+              "widgetType": "sibacom_contact",
+              "settings": {
+                "show_card1": "yes",
+                "card1_title": "Event Venue Location",
+                "card1_icon": {
+                  "value": "fa-solid fa-location-dot",
+                  "library": "fa-solid"
+                },
+                "card1_address": "Sukkur IBA University, Airport Road, Sukkur, Sindh, Pakistan",
+                "card1_sub": "Accessible via Sukkur Airport & M-5 Motorway",
+                "show_card2": "yes",
+                "card2_title": "Electronic Mail",
+                "card2_icon": {
+                  "value": "fa-solid fa-envelope",
+                  "library": "fa-solid"
+                },
+                "card2_email": "info@sibacom.tech",
+                "card2_sub": "Official Secretariat Helpdesk",
+                "show_card3": "yes",
+                "card3_title": "Telephone & Helpdesk",
+                "card3_icon": {
+                  "value": "fa-solid fa-phone",
+                  "library": "fa-solid"
+                },
+                "card3_phone": "03253171046",
+                "card3_sub": "Mon – Fri, 09:00 AM – 05:00 PM PKT",
+                "show_bug": "yes",
+                "card4_title": "Bug Report",
+                "card4_icon": {
+                  "value": "fa-solid fa-bug",
+                  "library": "fa-solid"
+                },
+                "bug_name": "Jamshed Ali",
+                "bug_role": "WEB ENGINEER _ SIBACOM EVENT",
+                "bug_email": "jamshed.ali@sibacom.tech",
+                "bug_desc": "For users to report any website bugs or technical issues",
+                "enable_circuit_accents": "yes"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
