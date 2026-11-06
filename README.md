@@ -183,8 +183,8 @@ All theme styles are driven by CSS variables in `theme/style.css`:
 
 ## 👨‍💻 Author & Development Credits
 
-- **Developer**: [Engr. Jamshed Ali](https://github.com/engrjamshedali)
-- **Organization**: [AuraNix Technologies](https://github.com/engrjamshedali)
+- **Developer**: [Engr. Jamshed Ali](https://jamshedali.me)
+- **Organization**: [AuraNix Technologies](https://auranix.tech)
 - **Institutional Host**: [Sukkur IBA University](https://iba-suk.edu.pk)
 - **Co-Equal Society Organizers**:
   - **CSE Society** (Department of Computer Systems Engineering)
